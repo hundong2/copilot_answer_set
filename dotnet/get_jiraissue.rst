@@ -32,8 +32,6 @@ C# 코드 예제
 ============
 
 다음은 ``HttpClient``를 사용하여 Jira Issue 정보를 가져오는 코드 예제입니다::
-
-.. code-block:: csharp   
     using System;
     using System.Net.Http;
     using System.Net.Http.Headers;
