@@ -31,10 +31,8 @@ C#에서 Jira API를 사용하여 Issue 정보를 가져오기 위해서는 ``Ht
 C# 코드 예제
 ============
 
-다음은 ``HttpClient``를 사용하여 Jira Issue 정보를 가져오는 코드 예제입니다
-
-
-.. code-block:: csharp   
+다음은 ``HttpClient``를 사용하여 Jira Issue 정보를 가져오는 코드 예제입니다::
+    
     using System;
     using System.Net.Http;
     using System.Net.Http.Headers;
