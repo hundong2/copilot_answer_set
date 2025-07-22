@@ -210,7 +210,26 @@
                 {% for item in category_data.news_items %}
                 <div class="news-item">
                     <h3><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h3>
+                    
+                    {% if item.korean_title %}
+                    <h4 style="color: #2563eb; margin: 0.5rem 0; font-size: 1.1rem;">🇰🇷 {{ item.korean_title }}</h4>
+                    {% endif %}
+                    
                     <p>{{ item.description }}</p>
+                    
+                    {% if item.korean_summary %}
+                    <div style="background: #f0f9ff; padding: 1rem; border-radius: 6px; margin: 0.75rem 0; border-left: 3px solid #2563eb;">
+                        <strong style="color: #1e40af;">📝 한글 요약:</strong>
+                        <p style="margin: 0.5rem 0 0 0; color: #1f2937;">{{ item.korean_summary }}</p>
+                    </div>
+                    {% endif %}
+                    
+                    {% if item.ai_summary %}
+                    <div style="background: #f9fafb; padding: 0.75rem; border-radius: 6px; margin: 0.75rem 0; border-left: 3px solid #6b7280;">
+                        <strong style="color: #4b5563;">🤖 AI Summary:</strong>
+                        <p style="margin: 0.5rem 0 0 0; color: #374151; font-size: 0.95rem;">{{ item.ai_summary }}</p>
+                    </div>
+                    {% endif %}
                     
                     <div class="news-meta">
                         <div>
@@ -218,7 +237,13 @@
                         </div>
                         
                         <div style="display: flex; align-items: center; gap: 0.5rem;">
-                            {% if item.keywords %}
+                            {% if item.korean_keywords %}
+                            <div class="keywords">
+                                {% for keyword in item.korean_keywords[:3] %}
+                                <span class="keyword" style="background: #dbeafe; color: #1e40af;">🇰🇷 {{ keyword }}</span>
+                                {% endfor %}
+                            </div>
+                            {% elif item.keywords %}
                             <div class="keywords">
                                 {% for keyword in item.keywords[:3] %}
                                 <span class="keyword">{{ keyword }}</span>

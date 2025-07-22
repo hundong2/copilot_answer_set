@@ -69,7 +69,7 @@ def run_news_pipeline(use_ai: bool = True, verbose: bool = False):
         # Step 3: AI Enhancement (optional)
         data_file = "data/daily_news.json"
         if use_ai and AI_AVAILABLE:
-            logger.info("🤖 Step 2: Enhancing news with AI summaries...")
+            logger.info("🤖 Step 2: Enhancing news with AI summaries and Korean translation...")
             try:
                 summarizer = AISummarizer()
                 if summarizer.is_available():
@@ -79,7 +79,8 @@ def run_news_pipeline(use_ai: bool = True, verbose: bool = False):
                     )
                     if enhanced_data:
                         data_file = "data/enhanced_news.json"
-                        logger.info("✅ AI enhancement completed")
+                        korean_count = sum(1 for item in enhanced_data['items'] if item.get('korean_title'))
+                        logger.info(f"✅ AI enhancement completed - {korean_count} items with Korean translation")
                     else:
                         logger.warning("⚠️  AI enhancement failed, using original data")
                 else:

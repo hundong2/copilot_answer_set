@@ -73,6 +73,96 @@ Provide only the summary without any additional text:"""
             logger.error(f"Gemini summarization failed: {e}")
             return None
     
+    def translate_and_summarize_korean(self, title: str, description: str, content: str = "") -> Optional[dict]:
+        """Generate Korean translation and summary using Google Gemini"""
+        if not self.gemini_model:
+            return None
+        
+        try:
+            full_text = f"Title: {title}\n\nDescription: {description}"
+            if content:
+                full_text += f"\n\nContent: {content[:2000]}"
+            
+            prompt = f"""
+Please translate and summarize this AI/Context Engineering article in Korean.
+
+Provide the result in this EXACT format:
+
+**제목**: [Korean translation of title]
+
+**요약**: [2-3 sentences summary in Korean, focusing on key innovations and practical implications]
+
+**핵심 키워드**: [3-5 Korean keywords separated by commas]
+
+Article to translate and summarize:
+{full_text}
+
+IMPORTANT: 
+- Use natural, professional Korean
+- Focus on technical accuracy
+- Keep the summary concise but informative
+- Include practical implications for AI developers
+"""
+            
+            response = self.gemini_model.generate_content(
+                prompt,
+                generation_config=genai.types.GenerationConfig(
+                    max_output_tokens=300,
+                    temperature=0.2,
+                )
+            )
+            
+            result_text = response.text.strip()
+            
+            # Parse the structured response
+            korean_data = self._parse_korean_response(result_text)
+            return korean_data
+            
+        except Exception as e:
+            logger.error(f"Korean translation failed: {e}")
+            return None
+    
+    def _parse_korean_response(self, response_text: str) -> dict:
+        """Parse structured Korean response from Gemini"""
+        try:
+            lines = response_text.split('\n')
+            result = {
+                'korean_title': '',
+                'korean_summary': '',
+                'korean_keywords': []
+            }
+            
+            current_section = None
+            
+            for line in lines:
+                line = line.strip()
+                if line.startswith('**제목**:'):
+                    result['korean_title'] = line.replace('**제목**:', '').strip()
+                elif line.startswith('**요약**:'):
+                    result['korean_summary'] = line.replace('**요약**:', '').strip()
+                    current_section = 'summary'
+                elif line.startswith('**핵심 키워드**:'):
+                    keywords_text = line.replace('**핵심 키워드**:', '').strip()
+                    result['korean_keywords'] = [kw.strip() for kw in keywords_text.split(',')]
+                    current_section = None
+                elif current_section == 'summary' and line and not line.startswith('**'):
+                    # Continue summary if it spans multiple lines
+                    result['korean_summary'] += ' ' + line
+            
+            # Clean up
+            result['korean_summary'] = result['korean_summary'].strip()
+            result['korean_keywords'] = [kw for kw in result['korean_keywords'] if kw]
+            
+            return result
+            
+        except Exception as e:
+            logger.warning(f"Failed to parse Korean response: {e}")
+            return {
+                'korean_title': '',
+                'korean_summary': response_text[:200] + '...' if len(response_text) > 200 else response_text,
+                'korean_keywords': []
+            }
+    
     def generate_summary(self, title: str, description: str, content: str = "") -> Optional[str]:
         """Generate summary using Gemini AI (free and powerful!)"""
         return self.summarize_with_gemini(title, description, content)
@@ -154,8 +244,9 @@ Key insights (as bullet points):"""
         for i, item in enumerate(items):
             enhanced_item = item.copy()
             
-            # Generate AI summary for high-quality items
+            # Generate AI summary and Korean translation for high-quality items
             if item.get('score', 0) >= 0.4:
+                # English summary
                 summary = self.generate_summary(
                     item['title'], 
                     item['description'], 
@@ -164,9 +255,21 @@ Key insights (as bullet points):"""
                 
                 if summary:
                     enhanced_item['ai_summary'] = summary
-                    logger.info(f"Generated summary for item {i+1}/{len(items)}")
                 
-                time.sleep(0.5)  # Rate limiting
+                # Korean translation and summary
+                korean_data = self.translate_and_summarize_korean(
+                    item['title'],
+                    item['description'],
+                    item.get('content', '')
+                )
+                
+                if korean_data:
+                    enhanced_item.update(korean_data)
+                    logger.info(f"Generated Korean translation for item {i+1}/{len(items)}")
+                else:
+                    logger.info(f"Generated English summary for item {i+1}/{len(items)}")
+                
+                time.sleep(0.8)  # Slightly longer delay for translation
             
             enhanced_items.append(enhanced_item)
         
