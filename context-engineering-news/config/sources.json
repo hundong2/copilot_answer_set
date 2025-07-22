@@ -1,0 +1,74 @@
+{
+  "sources": {
+    "arxiv": {
+      "name": "arXiv",
+      "type": "rss",
+      "urls": [
+        "http://export.arxiv.org/rss/cs.CL",
+        "http://export.arxiv.org/rss/cs.AI",
+        "http://export.arxiv.org/rss/cs.LG"
+      ],
+      "priority": 9,
+      "description": "Academic preprints and research papers"
+    },
+    "huggingface_blog": {
+      "name": "Hugging Face Blog",
+      "type": "rss",
+      "urls": ["https://huggingface.co/blog/feed.xml"],
+      "priority": 8,
+      "description": "Latest from Hugging Face team"
+    },
+    "openai_blog": {
+      "name": "OpenAI Blog",
+      "type": "web_scrape",
+      "urls": ["https://openai.com/blog"],
+      "priority": 9,
+      "description": "OpenAI research and product updates"
+    },
+    "anthropic_blog": {
+      "name": "Anthropic Blog",
+      "type": "web_scrape",
+      "urls": ["https://www.anthropic.com/news"],
+      "priority": 9,
+      "description": "Anthropic research and announcements"
+    },
+    "google_ai_blog": {
+      "name": "Google AI Blog",
+      "type": "rss",
+      "urls": ["http://ai.googleblog.com/feeds/posts/default"],
+      "priority": 8,
+      "description": "Google AI research updates"
+    },
+    "github_trending": {
+      "name": "GitHub Trending",
+      "type": "github_api",
+      "urls": [
+        "https://api.github.com/search/repositories?q=prompt+engineering+created:>2024-01-01&sort=stars",
+        "https://api.github.com/search/repositories?q=LLM+context+created:>2024-01-01&sort=stars",
+        "https://api.github.com/search/repositories?q=RAG+retrieval+created:>2024-01-01&sort=stars"
+      ],
+      "priority": 7,
+      "description": "Trending AI/ML repositories"
+    },
+    "papers_with_code": {
+      "name": "Papers with Code",
+      "type": "api",
+      "urls": ["https://paperswithcode.com/api/v1/papers/?ordering=-published"],
+      "priority": 8,
+      "description": "Latest papers with implementation"
+    },
+    "reddit_ml": {
+      "name": "r/MachineLearning",
+      "type": "reddit_api",
+      "urls": ["https://www.reddit.com/r/MachineLearning/hot.json"],
+      "priority": 6,
+      "description": "Community discussions and news"
+    }
+  },
+  "update_intervals": {
+    "arxiv": "daily",
+    "blogs": "daily", 
+    "github": "daily",
+    "reddit": "hourly"
+  }
+}
