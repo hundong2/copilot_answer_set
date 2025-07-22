@@ -36,7 +36,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4 feedparser lxml jinja2 pytest
-        pip install google-generativeai openai anthropic || echo "AI packages install failed, continuing..."
+        pip install google-generativeai  # FREE Gemini API 🆓
     
     - name: Create necessary directories
       run: |
@@ -53,15 +53,17 @@ jobs:
         python src/news_scraper.py
       continue-on-error: true
     
-    - name: Generate AI summaries (Optional)
+    - name: Generate AI summaries with Gemini (FREE!)
       env:
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: |
         cd context-engineering-news
-        if [ -f "src/ai_summarizer.py" ]; then
+        if [ -n "$GEMINI_API_KEY" ] && [ -f "src/ai_summarizer.py" ]; then
+          echo "🚀 Running FREE Gemini AI summarization..."
           python src/ai_summarizer.py || echo "AI summarization failed, continuing without it"
+        else
+          echo "💡 Gemini API key not set - skipping AI enhancement"
+          echo "To enable FREE AI features, add GEMINI_API_KEY to repository secrets"
         fi
       continue-on-error: true
     
