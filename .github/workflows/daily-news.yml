@@ -70,7 +70,11 @@ jobs:
     - name: Generate HTML newsletter
       run: |
         cd context-engineering-news
+        echo "📰 Generating HTML newsletter..."
+        ls -la templates/
+        echo "Using template: templates/simple_newsletter.html"
         python src/html_generator.py
+        echo "✅ HTML generation completed"
     
     - name: Generate RSS feed
       run: |

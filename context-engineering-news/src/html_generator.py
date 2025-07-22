@@ -98,7 +98,7 @@ class NewsletterGenerator:
         return categories
     
     def generate_html(self, data_file: str = "data/daily_news.json", 
-                     template_file: str = "templates/newsletter.html",
+                     template_file: str = "templates/simple_newsletter.html",
                      output_file: str = "docs/index.html") -> str:
         """Generate HTML newsletter"""
         # Load data
@@ -112,9 +112,14 @@ class NewsletterGenerator:
         # Get unique sources
         sources = list(set(item['source'] for item in items))
         
-        # Load template
-        with open(template_file, 'r', encoding='utf-8') as f:
-            template_content = f.read()
+        # Load template with fallback
+        try:
+            with open(template_file, 'r', encoding='utf-8') as f:
+                template_content = f.read()
+        except FileNotFoundError:
+            logger.warning(f"Template file {template_file} not found, trying simple_newsletter.html")
+            with open("templates/simple_newsletter.html", 'r', encoding='utf-8') as f:
+                template_content = f.read()
         
         template = Template(template_content)
         
