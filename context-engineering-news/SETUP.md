@@ -6,9 +6,13 @@
 2. **Enable GitHub Pages**:
    - Go to Settings > Pages
    - Source: GitHub Actions
-3. **Configure secrets** (optional for AI features):
+3. **Configure secrets** (optional for enhanced features):
    - `OPENAI_API_KEY` - for OpenAI GPT summarization
    - `ANTHROPIC_API_KEY` - for Claude summarization
+   - `GH_PAT` - GitHub Personal Access Token (for higher API rate limits)
+     - ⚠️ **주의**: `GITHUB_TOKEN`은 사용 불가 (GitHub 예약어)
+     - GitHub > Settings > Developer settings > Personal access tokens
+     - Scope: `public_repo` 권한만 필요
 4. **Manual trigger**: Go to Actions tab and run "Context Engineering Daily News" workflow
 
 ## Development Setup
