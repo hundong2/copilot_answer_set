@@ -105,22 +105,41 @@ jobs:
           ITEM_COUNT=$(jq '.total_items' context-engineering-news/data/daily_news.json 2>/dev/null || echo "0")
           git commit -m "📰 Daily news update - $ITEM_COUNT items ($(date +'%Y-%m-%d'))"
           git push
+          echo "✅ Changes committed to repository"
+          echo "📖 Newsletter available at: context-engineering-news/docs/index.html"
         fi
     
     - name: Setup Pages
       if: github.ref == 'refs/heads/main'
       uses: actions/configure-pages@v4
+      continue-on-error: true
     
     - name: Upload to GitHub Pages
       if: github.ref == 'refs/heads/main'
       uses: actions/upload-pages-artifact@v3
       with:
         path: 'context-engineering-news/docs'
+      continue-on-error: true
     
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
       id: deployment
       uses: actions/deploy-pages@v4
+      continue-on-error: true
+    
+    - name: Pages deployment status
+      if: github.ref == 'refs/heads/main'
+      run: |
+        if [ "${{ steps.deployment.outcome }}" = "success" ]; then
+          echo "🎉 Pages deployed successfully!"
+          echo "📖 View your newsletter at: ${{ steps.deployment.outputs.page_url }}"
+        else
+          echo "⚠️ Pages deployment failed or skipped"
+          echo "💡 To enable GitHub Pages:"
+          echo "   1. Go to Settings > Pages"
+          echo "   2. Source: GitHub Actions"
+          echo "   3. Re-run this workflow"
+        fi
     
     - name: Create release on significant updates
       if: github.ref == 'refs/heads/main'
@@ -169,3 +188,49 @@ jobs:
         name: failure-report
         path: failure-report.md
         retention-days: 7
+    
+    - name: Upload newsletter as artifact (backup)
+      if: always() && hashFiles('context-engineering-news/docs/index.html') != ''
+      uses: actions/upload-artifact@v4
+      with:
+        name: context-engineering-newsletter-${{ github.run_number }}
+        path: |
+          context-engineering-news/docs/index.html
+          context-engineering-news/docs/rss*.xml
+          context-engineering-news/data/daily_news.json
+        retention-days: 30
+    
+    - name: Final Summary
+      if: always()
+      run: |
+        echo "📊 Context Engineering Daily News - Execution Summary"
+        echo "================================================="
+        if [ -f "context-engineering-news/data/daily_news.json" ]; then
+          ITEM_COUNT=$(jq '.total_items' context-engineering-news/data/daily_news.json)
+          echo "✅ Articles collected: $ITEM_COUNT"
+        else
+          echo "❌ No data file generated"
+        fi
+        
+        if [ -f "context-engineering-news/docs/index.html" ]; then
+          echo "✅ HTML newsletter generated"
+        else
+          echo "❌ HTML newsletter generation failed"
+        fi
+        
+        if [ -f "context-engineering-news/docs/rss.xml" ]; then
+          echo "✅ RSS feeds generated"
+        else
+          echo "❌ RSS feed generation failed"
+        fi
+        
+        echo ""
+        echo "📁 Available files:"
+        ls -la context-engineering-news/docs/ || echo "No docs directory"
+        echo ""
+        echo "🔗 Access methods:"
+        echo "  • Artifact: context-engineering-newsletter-${{ github.run_number }}"
+        echo "  • Repository: context-engineering-news/docs/index.html"
+        if [ "${{ steps.deployment.outcome }}" = "success" ]; then
+          echo "  • GitHub Pages: ${{ steps.deployment.outputs.page_url }}"
+        fi
