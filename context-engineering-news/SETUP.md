@@ -6,9 +6,14 @@
 2. **Enable GitHub Pages**:
    - Go to Settings > Pages
    - Source: GitHub Actions
-3. **Configure secrets** (optional for AI features):
+3. **Configure secrets** (optional for enhanced features):
+   - `GEMINI_API_KEY` - for Google Gemini summarization (🆓 **추천**, 무료 할당량 제공)
    - `OPENAI_API_KEY` - for OpenAI GPT summarization
    - `ANTHROPIC_API_KEY` - for Claude summarization
+   - `GH_PAT` - GitHub Personal Access Token (for higher API rate limits)
+     - ⚠️ **주의**: `GITHUB_TOKEN`은 사용 불가 (GitHub 예약어)
+     - GitHub > Settings > Developer settings > Personal access tokens
+     - Scope: `public_repo` 권한만 필요
 4. **Manual trigger**: Go to Actions tab and run "Context Engineering Daily News" workflow
 
 ## Development Setup
@@ -39,7 +44,8 @@ python run_daily_news.py          # With AI enhancement (requires API keys)
 ### Environment Variables
 
 ```bash
-# Optional: AI Enhancement
+# Optional: AI Enhancement (choose one or more)
+export GEMINI_API_KEY="your-gemini-key"          # Recommended (free tier available)
 export OPENAI_API_KEY="your-openai-key"
 export ANTHROPIC_API_KEY="your-anthropic-key"
 
@@ -129,10 +135,11 @@ python src/rss_generator.py
 - ✅ GitHub Pages deployment
 
 ### AI Enhancement Features
-- 🤖 Article summarization (OpenAI/Anthropic)
+- 🤖 Article summarization (Gemini/OpenAI/Anthropic)
 - 📊 Trend analysis
 - 🔍 Relevance scoring
 - 💡 Key insights extraction
+- 🆓 **Gemini 우선 사용** (무료 할당량 활용)
 
 ### Data Sources
 - 📚 arXiv (cs.CL, cs.AI, cs.LG)
@@ -189,6 +196,26 @@ python src/news_scraper.py
 3. Make your changes
 4. Add tests
 5. Submit a pull request
+
+## API 키 설정 가이드
+
+### 🆓 Google Gemini API (추천)
+1. [Google AI Studio](https://makersuite.google.com/app/apikey) 방문
+2. "Create API Key" 클릭
+3. 생성된 키를 `GEMINI_API_KEY`로 설정
+4. **장점**: 월 1,500회 무료 요청, 빠른 응답 속도
+
+### 💰 OpenAI API
+1. [OpenAI Platform](https://platform.openai.com/api-keys) 방문
+2. "Create new secret key" 클릭
+3. 생성된 키를 `OPENAI_API_KEY`로 설정
+4. **참고**: 유료 서비스, 크레딧 구매 필요
+
+### 🤖 Anthropic Claude API
+1. [Anthropic Console](https://console.anthropic.com/) 방문
+2. API Keys 섹션에서 키 생성
+3. 생성된 키를 `ANTHROPIC_API_KEY`로 설정
+4. **참고**: 유료 서비스, 크레딧 구매 필요
 
 ## License
 
