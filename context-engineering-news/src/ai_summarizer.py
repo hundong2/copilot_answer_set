@@ -23,12 +23,19 @@ try:
 except ImportError:
     ANTHROPIC_AVAILABLE = False
 
+try:
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
+except ImportError:
+    GEMINI_AVAILABLE = False
+
 logger = logging.getLogger(__name__)
 
 class AISummarizer:
     def __init__(self):
         self.openai_client = None
         self.anthropic_client = None
+        self.gemini_model = None
         
         # Initialize OpenAI if available
         if OPENAI_AVAILABLE and os.getenv('OPENAI_API_KEY'):
@@ -46,10 +53,21 @@ class AISummarizer:
                 logger.info("Anthropic client initialized")
             except Exception as e:
                 logger.warning(f"Failed to initialize Anthropic: {e}")
+        
+        # Initialize Gemini if available
+        if GEMINI_AVAILABLE and os.getenv('GEMINI_API_KEY'):
+            try:
+                genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+                self.gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+                logger.info("Gemini client initialized")
+            except Exception as e:
+                logger.warning(f"Failed to initialize Gemini: {e}")
     
     def is_available(self) -> bool:
         """Check if any AI service is available"""
-        return self.openai_client is not None or self.anthropic_client is not None
+        return (self.openai_client is not None or 
+                self.anthropic_client is not None or 
+                self.gemini_model is not None)
     
     def summarize_with_openai(self, title: str, description: str, content: str = "") -> Optional[str]:
         """Generate summary using OpenAI"""
@@ -116,9 +134,45 @@ Focus on the key innovation, practical implications, and relevance to prompt eng
             logger.error(f"Anthropic summarization failed: {e}")
             return None
     
+    def summarize_with_gemini(self, title: str, description: str, content: str = "") -> Optional[str]:
+        """Generate summary using Google Gemini"""
+        if not self.gemini_model:
+            return None
+        
+        try:
+            full_text = f"Title: {title}\n\nDescription: {description}"
+            if content:
+                full_text += f"\n\nContent: {content[:2000]}"
+            
+            prompt = f"""
+Summarize this Context Engineering / AI research article in 2-3 concise sentences.
+Focus on the key innovation, practical implications, and relevance to prompt engineering, RAG, or LLM context management.
+
+{full_text}
+
+Provide only the summary without any additional text:"""
+            
+            response = self.gemini_model.generate_content(
+                prompt,
+                generation_config=genai.types.GenerationConfig(
+                    max_output_tokens=150,
+                    temperature=0.3,
+                )
+            )
+            
+            return response.text.strip()
+            
+        except Exception as e:
+            logger.error(f"Gemini summarization failed: {e}")
+            return None
+    
     def generate_summary(self, title: str, description: str, content: str = "") -> Optional[str]:
         """Generate summary using available AI service"""
-        # Try OpenAI first, then Anthropic
+        # Try services in order of preference: Gemini (free), OpenAI, Anthropic
+        summary = self.summarize_with_gemini(title, description, content)
+        if summary:
+            return summary
+        
         summary = self.summarize_with_openai(title, description, content)
         if summary:
             return summary
@@ -153,14 +207,31 @@ Focus on the key innovation, practical implications, and relevance to prompt eng
             category_text = "\n".join(titles)
             
             try:
-                if self.openai_client:
-                    prompt = f"""
+                prompt = f"""
 Analyze these {category.replace('_', ' ')} news headlines and identify 2-3 key trends or insights:
 
 {category_text}
 
 Key insights (as bullet points):"""
-                    
+                
+                insight_text = None
+                
+                # Try Gemini first
+                if self.gemini_model:
+                    try:
+                        response = self.gemini_model.generate_content(
+                            prompt,
+                            generation_config=genai.types.GenerationConfig(
+                                max_output_tokens=200,
+                                temperature=0.4,
+                            )
+                        )
+                        insight_text = response.text.strip()
+                    except Exception as e:
+                        logger.warning(f"Gemini insights failed for {category}: {e}")
+                
+                # Fallback to OpenAI
+                if not insight_text and self.openai_client:
                     response = self.openai_client.chat.completions.create(
                         model="gpt-3.5-turbo",
                         messages=[
@@ -169,8 +240,9 @@ Key insights (as bullet points):"""
                         max_tokens=200,
                         temperature=0.4
                     )
-                    
                     insight_text = response.choices[0].message.content.strip()
+                
+                if insight_text:
                     # Parse bullet points
                     insights[category] = [
                         line.strip().lstrip('•-*').strip() 
@@ -243,7 +315,10 @@ def main():
     
     if not summarizer.is_available():
         print("\u26a0️  No AI services available. Skipping enhancement.")
-        print("To enable AI features, set OPENAI_API_KEY or ANTHROPIC_API_KEY environment variables.")
+        print("To enable AI features, set one of these environment variables:")
+        print("  - GEMINI_API_KEY (recommended, free tier available)")
+        print("  - OPENAI_API_KEY")
+        print("  - ANTHROPIC_API_KEY")
         return
     
     print("🤖 Starting AI enhancement of news data...")
