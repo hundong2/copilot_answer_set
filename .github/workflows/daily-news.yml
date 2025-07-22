@@ -8,8 +8,8 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'src/**'
-      - 'config/**'
+      - 'context-engineering-news/src/**'
+      - 'context-engineering-news/config/**'
       - '.github/workflows/daily-news.yml'
 
 jobs:
