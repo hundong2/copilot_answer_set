@@ -1,0 +1,148 @@
+name: 📰 Context Engineering Daily News
+
+on:
+  schedule:
+    # Run daily at 09:00 UTC (4 AM EST)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'config/**'
+      - '.github/workflows/daily-news.yml'
+
+jobs:
+  generate-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Create necessary directories
+      run: |
+        mkdir -p data docs
+        
+    - name: Scrape news data
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        cd context-engineering-news
+        python src/news_scraper.py
+      continue-on-error: true
+    
+    - name: Generate AI summaries (Optional)
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      run: |
+        cd context-engineering-news
+        if [ -f "src/ai_summarizer.py" ]; then
+          python src/ai_summarizer.py || echo "AI summarization failed, continuing without it"
+        fi
+      continue-on-error: true
+    
+    - name: Generate HTML newsletter
+      run: |
+        cd context-engineering-news
+        python src/html_generator.py
+    
+    - name: Generate RSS feed
+      run: |
+        cd context-engineering-news
+        if [ -f "src/rss_generator.py" ]; then
+          python src/rss_generator.py
+        fi
+      continue-on-error: true
+    
+    - name: Commit and push if changed
+      run: |
+        cd context-engineering-news
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add generated files
+        git add data/ docs/
+        
+        # Check if there are any changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          # Create commit with news summary
+          ITEM_COUNT=$(jq '.total_items' data/daily_news.json 2>/dev/null || echo "0")
+          git commit -m "📰 Daily news update - $ITEM_COUNT items ($(date +'%Y-%m-%d'))"
+          git push
+        fi
+    
+    - name: Setup Pages
+      if: github.ref == 'refs/heads/main'
+      uses: actions/configure-pages@v3
+    
+    - name: Upload to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: 'context-engineering-news/docs/'
+    
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      id: deployment
+      uses: actions/deploy-pages@v2
+    
+    - name: Create release on significant updates
+      if: github.ref == 'refs/heads/main'
+      run: |
+        cd context-engineering-news
+        ITEM_COUNT=$(jq '.total_items' data/daily_news.json 2>/dev/null || echo "0")
+        
+        # Create weekly release on Mondays or when item count is high
+        if [ "$(date +%u)" = "1" ] || [ "$ITEM_COUNT" -gt "50" ]; then
+          WEEK=$(date +'%Y-W%V')
+          
+          # Check if release already exists
+          if ! gh release view "$WEEK" >/dev/null 2>&1; then
+            echo "Creating weekly release $WEEK"
+            
+            # Create release notes
+            echo "# Context Engineering News - Week $WEEK" > release_notes.md
+            echo "" >> release_notes.md
+            echo "✨ **This week's highlights:**" >> release_notes.md
+            echo "- $ITEM_COUNT new articles collected" >> release_notes.md
+            echo "- Updated categories and trending topics" >> release_notes.md
+            echo "- Enhanced AI summarization" >> release_notes.md
+            echo "" >> release_notes.md
+            echo "🔗 **View the full newsletter:** [Context Engineering Daily](https://$(echo $GITHUB_REPOSITORY | tr '/' '.').github.io/$(echo $GITHUB_REPOSITORY | cut -d'/' -f2)/)" >> release_notes.md
+            
+            gh release create "$WEEK" \
+              --title "Context Engineering Daily - $WEEK" \
+              --notes-file release_notes.md \
+              data/daily_news.json docs/index.html
+          fi
+        fi
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
+    
+    - name: Notify on failure
+      if: failure()
+      run: |
+        echo "Daily news generation failed. Please check the logs."
+        # Add notification logic here (Slack, Discord, etc.)
