@@ -16,11 +16,12 @@ Context Engineering is a rapidly evolving field in AI that focuses on optimizing
 ## Features
 
 - 📰 Daily automated news collection from multiple sources
-- 🔍 AI-powered summarization and categorization
+- 🆓 **무료** AI-powered summarization (Google Gemini)
 - 📧 Beautiful HTML newsletter generation
 - 🚀 GitHub Actions automation
 - 📊 Trending topics analysis
 - 🏷️ Smart tagging and categorization
+- 💵 **완전 무료** - 유료 AI 서비스 없이 사용!
 
 ## News Sources
 

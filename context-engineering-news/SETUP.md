@@ -6,11 +6,12 @@
 2. **Enable GitHub Pages**:
    - Go to Settings > Pages
    - Source: GitHub Actions
-3. **Configure secrets** (optional for enhanced features):
-   - `GEMINI_API_KEY` - for Google Gemini summarization (🆓 **추천**, 무료 할당량 제공)
-   - `OPENAI_API_KEY` - for OpenAI GPT summarization
-   - `ANTHROPIC_API_KEY` - for Claude summarization
-   - `GH_PAT` - GitHub Personal Access Token (for higher API rate limits)
+3. **Configure secrets** (for enhanced features):
+   - `GEMINI_API_KEY` - 🆓 **완전 무료** Google Gemini AI (추천!)
+     - 무료 할당량: 월 1,500회 요청
+     - AI 요약, 트렌드 분석 기능 활성화
+   - `GH_PAT` - GitHub Personal Access Token (선택사항)
+     - 더 높은 GitHub API 요청 한도
      - ⚠️ **주의**: `GITHUB_TOKEN`은 사용 불가 (GitHub 예약어)
      - GitHub > Settings > Developer settings > Personal access tokens
      - Scope: `public_repo` 권한만 필요
@@ -44,10 +45,8 @@ python run_daily_news.py          # With AI enhancement (requires API keys)
 ### Environment Variables
 
 ```bash
-# Optional: AI Enhancement (choose one or more)
-export GEMINI_API_KEY="your-gemini-key"          # Recommended (free tier available)
-export OPENAI_API_KEY="your-openai-key"
-export ANTHROPIC_API_KEY="your-anthropic-key"
+# FREE AI Enhancement - Gemini only! 🆓
+export GEMINI_API_KEY="your-gemini-key"    # 100% FREE - 1,500 requests/month!
 
 # Optional: GitHub API (for higher rate limits)
 export GITHUB_TOKEN="your-github-token"
@@ -134,12 +133,12 @@ python src/rss_generator.py
 - ✅ GitHub Actions automation
 - ✅ GitHub Pages deployment
 
-### AI Enhancement Features
-- 🤖 Article summarization (Gemini/OpenAI/Anthropic)
-- 📊 Trend analysis
-- 🔍 Relevance scoring
+### AI Enhancement Features (🆓 100% FREE!)
+- 🤖 Article summarization (Google Gemini)
+- 📊 Trend analysis and insights
+- 🔍 Smart relevance scoring  
 - 💡 Key insights extraction
-- 🆓 **Gemini 우선 사용** (무료 할당량 활용)
+- 🚀 **완전 무료** - 월 1,500회 요청 한도
 
 ### Data Sources
 - 📚 arXiv (cs.CL, cs.AI, cs.LG)
@@ -197,25 +196,22 @@ python src/news_scraper.py
 4. Add tests
 5. Submit a pull request
 
-## API 키 설정 가이드
+## 🆓 무료 AI API 설정 가이드
 
-### 🆓 Google Gemini API (추천)
+### Google Gemini API (100% 무료!)
 1. [Google AI Studio](https://makersuite.google.com/app/apikey) 방문
-2. "Create API Key" 클릭
-3. 생성된 키를 `GEMINI_API_KEY`로 설정
-4. **장점**: 월 1,500회 무료 요청, 빠른 응답 속도
+2. Google 계정으로 로그인
+3. "Create API Key" 클릭
+4. 생성된 키를 복사
+5. Repository Settings > Secrets에서 `GEMINI_API_KEY`로 설정
 
-### 💰 OpenAI API
-1. [OpenAI Platform](https://platform.openai.com/api-keys) 방문
-2. "Create new secret key" 클릭
-3. 생성된 키를 `OPENAI_API_KEY`로 설정
-4. **참고**: 유료 서비스, 크레딧 구매 필요
+**🎆 장점:**
+- ✅ **완전 무료**: 월 1,500회 요청
+- ⚡ **빠른 응답**: Gemini 1.5 Flash 모델
+- 🧠 **고품질**: Google의 최신 AI 기술
+- 💳 **신용카드 불필요**: API 키만 있으면 OK!
 
-### 🤖 Anthropic Claude API
-1. [Anthropic Console](https://console.anthropic.com/) 방문
-2. API Keys 섹션에서 키 생성
-3. 생성된 키를 `ANTHROPIC_API_KEY`로 설정
-4. **참고**: 유료 서비스, 크레딧 구매 필요
+> 💡 **팁**: 월 1,500회로 매일 50개 기사 요약 가능!
 
 ## License
 
