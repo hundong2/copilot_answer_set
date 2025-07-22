@@ -44,9 +44,11 @@ jobs:
         
     - name: Scrape news data
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_PAT: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
       run: |
         cd context-engineering-news
+        # Set GitHub token for API calls (fallback to built-in token)
+        export GITHUB_TOKEN="${GH_PAT}"
         python src/news_scraper.py
       continue-on-error: true
     

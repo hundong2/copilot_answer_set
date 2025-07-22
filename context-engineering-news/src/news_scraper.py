@@ -5,6 +5,7 @@ Collects news from various sources and categorizes them.
 """
 
 import json
+import os
 import requests
 import feedparser
 import re
@@ -175,6 +176,13 @@ class ContextEngineeringNewsScraper:
         """Scrape GitHub trending repositories"""
         logger.info("Scraping GitHub trending repositories")
         items = []
+        
+        # Add GitHub token if available for higher rate limits
+        github_token = os.getenv('GITHUB_TOKEN')
+        if github_token:
+            self.session.headers.update({
+                'Authorization': f'token {github_token}'
+            })
         
         try:
             # Use GitHub API to search for relevant repositories
