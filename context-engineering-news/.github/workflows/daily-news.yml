@@ -2,8 +2,8 @@ name: 📰 Context Engineering Daily News
 
 on:
   schedule:
-    # Run daily at 09:00 UTC (4 AM EST)
-    - cron: '0 9 * * *'
+    # Run daily at 20:00 UTC (5 AM KST next day)
+    - cron: '0 20 * * *'
   workflow_dispatch: # Allow manual trigger
   push:
     branches: [ main ]
