@@ -80,12 +80,23 @@ jobs:
         echo "Using template: templates/simple_newsletter.html"
         python src/html_generator.py
         echo "✅ HTML generation completed"
+        
+        # Copy to root docs for GitHub Pages
+        echo "📋 Copying files to root docs directory..."
+        mkdir -p ../docs
+        cp docs/* ../docs/ 2>/dev/null || true
+        echo "✅ Files copied to root docs directory"
     
     - name: Generate RSS feed
       run: |
         cd context-engineering-news
         if [ -f "src/rss_generator.py" ]; then
           python src/rss_generator.py
+          echo "✅ RSS feeds generated"
+          
+          # Copy RSS feeds to root docs
+          cp docs/rss*.xml ../docs/ 2>/dev/null || true
+          echo "✅ RSS feeds copied to root docs"
         fi
       continue-on-error: true
     
@@ -94,8 +105,8 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # Add generated files from context-engineering-news directory
-        git add context-engineering-news/data/ context-engineering-news/docs/
+        # Add generated files from context-engineering-news directory and root docs
+        git add context-engineering-news/data/ context-engineering-news/docs/ docs/
         
         # Check if there are any changes
         if git diff --staged --quiet; then
@@ -118,7 +129,7 @@ jobs:
       if: github.ref == 'refs/heads/main'
       uses: actions/upload-pages-artifact@v3
       with:
-        path: 'context-engineering-news/docs'
+        path: 'docs'
       continue-on-error: true
     
     - name: Deploy to GitHub Pages
