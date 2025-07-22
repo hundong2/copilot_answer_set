@@ -5,341 +5,219 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Context Engineering Daily - {{ date }}</title>
     <style>
-        :root {
-            --primary-color: #2563eb;
-            --secondary-color: #1e40af;
-            --accent-color: #3b82f6;
-            --text-color: #1f2937;
-            --text-light: #6b7280;
-            --bg-color: #ffffff;
-            --bg-light: #f8fafc;
-            --border-color: #e5e7eb;
-            --success-color: #059669;
-            --warning-color: #d97706;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-light);
-        }
-
-        .container {
             max-width: 800px;
             margin: 0 auto;
-            background: var(--bg-color);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            color: #333;
+            background-color: #f8fafc;
         }
-
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
         .header {
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            background: linear-gradient(135deg, #2563eb, #1e40af);
             color: white;
             padding: 2rem;
             text-align: center;
         }
-
+        
         .header h1 {
+            margin: 0 0 0.5rem 0;
             font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
         }
-
-        .header .subtitle {
-            font-size: 1.1rem;
-            opacity: 0.9;
-            margin-bottom: 1rem;
-        }
-
-        .header .meta {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-
+        
         .stats {
             display: flex;
             justify-content: space-around;
-            background: var(--bg-light);
+            background: #f8fafc;
             padding: 1.5rem;
-            border-bottom: 1px solid var(--border-color);
+            border-bottom: 1px solid #e5e7eb;
         }
-
+        
         .stat {
             text-align: center;
         }
-
+        
         .stat-number {
             font-size: 2rem;
-            font-weight: 700;
-            color: var(--primary-color);
+            font-weight: bold;
+            color: #2563eb;
         }
-
-        .stat-label {
-            font-size: 0.9rem;
-            color: var(--text-light);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
+        
         .content {
             padding: 2rem;
         }
-
-        .category-section {
-            margin-bottom: 3rem;
+        
+        .category {
+            margin-bottom: 2rem;
         }
-
-        .category-header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1.5rem;
+        
+        .category h2 {
+            color: #1f2937;
+            border-bottom: 2px solid #3b82f6;
             padding-bottom: 0.5rem;
-            border-bottom: 2px solid var(--accent-color);
-        }
-
-        .category-icon {
-            font-size: 1.5rem;
-            margin-right: 0.75rem;
-        }
-
-        .category-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--text-color);
-        }
-
-        .category-count {
-            background: var(--accent-color);
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 1rem;
-            font-size: 0.8rem;
-            font-weight: 600;
-            margin-left: auto;
-        }
-
-        .news-item {
-            background: var(--bg-color);
-            border: 1px solid var(--border-color);
-            border-radius: 0.75rem;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            transition: all 0.2s ease;
-        }
-
-        .news-item:hover {
-            border-color: var(--accent-color);
-            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
-        }
-
-        .news-item h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-            line-height: 1.4;
-        }
-
-        .news-item h3 a {
-            color: var(--text-color);
-            text-decoration: none;
-        }
-
-        .news-item h3 a:hover {
-            color: var(--primary-color);
-        }
-
-        .news-description {
-            color: var(--text-light);
-            margin-bottom: 1rem;
-            line-height: 1.6;
-        }
-
-        .news-meta {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 1rem;
         }
-
-        .news-source {
-            display: flex;
-            align-items: center;
-            font-size: 0.9rem;
-            color: var(--text-light);
-        }
-
-        .source-icon {
-            width: 16px;
-            height: 16px;
-            margin-right: 0.5rem;
-            border-radius: 0.25rem;
-        }
-
-        .keywords {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .keyword {
-            background: var(--bg-light);
-            color: var(--text-color);
-            padding: 0.25rem 0.5rem;
-            border-radius: 0.375rem;
-            font-size: 0.8rem;
-            border: 1px solid var(--border-color);
-        }
-
-        .score-badge {
-            background: var(--success-color);
+        
+        .category-count {
+            background: #3b82f6;
             color: white;
-            padding: 0.25rem 0.5rem;
-            border-radius: 0.375rem;
-            font-size: 0.8rem;
-            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.9rem;
         }
-
-        .score-badge.medium {
-            background: var(--warning-color);
+        
+        .news-item {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: box-shadow 0.2s;
         }
-
-        .score-badge.low {
-            background: var(--text-light);
+        
+        .news-item:hover {
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
         }
-
-        .footer {
-            background: var(--bg-light);
-            padding: 2rem;
-            text-align: center;
-            color: var(--text-light);
-            border-top: 1px solid var(--border-color);
+        
+        .news-item h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.1rem;
         }
-
-        .footer a {
-            color: var(--primary-color);
+        
+        .news-item h3 a {
+            color: #1f2937;
             text-decoration: none;
         }
-
-        .footer a:hover {
-            text-decoration: underline;
+        
+        .news-item h3 a:hover {
+            color: #2563eb;
         }
-
-        .trending-keywords {
-            background: var(--bg-light);
+        
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+        
+        .keywords {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .keyword {
+            background: #e5e7eb;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.8rem;
+        }
+        
+        .score {
+            background: #059669;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.8rem;
+        }
+        
+        .trending {
+            background: #f8fafc;
             padding: 1.5rem;
-            border-radius: 0.75rem;
+            border-radius: 8px;
             margin-bottom: 2rem;
         }
-
-        .trending-keywords h3 {
-            margin-bottom: 1rem;
-            color: var(--text-color);
-        }
-
-        .trending-list {
+        
+        .trending-items {
             display: flex;
+            gap: 0.5rem;
             flex-wrap: wrap;
-            gap: 0.75rem;
         }
-
-        .trending-keyword {
+        
+        .trending-item {
             background: white;
-            border: 1px solid var(--border-color);
+            border: 1px solid #e5e7eb;
             padding: 0.5rem 1rem;
             border-radius: 2rem;
-            font-weight: 500;
+            font-size: 0.9rem;
         }
-
-        @media (max-width: 640px) {
-            .container {
-                margin: 0;
-            }
-
-            .header {
-                padding: 1.5rem;
-            }
-
-            .header h1 {
-                font-size: 2rem;
-            }
-
-            .content {
-                padding: 1rem;
-            }
-
-            .stats {
-                flex-direction: column;
-                gap: 1rem;
-            }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #6b7280;
+            border-top: 1px solid #e5e7eb;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="header">
+        <div class="header">
             <h1>🤖 Context Engineering Daily</h1>
-            <div class="subtitle">Your daily dose of AI context engineering news and research</div>
-            <div class="meta">
-                <strong>{{ date }}</strong> • Generated {{ generation_time }}
-            </div>
-        </header>
+            <p>Your daily dose of AI context engineering news and research</p>
+            <p><strong>{{ date }}</strong> • Generated {{ generation_time }}</p>
+        </div>
 
         <div class="stats">
             <div class="stat">
                 <div class="stat-number">{{ total_items }}</div>
-                <div class="stat-label">Articles</div>
+                <div>Articles</div>
             </div>
             <div class="stat">
                 <div class="stat-number">{{ categories_count }}</div>
-                <div class="stat-label">Categories</div>
+                <div>Categories</div>
             </div>
             <div class="stat">
                 <div class="stat-number">{{ sources_count }}</div>
-                <div class="stat-label">Sources</div>
+                <div>Sources</div>
             </div>
         </div>
 
         <div class="content">
             {% if trending_keywords %}
-            <div class="trending-keywords">
+            <div class="trending">
                 <h3>🔥 Trending Keywords</h3>
-                <div class="trending-list">
+                <div class="trending-items">
                     {% for keyword in trending_keywords %}
-                    <span class="trending-keyword">{{ keyword }}</span>
+                    <span class="trending-item">{{ keyword }}</span>
                     {% endfor %}
                 </div>
             </div>
             {% endif %}
 
-            {% for category_id, category_data in categories.items() %}
-            {% if category_data.items %}
-            <section class="category-section">
-                <div class="category-header">
-                    <span class="category-icon">{{ category_data.icon }}</span>
-                    <h2 class="category-title">{{ category_data.name }}</h2>
+            {% for category_id in categories %}
+            {% set category_data = categories[category_id] %}
+            {% if category_data.news_items %}
+            <div class="category">
+                <h2>
+                    <span>{{ category_data.icon }} {{ category_data.name }}</span>
                     <span class="category-count">{{ category_data.count }}</span>
-                </div>
+                </h2>
                 
-                {% for item in category_data.items %}
-                <article class="news-item">
+                {% for item in category_data.news_items %}
+                <div class="news-item">
                     <h3><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h3>
-                    <p class="news-description">{{ item.description }}</p>
+                    <p>{{ item.description }}</p>
                     
                     <div class="news-meta">
-                        <div class="news-source">
-                            <span class="source-icon">📝</span>
-                            <strong>{{ item.source }}</strong>
-                            <span style="margin-left: 0.5rem; opacity: 0.7;">{{ item.published_date_formatted }}</span>
+                        <div>
+                            <strong>{{ item.source }}</strong> • {{ item.published_date_formatted }}
                         </div>
                         
-                        <div style="display: flex; align-items: center; gap: 1rem;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
                             {% if item.keywords %}
                             <div class="keywords">
                                 {% for keyword in item.keywords[:3] %}
@@ -348,27 +226,21 @@
                             </div>
                             {% endif %}
                             
-                            <span class="score-badge {{ 'high' if item.score >= 0.7 else ('medium' if item.score >= 0.4 else 'low') }}">
-                                {{ "%.0f"|format(item.score * 100) }}%
-                            </span>
+                            <span class="score">{{ (item.score * 100) | int }}%</span>
                         </div>
                     </div>
-                </article>
+                </div>
                 {% endfor %}
-            </section>
+            </div>
             {% endif %}
             {% endfor %}
         </div>
 
-        <footer class="footer">
-            <p>
-                Generated by <a href="https://github.com/your-repo/context-engineering-news">Context Engineering News Bot</a><br>
-                Data sourced from arXiv, research blogs, GitHub, and more.
-            </p>
-            <p style="margin-top: 1rem; font-size: 0.8rem; opacity: 0.8;">
-                This newsletter is automatically generated. Please verify information from original sources.
-            </p>
-        </footer>
+        <div class="footer">
+            <p>Generated by <strong>Context Engineering News Bot</strong></p>
+            <p>Data sourced from arXiv, research blogs, GitHub, and more.</p>
+            <p><small>This newsletter is automatically generated. Please verify information from original sources.</small></p>
+        </div>
     </div>
 </body>
 </html>
