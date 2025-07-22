@@ -48,9 +48,14 @@ jobs:
         GH_PAT: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
       run: |
         cd context-engineering-news
+        echo "🔍 Starting news scraping..."
         # Set GitHub token for API calls (fallback to built-in token)
         export GITHUB_TOKEN="${GH_PAT}"
         python src/news_scraper.py
+        echo "✅ News scraping completed"
+        if [ -f "data/daily_news.json" ]; then
+          echo "📊 Collected $(jq '.total_items' data/daily_news.json) news items"
+        fi
       continue-on-error: true
     
     - name: Generate AI summaries with Gemini (FREE!)
