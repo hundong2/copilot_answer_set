@@ -30,6 +30,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Clean up any problematic files
+        run: |
+          # Remove any dynamically generated markdown files that might cause Jekyll issues
+          find . -name "GITHUB_PAGES_ISSUE_ANALYSIS.md" -delete || true
+          find . -name "*ANALYSIS*.md" -delete || true
+          find . -name "failure-report.md" -delete || true
+          find . -name "release_notes.md" -delete || true
+          # Clean up any Jekyll build artifacts
+          rm -rf _site/ .jekyll-cache/ || true
+          echo "Cleaned up problematic files"
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:

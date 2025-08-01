@@ -1,0 +1,49 @@
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Data files that might be generated during workflow runs
+**/data/daily_news.json
+**/data/enhanced_news.json
+**/data/stats.json
+
+# Any dynamically generated markdown files that might cause Jekyll issues
+GITHUB_PAGES_ISSUE_ANALYSIS.md
+*ANALYSIS*.md

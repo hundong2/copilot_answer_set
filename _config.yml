@@ -1,0 +1,45 @@
+# Jekyll Configuration for copilot_answer_set repository
+title: "Copilot Answer Set"
+description: "AI-powered development tools and context engineering resources"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude directories and files from Jekyll processing
+exclude:
+  - context-engineering-news/
+  - scheduler/
+  - dotnet/
+  - README.md
+  - .github/
+  - .git/
+  - .gitignore
+  - "*.log"
+  - "*.md"
+  - node_modules/
+  - vendor/
+  - Gemfile*
+  - "*.json"
+  - "*.py"
+  - "*.txt"
+  - "GITHUB_PAGES_ISSUE_ANALYSIS.md"
+  - "*ANALYSIS*.md"
+
+# Include only the docs directory content
+include:
+  - docs/
+
+# Collections (if needed)
+collections_dir: docs
+
+# Permalink structure
+permalink: /:title/
+
+# Default layout for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
