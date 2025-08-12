@@ -47,3 +47,18 @@ out/
 # Any dynamically generated markdown files that might cause Jekyll issues
 GITHUB_PAGES_ISSUE_ANALYSIS.md
 *ANALYSIS*.md
+
+# Git Agent specific ignores
+git-agent/__pycache__/
+git-agent/.pytest_cache/
+git-agent/src/__pycache__/
+git-agent/*.pyc
+git-agent/.coverage
+git-agent/htmlcov/
+git-agent/git_agent.log
+
+# .NET specific ignores  
+dotnet-git-agent/bin/
+dotnet-git-agent/obj/
+dotnet-git-agent/*.user
+dotnet-git-agent/*.log
