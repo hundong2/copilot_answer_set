@@ -1,0 +1,20 @@
+# Git Agent Dependencies
+GitPython>=3.1.0
+click>=8.1.0
+rich>=13.0.0
+pydantic>=2.0.0
+
+# LLM Providers
+google-generativeai>=0.3.0  # Gemini
+openai>=1.0.0              # OpenAI
+anthropic>=0.25.0          # Claude
+
+# Utilities
+python-dateutil>=2.8.0
+requests>=2.31.0
+typing-extensions>=4.0.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
