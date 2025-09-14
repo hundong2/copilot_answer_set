@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-09-13T20:05:21.073595",
-  "total_items": 18,
+  "generated_at": "2025-09-14T20:05:22.628838",
+  "total_items": 17,
   "items": [
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
@@ -11,9 +11,25 @@
       "category": "prompt_engineering",
       "keywords": [
         "prompt",
-        "context window",
         "context",
+        "context window",
         "prompt engineering"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "ThinkSound - PyTorch implementation of [ThinkSound], a unified framework for generating audio from any modality, guided by Chain-of-Thought (CoT) reasoning.",
+      "url": "https://github.com/FunAudioLLM/ThinkSound",
+      "description": "PyTorch implementation of [ThinkSound], a unified framework for generating audio from any modality, guided by Chain-of-Thought (CoT) reasoning.",
+      "published_date": "2025-06-27T02:27:00+00:00",
+      "source": "GitHub",
+      "category": "chain_of_thought",
+      "keywords": [
+        "audio",
+        "framework",
+        "CoT",
+        "chain-of-thought",
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -25,12 +41,12 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "LLM",
-        "model",
+        "context",
         "tool",
         "API",
         "prompt",
-        "context"
+        "LLM",
+        "model"
       ],
       "score": 1.0
     },
@@ -42,9 +58,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "context",
+        "framework",
         "chain-of-thought",
-        "framework"
+        "context"
       ],
       "score": 1.0
     },
@@ -56,9 +72,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "augmented",
         "RAG",
-        "retrieval",
-        "augmented"
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -70,14 +86,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "LLM",
         "vector",
-        "retrieval",
         "RAG",
+        "LLM",
         "knowledge base",
-        "reasoning",
+        "framework",
         "model",
-        "framework"
+        "reasoning",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -89,10 +105,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "LLM",
         "fine-tuning",
-        "model",
-        "tool"
+        "tool",
+        "LLM",
+        "model"
       ],
       "score": 1.0
     },
@@ -104,9 +120,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "augmented",
         "RAG",
-        "retrieval",
-        "augmented"
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -118,11 +134,11 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
+        "RAG",
         "product",
         "augmented",
-        "RAG",
-        "API"
+        "API",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -134,11 +150,11 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "LLM",
         "vector",
-        "platform",
+        "LLM",
         "framework",
-        "prompt"
+        "prompt",
+        "platform"
       ],
       "score": 1.0
     },
@@ -150,25 +166,12 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
-        "retrieval",
         "augmented",
-        "framework"
+        "framework",
+        "RAG",
+        "retrieval"
       ],
       "score": 1.0
-    },
-    {
-      "title": "Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers",
-      "url": "https://huggingface.co/blog/faster-transformers",
-      "description": "...",
-      "published_date": "2025-09-11T00:00:00",
-      "source": "Hugging Face Blog",
-      "category": "prompt_engineering",
-      "keywords": [
-        "transformer",
-        "GPT"
-      ],
-      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -178,9 +181,9 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "API",
-        "tool",
         "model",
+        "tool",
+        "API",
         "context"
       ],
       "score": 0.8
@@ -193,9 +196,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "model",
         "reasoning",
-        "chain-of-thought"
+        "chain-of-thought",
+        "model"
       ],
       "score": 0.8
     },
@@ -209,19 +212,6 @@
       "keywords": [
         "model",
         "context"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "ReasonFlux - ReasonFlux Series - A family of LLM post-training algorithms focusing on long-cot data selection, reinforcement learning, and inference scaling",
-      "url": "https://github.com/Gen-Verse/ReasonFlux",
-      "description": "ReasonFlux Series - A family of LLM post-training algorithms focusing on long-cot data selection, reinforcement learning, and inference scaling",
-      "published_date": "2025-02-10T11:04:39+00:00",
-      "source": "GitHub",
-      "category": "chain_of_thought",
-      "keywords": [
-        "LLM",
-        "CoT"
       ],
       "score": 0.6
     },
@@ -246,8 +236,8 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "paper",
         "prompt",
+        "paper",
         "prompt engineering"
       ],
       "score": 0.6
