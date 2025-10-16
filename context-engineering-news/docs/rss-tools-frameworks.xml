@@ -6,65 +6,78 @@
     <description>Latest Tools &amp; Frameworks news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>Beyond Consensus: Mitigating the Agreeableness Bias in LLM Judge Evaluations</title>
-      <link>https://arxiv.org/abs/2510.11822</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2510.11822</guid>
-      <description>arXiv:2510.11822v1 Announce Type: new 
-Abstract: New Large Language Models (LLMs) become available every few weeks, and modern application developers confronted with the unenviable task of having to decide if they should switch to a new model. While human evaluation remains the gold standard, it is ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, large language model, arxiv, model, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 15 Oct 2025 04:00:00 </pubDate>
+      <title>DeepPlanner: Scaling Planning Capability for Deep Research Agents via Advantage Shaping</title>
+      <link>https://arxiv.org/abs/2510.12979</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2510.12979</guid>
+      <description>arXiv:2510.12979v1 Announce Type: new 
+Abstract: Large language models (LLMs) augmented with multi-step reasoning and action generation abilities have shown promise in leveraging external tools to tackle complex tasks that require long-horizon planning. However, existing approaches either rely on im...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, research, RAG, large language model, API | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Thu, 16 Oct 2025 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Tools Frameworks</category>
-      <category>framework</category>
-      <category>large language model</category>
       <category>arxiv</category>
+      <category>research</category>
+      <category>RAG</category>
+    </item>
+    <item>
+      <title>EvoTest: Evolutionary Test-Time Learning for Self-Improving Agentic Systems</title>
+      <link>https://arxiv.org/abs/2510.13220</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2510.13220</guid>
+      <description>arXiv:2510.13220v1 Announce Type: new 
+Abstract: A fundamental limitation of current AI agents is their inability to learn complex skills on the fly at test time, often behaving like &amp;quot;clever but clueless interns&amp;quot; in novel environments. This severely limits their practical utility. To systematically ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, prompt, fine-tuning, framework, tool | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Thu, 16 Oct 2025 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Tools Frameworks</category>
+      <category>arxiv</category>
+      <category>prompt</category>
+      <category>fine-tuning</category>
     </item>
     <item>
       <title>mcp-context-forge - A Model Context Protocol (MCP) Gateway &amp;amp; Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).</title>
       <link>https://github.com/IBM/mcp-context-forge</link>
       <guid isPermaLink="false">https://github.com/IBM/mcp-context-forge</guid>
-      <description>A Model Context Protocol (MCP) Gateway &amp;amp; Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, context, prompt, model, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>A Model Context Protocol (MCP) Gateway &amp;amp; Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompt, API, tool, LLM, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Thu, 08 May 2025 08:16:59 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Tools Frameworks</category>
-      <category>API</category>
-      <category>context</category>
       <category>prompt</category>
+      <category>API</category>
+      <category>tool</category>
     </item>
     <item>
       <title>Kiln - The easiest tool for fine-tuning LLM models, synthetic data generation, and collaborating on datasets.</title>
       <link>https://github.com/Kiln-AI/Kiln</link>
       <guid isPermaLink="false">https://github.com/Kiln-AI/Kiln</guid>
-      <description>The easiest tool for fine-tuning LLM models, synthetic data generation, and collaborating on datasets.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, LLM, tool, fine-tuning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>The easiest tool for fine-tuning LLM models, synthetic data generation, and collaborating on datasets.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; fine-tuning, tool, model, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Tue, 23 Jul 2024 23:10:13 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Tools Frameworks</category>
-      <category>model</category>
-      <category>LLM</category>
+      <category>fine-tuning</category>
       <category>tool</category>
+      <category>model</category>
     </item>
     <item>
       <title>openlit - Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.</title>
       <link>https://github.com/openlit/openlit</link>
       <guid isPermaLink="false">https://github.com/openlit/openlit</guid>
-      <description>Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, prompt, platform, LLM, vector | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompt, platform, framework, vector, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Tue, 23 Jan 2024 17:40:59 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Tools Frameworks</category>
-      <category>framework</category>
       <category>prompt</category>
       <category>platform</category>
+      <category>framework</category>
     </item>
     <item>
       <title>fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</title>
       <link>https://github.com/tadata-org/fastapi_mcp</link>
       <guid isPermaLink="false">https://github.com/tadata-org/fastapi_mcp</guid>
-      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, tool, API, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, API, tool, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sat, 08 Mar 2025 11:15:43 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Tools Frameworks</category>
-      <category>model</category>
-      <category>tool</category>
+      <category>context</category>
       <category>API</category>
+      <category>tool</category>
     </item>
   </channel>
 </rss>
