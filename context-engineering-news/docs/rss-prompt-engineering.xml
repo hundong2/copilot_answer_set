@@ -6,41 +6,54 @@
     <description>Latest Prompt Engineering news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>Optimizing Diversity and Quality through Base-Aligned Model Collaboration</title>
-      <link>https://arxiv.org/abs/2511.05650</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2511.05650</guid>
-      <description>arXiv:2511.05650v1 Announce Type: new 
-Abstract: Alignment has greatly improved large language models (LLMs)&amp;#x27; output quality at the cost of diversity, yielding highly similar outputs across generations. We propose Base-Aligned Model Collaboration (BACo), an inference-time token-level model collabora...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, alignment, arxiv, model, prompt engineering | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 11 Nov 2025 05:00:00 </pubDate>
+      <title>REFLEX: Reference-Free Evaluation of Log Summarization via Large Language Model Judgment</title>
+      <link>https://arxiv.org/abs/2511.07458</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.07458</guid>
+      <description>arXiv:2511.07458v1 Announce Type: new 
+Abstract: Evaluating log summarization systems is challenging due to the lack of high-quality reference summaries and the limitations of existing metrics like ROUGE and BLEU, which depend on surface-level lexical overlap. We introduce REFLEX, a reference-free e...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, zero-shot, arxiv, large language model, summarization | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 12 Nov 2025 05:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Prompt Engineering</category>
-      <category>LLM</category>
-      <category>alignment</category>
+      <category>model</category>
+      <category>zero-shot</category>
       <category>arxiv</category>
+    </item>
+    <item>
+      <title>Making LLMs Reliable When It Matters Most: A Five-Layer Architecture for High-Stakes Decisions</title>
+      <link>https://arxiv.org/abs/2511.07669</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.07669</guid>
+      <description>arXiv:2511.07669v1 Announce Type: new 
+Abstract: Current large language models (LLMs) excel in verifiable domains where outputs can be checked before action but prove less reliable for high-stakes strategic decisions with uncertain outcomes. This gap, driven by mutually reinforcing cognitive biases ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, model, prompting, large language model, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 12 Nov 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Prompt Engineering</category>
+      <category>context</category>
+      <category>model</category>
+      <category>prompting</category>
     </item>
     <item>
       <title>Context-Engineering - &amp;quot;Context engineering is the delicate art and science of filling the context window with just the right information for the next step.&amp;quot; — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.</title>
       <link>https://github.com/davidkimai/Context-Engineering</link>
       <guid isPermaLink="false">https://github.com/davidkimai/Context-Engineering</guid>
-      <description>&amp;quot;Context engineering is the delicate art and science of filling the context window with just the right information for the next step.&amp;quot; — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompt engineering, prompt, context window, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>&amp;quot;Context engineering is the delicate art and science of filling the context window with just the right information for the next step.&amp;quot; — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, prompt engineering, context window, prompt | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sun, 29 Jun 2025 00:16:36 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Prompt Engineering</category>
+      <category>context</category>
       <category>prompt engineering</category>
-      <category>prompt</category>
       <category>context window</category>
     </item>
     <item>
       <title>AlphaCodium - Official implementation for the paper: &amp;quot;Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering&amp;quot;&amp;quot;</title>
       <link>https://github.com/Codium-ai/AlphaCodium</link>
       <guid isPermaLink="false">https://github.com/Codium-ai/AlphaCodium</guid>
-      <description>Official implementation for the paper: &amp;quot;Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering&amp;quot;&amp;quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompt engineering, prompt, paper | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <description>Official implementation for the paper: &amp;quot;Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering&amp;quot;&amp;quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompt engineering, paper, prompt | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sun, 14 Jan 2024 15:17:18 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Prompt Engineering</category>
       <category>prompt engineering</category>
-      <category>prompt</category>
       <category>paper</category>
+      <category>prompt</category>
     </item>
     <item>
       <title>optillm - Optimizing inference proxy for LLMs</title>
