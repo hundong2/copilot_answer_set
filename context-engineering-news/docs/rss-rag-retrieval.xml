@@ -6,69 +6,30 @@
     <description>Latest RAG &amp; Retrieval news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>OKBench: Democratizing LLM Evaluation with Fully Automated, On-Demand, Open Knowledge Benchmarking</title>
-      <link>https://arxiv.org/abs/2511.08598</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2511.08598</guid>
-      <description>arXiv:2511.08598v1 Announce Type: new 
-Abstract: Knowledge-intensive question answering is central to large language models (LLMs) and is typically assessed using static benchmarks derived from sources like Wikipedia and textbooks. However, these benchmarks fail to capture evolving knowledge in a dy...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, API, large language model, LLM, augmented | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 13 Nov 2025 05:00:00 </pubDate>
+      <title>TARG: Training-Free Adaptive Retrieval Gating for Efficient RAG</title>
+      <link>https://arxiv.org/abs/2511.09803</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.09803</guid>
+      <description>arXiv:2511.09803v1 Announce Type: new 
+Abstract: Retrieval-Augmented Generation (RAG) improves factuality but retrieving for every query often hurts quality while inflating tokens and latency. We propose Training-free Adaptive Retrieval Gating (TARG), a single-shot policy that decides when to retrie...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, arxiv, retrieval, RAG, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Fri, 14 Nov 2025 05:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Rag Retrieval</category>
-      <category>model</category>
-      <category>API</category>
-      <category>large language model</category>
+      <category>LLM</category>
+      <category>arxiv</category>
+      <category>retrieval</category>
     </item>
     <item>
-      <title>Retrieval-Augmented Generation of Pediatric Speech-Language Pathology vignettes: A Proof-of-Concept Study</title>
-      <link>https://arxiv.org/abs/2511.08600</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2511.08600</guid>
-      <description>arXiv:2511.08600v1 Announce Type: new 
-Abstract: Clinical vignettes are essential educational tools in speech-language pathology (SLP), but manual creation is time-intensive. While general-purpose large language models (LLMs) can generate text, they lack domain-specific knowledge, leading to halluci...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; GPT, knowledge base, tool, model, research | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 13 Nov 2025 05:00:00 </pubDate>
+      <title>Answering Students&amp;#x27; Questions on Course Forums Using Multiple Chain-of-Thought Reasoning and Finetuning RAG-Enabled LLM</title>
+      <link>https://arxiv.org/abs/2511.09831</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.09831</guid>
+      <description>arXiv:2511.09831v1 Announce Type: new 
+Abstract: The course forums are increasingly significant and play vital role in facilitating student discussions and answering their questions related to the course. It provides a platform for students to post their questions related to the content and admin is...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, platform, arxiv, retrieval, chain-of-thought | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Fri, 14 Nov 2025 05:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Rag Retrieval</category>
-      <category>GPT</category>
-      <category>knowledge base</category>
-      <category>tool</category>
-    </item>
-    <item>
-      <title>Think Before You Retrieve: Learning Test-Time Adaptive Search with Small Language Models</title>
-      <link>https://arxiv.org/abs/2511.07581</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2511.07581</guid>
-      <description>arXiv:2511.07581v1 Announce Type: new 
-Abstract: Effective information retrieval requires reasoning over partial evidence and refining strategies as information emerges. Yet current approaches fall short: neural retrievers lack reasoning capabilities, large language models (LLMs) provide semantic de...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; fine-tuning, model, RAG, reasoning, large language model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 13 Nov 2025 05:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Rag Retrieval</category>
-      <category>fine-tuning</category>
-      <category>model</category>
-      <category>RAG</category>
-    </item>
-    <item>
-      <title>Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces</title>
-      <link>https://arxiv.org/abs/2511.07587</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2511.07587</guid>
-      <description>arXiv:2511.07587v1 Announce Type: new 
-Abstract: Large Language Models (LLMs) face fundamental challenges in long-context reasoning: many documents exceed their finite context windows, while performance on texts that do fit degrades with sequence length, necessitating their augmentation with externa...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context window, model, memory, embedding, RAG | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 13 Nov 2025 05:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Rag Retrieval</category>
-      <category>context window</category>
-      <category>model</category>
-      <category>memory</category>
-    </item>
-    <item>
-      <title>FAIRPLAI: A Human-in-the-Loop Approach to Fair and Private Machine Learning</title>
-      <link>https://arxiv.org/abs/2511.08702</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2511.08702</guid>
-      <description>arXiv:2511.08702v1 Announce Type: new 
-Abstract: As machine learning systems move from theory to practice, they are increasingly tasked with decisions that affect healthcare access, financial opportunities, hiring, and public services. In these contexts, accuracy is only one piece of the puzzle - mo...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, embedding, context, framework, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 13 Nov 2025 05:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Rag Retrieval</category>
-      <category>model</category>
-      <category>embedding</category>
-      <category>context</category>
+      <category>LLM</category>
+      <category>platform</category>
+      <category>arxiv</category>
     </item>
     <item>
       <title>airweave - Context retrieval for AI agents across apps and databases</title>
@@ -97,13 +58,13 @@ Abstract: As machine learning systems move from theory to practice, they are inc
       <title>KAG - KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&amp;amp;A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.</title>
       <link>https://github.com/OpenSPG/KAG</link>
       <guid isPermaLink="false">https://github.com/OpenSPG/KAG</guid>
-      <description>KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&amp;amp;A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; knowledge base, model, vector, RAG, reasoning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&amp;amp;A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, retrieval, RAG, knowledge base, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sat, 21 Sep 2024 13:56:44 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Rag Retrieval</category>
-      <category>knowledge base</category>
-      <category>model</category>
-      <category>vector</category>
+      <category>LLM</category>
+      <category>retrieval</category>
+      <category>RAG</category>
     </item>
     <item>
       <title>graphrag - A modular graph-based Retrieval-Augmented Generation (RAG) system</title>
@@ -121,39 +82,26 @@ Abstract: As machine learning systems move from theory to practice, they are inc
       <title>R2R - SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.</title>
       <link>https://github.com/SciPhi-AI/R2R</link>
       <guid isPermaLink="false">https://github.com/SciPhi-AI/R2R</guid>
-      <description>SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, RAG, augmented, product, retrieval | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; retrieval, RAG, API, product, augmented | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Mon, 12 Feb 2024 03:24:27 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Rag Retrieval</category>
-      <category>API</category>
+      <category>retrieval</category>
       <category>RAG</category>
-      <category>augmented</category>
+      <category>API</category>
     </item>
     <item>
-      <title>Learning the Basis: A Kolmogorov-Arnold Network Approach Embedding Green&amp;#x27;s Function Priors</title>
-      <link>https://arxiv.org/abs/2511.08655</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2511.08655</guid>
-      <description>arXiv:2511.08655v1 Announce Type: new 
-Abstract: The Method of Moments (MoM) is constrained by the usage of static, geometry-defined basis functions, such as the Rao-Wilton-Glisson (RWG) basis. This letter reframes electromagnetic modeling around a learnable basis representation rather than solving ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, arxiv, embedding | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 13 Nov 2025 05:00:00 </pubDate>
+      <title>DynamicRTL: RTL Representation Learning for Dynamic Circuit Behavior</title>
+      <link>https://arxiv.org/abs/2511.09593</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.09593</guid>
+      <description>arXiv:2511.09593v1 Announce Type: new 
+Abstract: There is a growing body of work on using Graph Neural Networks (GNNs) to learn representations of circuits, focusing primarily on their static characteristics. However, these models fail to capture circuit runtime behavior, which is crucial for tasks ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Fri, 14 Nov 2025 05:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Rag Retrieval</category>
-      <category>model</category>
+      <category>RAG</category>
       <category>arxiv</category>
-      <category>embedding</category>
-    </item>
-    <item>
-      <title>PEGNet: A Physics-Embedded Graph Network for Long-Term Stable Multiphysics Simulation</title>
-      <link>https://arxiv.org/abs/2511.08697</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2511.08697</guid>
-      <description>arXiv:2511.08697v1 Announce Type: new 
-Abstract: Accurate and efficient simulations of physical phenomena governed by partial differential equations (PDEs) are important for scientific and engineering progress. While traditional numerical solvers are powerful, they are often computationally expensiv...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, arxiv, embedding | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 13 Nov 2025 05:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Rag Retrieval</category>
       <category>model</category>
-      <category>arxiv</category>
-      <category>embedding</category>
     </item>
   </channel>
 </rss>
