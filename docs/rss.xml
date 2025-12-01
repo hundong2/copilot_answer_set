@@ -7,93 +7,275 @@
     <language>en-us</language>
     <copyright>Copyright 2025 Context Engineering Daily</copyright>
     <generator>Context Engineering News Generator</generator>
-    <lastBuildDate>Sun, 30 Nov 2025 20:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 20:05:39 +0000</lastBuildDate>
     <atom:link href="https://your-username.github.io/context-engineering-news/rss.xml" rel="self" type="application/rss+xml"/>
     <category>Technology</category>
     <category>Artificial Intelligence</category>
     <category>Machine Learning</category>
     <item>
+      <title>Cacheback: Speculative Decoding With Nothing But Cache</title>
+      <link>https://arxiv.org/abs/2511.21699</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21699</guid>
+      <description>arXiv:2511.21699v1 Announce Type: new 
+Abstract: We present Cacheback Decoding, a training-free and model-agnostic speculative decoding method that exploits the locality in language to accelerate Large Language Model (LLM) inference. Cacheback leverages only Least Recently Used (LRU) cache tables of...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, RAG, model, arxiv, large language model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Rag Retrieval</category>
+      <category>LLM</category>
+      <category>RAG</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>47B Mixture-of-Experts Beats 671B Dense Models on Chinese Medical Examinations</title>
+      <link>https://arxiv.org/abs/2511.21701</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21701</guid>
+      <description>arXiv:2511.21701v1 Announce Type: new 
+Abstract: The rapid advancement of large language models(LLMs) has prompted significant interest in their potential applications in medical domains. This paper presents a comprehensive benchmark evaluation of 27 state-of-the-art LLMs on Chinese medical examinat...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, LLM, model, context, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>API</category>
+      <category>LLM</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>CSV-Decode: Certifiable Sub-Vocabulary Decoding for Efficient Large Language Model Inference</title>
+      <link>https://arxiv.org/abs/2511.21702</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21702</guid>
+      <description>arXiv:2511.21702v1 Announce Type: new 
+Abstract: Large language models face significant computational bottlenecks during inference due to the expensive output layer computation over large vocabularies. We present CSV-Decode, a novel approach that uses geometric upper bounds to construct small sub-vo...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, embedding, experiment, arxiv, large language model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>model</category>
+      <category>embedding</category>
+      <category>experiment</category>
+    </item>
+    <item>
+      <title>Evaluating Embedding Generalization: How LLMs, LoRA, and SLERP Shape Representational Geometry</title>
+      <link>https://arxiv.org/abs/2511.21703</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21703</guid>
+      <description>arXiv:2511.21703v1 Announce Type: new 
+Abstract: We investigate the generalization properties of dense text embeddings when the embedding backbone is a large language model (LLM) versus when it is a non-LLM encoder, and we study the extent to which spherical linear interpolation (SLERP) model-mergin...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, model, study, embedding, experiment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>LLM</category>
+      <category>model</category>
+      <category>study</category>
+    </item>
+    <item>
+      <title>Insight-A: Attribution-aware for Multimodal Misinformation Detection</title>
+      <link>https://arxiv.org/abs/2511.21705</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21705</guid>
+      <description>arXiv:2511.21705v1 Announce Type: new 
+Abstract: AI-generated content (AIGC) technology has emerged as a prevalent alternative to create multimodal misinformation on social media platforms, posing unprecedented threats to societal safety. However, standard prompting leverages multimodal large langua...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, RAG, image, model, prompting | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Multimodal Context</category>
+      <category>LLM</category>
+      <category>RAG</category>
+      <category>image</category>
+    </item>
+    <item>
+      <title>A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks</title>
+      <link>https://arxiv.org/abs/2511.21706</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21706</guid>
+      <description>arXiv:2511.21706v1 Announce Type: new 
+Abstract: In goal-oriented dialogue tasks, the main challenge is to steer the interaction towards a given goal within a limited number of turns. Existing approaches either rely on elaborate prompt engineering, whose effectiveness is heavily dependent on human e...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, prompt engineering, model, arxiv, GPT | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>LLM</category>
+      <category>prompt engineering</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?</title>
+      <link>https://arxiv.org/abs/2511.21708</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21708</guid>
+      <description>arXiv:2511.21708v1 Announce Type: new 
+Abstract: Large language models have recently demonstrated their exceptional capabilities in supporting and automating various tasks. Among the tasks worth exploring for testing large language model capabilities, we considered data preparation, a critical yet o...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, study, tool, prompt, paper | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>model</category>
+      <category>study</category>
+      <category>tool</category>
+    </item>
+    <item>
+      <title>Aligning Artificial Superintelligence via a Multi-Box Protocol</title>
+      <link>https://arxiv.org/abs/2511.21779</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21779</guid>
+      <description>arXiv:2511.21779v1 Announce Type: new 
+Abstract: We propose a novel protocol for aligning artificial superintelligence (ASI) based on mutual verification among multiple isolated systems that self-modify to achieve alignment. The protocol operates by containing multiple diverse artificial superintell...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; release, RAG, alignment, framework, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Rag Retrieval</category>
+      <category>release</category>
+      <category>RAG</category>
+      <category>alignment</category>
+    </item>
+    <item>
+      <title>Evaluating Strategies for Synthesizing Clinical Notes for Medical Multimodal AI</title>
+      <link>https://arxiv.org/abs/2511.21827</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21827</guid>
+      <description>arXiv:2511.21827v1 Announce Type: new 
+Abstract: Multimodal (MM) learning is emerging as a promising paradigm in biomedical artificial intelligence (AI) applications, integrating complementary modality, which highlight different aspects of patient health. The scarcity of large heterogeneous biomedic...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, image, model, context, retrieval | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Multimodal Context</category>
+      <category>LLM</category>
+      <category>image</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>Pathology-Aware Prototype Evolution via LLM-Driven Semantic Disambiguation for Multicenter Diabetic Retinopathy Diagnosis</title>
+      <link>https://arxiv.org/abs/2511.22033</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.22033</guid>
+      <description>arXiv:2511.22033v1 Announce Type: new 
+Abstract: Diabetic retinopathy (DR) grading plays a critical role in early clinical intervention and vision preservation. Recent explorations predominantly focus on visual lesion feature extraction through data processing and domain decoupling strategies. Howev...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, vision, model, context, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Tools Frameworks</category>
+      <category>LLM</category>
+      <category>vision</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation</title>
+      <link>https://arxiv.org/abs/2511.22235</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.22235</guid>
+      <description>arXiv:2511.22235v1 Announce Type: new 
+Abstract: The rapid development of large vision-language model (VLM) has greatly promoted the research of GUI agent. However, GUI agents still face significant challenges in handling long-horizon tasks. First, single-agent models struggle to balance high-level ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, vision, model, context, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>API</category>
+      <category>vision</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>Co-Evolving Agents: Learning from Failures as Hard Negatives</title>
+      <link>https://arxiv.org/abs/2511.22254</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.22254</guid>
+      <description>arXiv:2511.22254v1 Announce Type: new 
+Abstract: The rapid progress of large foundation models has accelerated the development of task-specialized agents across diverse domains. However, the effectiveness of agents remains tightly coupled with the quality of training data, while curating task-specif...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, vision, RAG, fine-tuning, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>API</category>
+      <category>vision</category>
+      <category>RAG</category>
+    </item>
+    <item>
+      <title>Unsupervised Anomaly Detection for Smart IoT Devices: Performance and Resource Comparison</title>
+      <link>https://arxiv.org/abs/2511.21842</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21842</guid>
+      <description>arXiv:2511.21842v1 Announce Type: new 
+Abstract: The rapid expansion of Internet of Things (IoT) deployments across diverse sectors has significantly enhanced operational efficiency, yet concurrently elevated cybersecurity vulnerabilities due to increased exposure to cyber threats. Given the limitat...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, model, study, experiment, vector | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>API</category>
+      <category>model</category>
+      <category>study</category>
+    </item>
+    <item>
+      <title>Closed-Loop Transformers: Autoregressive Modeling as Iterative Latent Equilibrium</title>
+      <link>https://arxiv.org/abs/2511.21882</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21882</guid>
+      <description>arXiv:2511.21882v1 Announce Type: new 
+Abstract: Contemporary autoregressive transformers operate in open loop: each hidden state is computed in a single forward pass and never revised, causing errors to propagate uncorrected through the sequence. We identify this open-loop bottleneck as a fundament...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, RAG, vision, model, transformer | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>memory</category>
+      <category>RAG</category>
+      <category>vision</category>
+    </item>
+    <item>
       <title>Context-Engineering - &amp;quot;Context engineering is the delicate art and science of filling the context window with just the right information for the next step.&amp;quot; — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.</title>
       <link>https://github.com/davidkimai/Context-Engineering</link>
       <guid isPermaLink="false">https://github.com/davidkimai/Context-Engineering</guid>
-      <description>&amp;quot;Context engineering is the delicate art and science of filling the context window with just the right information for the next step.&amp;quot; — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context window, prompt, prompt engineering, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>&amp;quot;Context engineering is the delicate art and science of filling the context window with just the right information for the next step.&amp;quot; — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, context window, prompt engineering, prompt | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sun, 29 Jun 2025 00:16:36 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Prompt Engineering</category>
+      <category>context</category>
       <category>context window</category>
-      <category>prompt</category>
       <category>prompt engineering</category>
     </item>
     <item>
       <title>ThinkSound - [NeurIPS 2025] PyTorch implementation of [ThinkSound], a unified framework for generating audio from any modality, guided by Chain-of-Thought (CoT) reasoning.</title>
       <link>https://github.com/FunAudioLLM/ThinkSound</link>
       <guid isPermaLink="false">https://github.com/FunAudioLLM/ThinkSound</guid>
-      <description>[NeurIPS 2025] PyTorch implementation of [ThinkSound], a unified framework for generating audio from any modality, guided by Chain-of-Thought (CoT) reasoning.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; reasoning, framework, audio, CoT, chain-of-thought | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>[NeurIPS 2025] PyTorch implementation of [ThinkSound], a unified framework for generating audio from any modality, guided by Chain-of-Thought (CoT) reasoning.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; CoT, audio, reasoning, chain-of-thought, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Fri, 27 Jun 2025 02:27:00 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Chain Of Thought</category>
-      <category>reasoning</category>
-      <category>framework</category>
+      <category>CoT</category>
       <category>audio</category>
+      <category>reasoning</category>
     </item>
     <item>
       <title>mcp-context-forge - A Model Context Protocol (MCP) Gateway &amp;amp; Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).</title>
       <link>https://github.com/IBM/mcp-context-forge</link>
       <guid isPermaLink="false">https://github.com/IBM/mcp-context-forge</guid>
-      <description>A Model Context Protocol (MCP) Gateway &amp;amp; Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, tool, LLM, API, prompt | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>A Model Context Protocol (MCP) Gateway &amp;amp; Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, LLM, model, context, tool | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Thu, 08 May 2025 08:16:59 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Tools Frameworks</category>
-      <category>model</category>
-      <category>tool</category>
+      <category>API</category>
       <category>LLM</category>
+      <category>model</category>
     </item>
     <item>
       <title>Cline-Recursive-Chain-of-Thought-System-CRCT- - A framework designed to manage context, dependencies, and tasks in large-scale Cline projects within VS Code</title>
       <link>https://github.com/RPG-fan/Cline-Recursive-Chain-of-Thought-System-CRCT-</link>
       <guid isPermaLink="false">https://github.com/RPG-fan/Cline-Recursive-Chain-of-Thought-System-CRCT-</guid>
-      <description>A framework designed to manage context, dependencies, and tasks in large-scale Cline projects within VS Code&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, context, chain-of-thought | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>A framework designed to manage context, dependencies, and tasks in large-scale Cline projects within VS Code&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; chain-of-thought, framework, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Tue, 18 Feb 2025 15:45:30 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Chain Of Thought</category>
+      <category>chain-of-thought</category>
       <category>framework</category>
       <category>context</category>
-      <category>chain-of-thought</category>
     </item>
     <item>
       <title>airweave - Context retrieval for AI agents across apps and databases</title>
       <link>https://github.com/airweave-ai/airweave</link>
       <guid isPermaLink="false">https://github.com/airweave-ai/airweave</guid>
-      <description>Context retrieval for AI agents across apps and databases&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, retrieval | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>Context retrieval for AI agents across apps and databases&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; retrieval, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Tue, 24 Dec 2024 10:00:06 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Rag Retrieval</category>
-      <category>context</category>
       <category>retrieval</category>
+      <category>context</category>
     </item>
     <item>
       <title>LightRAG - [EMNLP2025] &amp;quot;LightRAG: Simple and Fast Retrieval-Augmented Generation&amp;quot;</title>
       <link>https://github.com/HKUDS/LightRAG</link>
       <guid isPermaLink="false">https://github.com/HKUDS/LightRAG</guid>
-      <description>[EMNLP2025] &amp;quot;LightRAG: Simple and Fast Retrieval-Augmented Generation&amp;quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, augmented, retrieval | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>[EMNLP2025] &amp;quot;LightRAG: Simple and Fast Retrieval-Augmented Generation&amp;quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; augmented, RAG, retrieval | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Wed, 02 Oct 2024 11:57:54 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Rag Retrieval</category>
-      <category>RAG</category>
       <category>augmented</category>
+      <category>RAG</category>
       <category>retrieval</category>
     </item>
     <item>
       <title>KAG - KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&amp;amp;A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.</title>
       <link>https://github.com/OpenSPG/KAG</link>
       <guid isPermaLink="false">https://github.com/OpenSPG/KAG</guid>
-      <description>KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&amp;amp;A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; knowledge base, model, reasoning, framework, RAG | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&amp;amp;A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, RAG, model, retrieval, vector | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sat, 21 Sep 2024 13:56:44 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Rag Retrieval</category>
-      <category>knowledge base</category>
+      <category>LLM</category>
+      <category>RAG</category>
       <category>model</category>
-      <category>reasoning</category>
     </item>
     <item>
       <title>Kiln - Easily build AI systems with Evals, RAG, Agents, fine-tuning, synthetic data, and more.</title>
@@ -110,61 +292,228 @@
       <title>graphrag - A modular graph-based Retrieval-Augmented Generation (RAG) system</title>
       <link>https://github.com/microsoft/graphrag</link>
       <guid isPermaLink="false">https://github.com/microsoft/graphrag</guid>
-      <description>A modular graph-based Retrieval-Augmented Generation (RAG) system&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, augmented, retrieval | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>A modular graph-based Retrieval-Augmented Generation (RAG) system&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; augmented, RAG, retrieval | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Wed, 27 Mar 2024 17:57:52 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Rag Retrieval</category>
-      <category>RAG</category>
       <category>augmented</category>
+      <category>RAG</category>
       <category>retrieval</category>
     </item>
     <item>
       <title>R2R - SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.</title>
       <link>https://github.com/SciPhi-AI/R2R</link>
       <guid isPermaLink="false">https://github.com/SciPhi-AI/R2R</guid>
-      <description>SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; product, RAG, API, augmented, retrieval | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, augmented, RAG, retrieval, product | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Mon, 12 Feb 2024 03:24:27 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Rag Retrieval</category>
-      <category>product</category>
-      <category>RAG</category>
       <category>API</category>
+      <category>augmented</category>
+      <category>RAG</category>
     </item>
     <item>
       <title>openlit - Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.</title>
       <link>https://github.com/openlit/openlit</link>
       <guid isPermaLink="false">https://github.com/openlit/openlit</guid>
-      <description>Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; platform, framework, vector, LLM, prompt | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <description>Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, platform, vector, prompt, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
       <pubDate>Tue, 23 Jan 2024 17:40:59 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Tools Frameworks</category>
+      <category>LLM</category>
       <category>platform</category>
-      <category>framework</category>
       <category>vector</category>
+    </item>
+    <item>
+      <title>On the Cross-lingual Transferability of Pre-trained wav2vec2-based Models</title>
+      <link>https://arxiv.org/abs/2511.21704</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21704</guid>
+      <description>arXiv:2511.21704v1 Announce Type: new 
+Abstract: Using representations provided by a large pre-trained model has become the primary strategy for achieving state-of-the-art results in a wide range of tasks. A recently proposed large pre-trained model, wav2vec 2.0, was seminal for several other works ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; experiment, arxiv, model, fine-tuning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>experiment</category>
+      <category>arxiv</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>A perceptual bias of AI Logical Argumentation Ability in Writing</title>
+      <link>https://arxiv.org/abs/2511.22151</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.22151</guid>
+      <description>arXiv:2511.22151v1 Announce Type: new 
+Abstract: Can machines think? This is a central question in artificial intelligence research. However, there is a substantial divergence of views on the answer to this question. Why do people have such significant differences of opinion, even when they are obse...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; study, experiment, research, reasoning, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>study</category>
+      <category>experiment</category>
+      <category>research</category>
+    </item>
+    <item>
+      <title>Multiclass threshold-based classification and model evaluation</title>
+      <link>https://arxiv.org/abs/2511.21794</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21794</guid>
+      <description>arXiv:2511.21794v1 Announce Type: new 
+Abstract: In this paper, we introduce a threshold-based framework for multiclass classification that generalizes the standard argmax rule. This is done by replacing the probabilistic interpretation of softmax outputs with a geometric one on the multidimensional...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, framework, experiment, ICL, paper | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>model</category>
+      <category>framework</category>
+      <category>experiment</category>
+    </item>
+    <item>
+      <title>The Double-Edged Nature of the Rashomon Set for Trustworthy Machine Learning</title>
+      <link>https://arxiv.org/abs/2511.21799</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21799</guid>
+      <description>arXiv:2511.21799v1 Announce Type: new 
+Abstract: Real-world machine learning (ML) pipelines rarely produce a single model; instead, they produce a Rashomon set of many near-optimal ones. We show that this multiplicity reshapes key aspects of trustworthiness. At the individual-model level, sparse int...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, analysis, RAG, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>arxiv</category>
+      <category>analysis</category>
+      <category>RAG</category>
+    </item>
+    <item>
+      <title>Lightweight ML-Based Air Quality Prediction for IoT and Embedded Applications</title>
+      <link>https://arxiv.org/abs/2511.21857</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21857</guid>
+      <description>arXiv:2511.21857v1 Announce Type: new 
+Abstract: This study investigates the effectiveness and efficiency of two variants of the XGBoost regression model, the full-capacity and lightweight (tiny) versions, for predicting the concentrations of carbon monoxide (CO) and nitrogen dioxide (NO2). Using th...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, RAG, model, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>arxiv</category>
+      <category>RAG</category>
+      <category>model</category>
     </item>
     <item>
       <title>fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</title>
       <link>https://github.com/tadata-org/fastapi_mcp</link>
       <guid isPermaLink="false">https://github.com/tadata-org/fastapi_mcp</guid>
-      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, tool, context, API | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, tool, model, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sat, 08 Mar 2025 11:15:43 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Tools Frameworks</category>
-      <category>model</category>
+      <category>API</category>
       <category>tool</category>
-      <category>context</category>
+      <category>model</category>
     </item>
     <item>
       <title>cosmos-reason1 - Cosmos-Reason1 models understand the physical common sense and generate appropriate embodied decisions in natural language through long chain-of-thought reasoning processes.</title>
       <link>https://github.com/nvidia-cosmos/cosmos-reason1</link>
       <guid isPermaLink="false">https://github.com/nvidia-cosmos/cosmos-reason1</guid>
-      <description>Cosmos-Reason1 models understand the physical common sense and generate appropriate embodied decisions in natural language through long chain-of-thought reasoning processes.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, reasoning, chain-of-thought | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <description>Cosmos-Reason1 models understand the physical common sense and generate appropriate embodied decisions in natural language through long chain-of-thought reasoning processes.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; reasoning, chain-of-thought, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sun, 02 Mar 2025 15:23:55 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Chain Of Thought</category>
-      <category>model</category>
       <category>reasoning</category>
       <category>chain-of-thought</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>EvalCards: A Framework for Standardized Evaluation Reporting</title>
+      <link>https://arxiv.org/abs/2511.21695</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21695</guid>
+      <description>arXiv:2511.21695v1 Announce Type: new 
+Abstract: Evaluation has long been a central concern in NLP, and transparent reporting practices are more critical than ever in today&amp;#x27;s landscape of rapidly released open-access models. Drawing on a survey of recent work on evaluation and documentation, we iden...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, release, model, arxiv, research | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Industry News</category>
+      <category>API</category>
+      <category>release</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>JELV: A Judge of Edit-Level Validity for Evaluation and Automated Reference Expansion in Grammatical Error Correction</title>
+      <link>https://arxiv.org/abs/2511.21700</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21700</guid>
+      <description>arXiv:2511.21700v1 Announce Type: new 
+Abstract: Existing Grammatical Error Correction (GEC) systems suffer from limited reference diversity, leading to underestimated evaluation and restricted model generalization. To address this issue, we introduce the Judge of Edit-Level Validity (JELV), an auto...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, framework, LLM, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Tools Frameworks</category>
+      <category>arxiv</category>
+      <category>framework</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>Real-Time Procedural Learning From Experience for AI Agents</title>
+      <link>https://arxiv.org/abs/2511.22074</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.22074</guid>
+      <description>arXiv:2511.22074v1 Announce Type: new 
+Abstract: Learning how to do things from trial and error in real time is a hallmark of biological intelligence, yet most LLM-based agents lack mechanisms to acquire procedural knowledge after deployment. We propose Procedural Recall for Agents with eXperiences ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, LLM, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>arxiv</category>
+      <category>LLM</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios</title>
+      <link>https://arxiv.org/abs/2511.22154</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.22154</guid>
+      <description>arXiv:2511.22154v1 Announce Type: new 
+Abstract: We introduce WearVQA, the first benchmark specifically designed to evaluate the Visual Question Answering (VQA) capabilities of multi-model AI assistant on wearable devices like smart glasses. Unlike prior benchmarks that focus on high-quality, third-...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, image, model, arxiv, reasoning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Chain Of Thought</category>
+      <category>LLM</category>
+      <category>image</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>Physics-Informed Spiking Neural Networks via Conservative Flux Quantization</title>
+      <link>https://arxiv.org/abs/2511.21784</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21784</guid>
+      <description>arXiv:2511.21784v1 Announce Type: new 
+Abstract: Real-time, physically-consistent predictions on low-power edge devices is critical for the next generation embodied AI systems, yet it remains a major challenge. Physics-Informed Neural Networks (PINNs) combine data-driven learning with physics-based ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, framework, experiment, paper, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>model</category>
+      <category>framework</category>
+      <category>experiment</category>
+    </item>
+    <item>
+      <title>Dynamical Implicit Neural Representations</title>
+      <link>https://arxiv.org/abs/2511.21787</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21787</guid>
+      <description>arXiv:2511.21787v1 Announce Type: new 
+Abstract: Implicit Neural Representations (INRs) provide a powerful continuous framework for modeling complex visual and geometric signals, but spectral bias remains a fundamental challenge, limiting their ability to capture high-frequency details. Orthogonal t...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; image, model, compression, arxiv, experiment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>image</category>
+      <category>model</category>
+      <category>compression</category>
+    </item>
+    <item>
+      <title>Massively Parallel Imitation Learning of Mouse Forelimb Musculoskeletal Reaching Dynamics</title>
+      <link>https://arxiv.org/abs/2511.21848</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.21848</guid>
+      <description>arXiv:2511.21848v1 Announce Type: new 
+Abstract: The brain has evolved to effectively control the body, and in order to understand the relationship we need to model the sensorimotor transformations underlying embodied control. As part of a coordinated effort, we are developing a general-purpose plat...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, model, arxiv, platform, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Tools Frameworks</category>
+      <category>API</category>
+      <category>model</category>
+      <category>arxiv</category>
+    </item>
+    <item>
+      <title>Transformers v5: Simple model definitions powering the AI ecosystem</title>
+      <link>https://huggingface.co/blog/transformers-v5</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/transformers-v5</guid>
+      <description>...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; Hugging Face Blog | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 </pubDate>
+      <author>noreply@contextengineering.news (Hugging Face Blog)</author>
+      <category>Industry News</category>
+      <category>transformer</category>
+      <category>model</category>
     </item>
     <item>
       <title>mcp-agent - Build effective agents using Model Context Protocol and simple workflow patterns</title>
@@ -181,13 +530,39 @@
       <title>AlphaCodium - Official implementation for the paper: &amp;quot;Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering&amp;quot;&amp;quot;</title>
       <link>https://github.com/Codium-ai/AlphaCodium</link>
       <guid isPermaLink="false">https://github.com/Codium-ai/AlphaCodium</guid>
-      <description>Official implementation for the paper: &amp;quot;Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering&amp;quot;&amp;quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; paper, prompt, prompt engineering | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <description>Official implementation for the paper: &amp;quot;Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering&amp;quot;&amp;quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompt engineering, prompt, paper | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sun, 14 Jan 2024 15:17:18 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Prompt Engineering</category>
-      <category>paper</category>
-      <category>prompt</category>
       <category>prompt engineering</category>
+      <category>prompt</category>
+      <category>paper</category>
+    </item>
+    <item>
+      <title>Hybrid Stackelberg Game and Diffusion-based Auction for Two-tier Agentic AI Task Offloading in Internet of Agents</title>
+      <link>https://arxiv.org/abs/2511.22076</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.22076</guid>
+      <description>arXiv:2511.22076v1 Announce Type: new 
+Abstract: The Internet of Agents (IoA) is rapidly gaining prominence as a foundational architecture for interconnected intelligent systems, designed to facilitate seamless discovery, communication, and collaborative reasoning among a vast network of Artificial ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; API, vision, model, ICL, reasoning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Industry News</category>
+      <category>API</category>
+      <category>vision</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>Embedded Universal Predictive Intelligence: a coherent framework for multi-agent learning</title>
+      <link>https://arxiv.org/abs/2511.22226</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2511.22226</guid>
+      <description>arXiv:2511.22226v1 Announce Type: new 
+Abstract: The standard theory of model-free reinforcement learning assumes that the environment dynamics are stationary and that agents are decoupled from their environment, such that policies are treated as being separate from the world they inhabit. This lead...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, framework, model, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 01 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>arxiv</category>
+      <category>framework</category>
+      <category>model</category>
     </item>
     <item>
       <title>optillm - Optimizing inference proxy for LLMs</title>
