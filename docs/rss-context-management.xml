@@ -6,55 +6,43 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>Efficient Attention Mechanisms for Large Language Models: A Survey</title>
-      <link>https://arxiv.org/abs/2507.19595</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2507.19595</guid>
-      <description>arXiv:2507.19595v1 Announce Type: new 
-Abstract: Transformer-based architectures have become the prevailing backbone of large language models. However, the quadratic time and memory complexity of self-attention remains a fundamental obstacle to efficient long-context modeling. To address this limita...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; attention, research, arxiv, context, RAG | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 29 Jul 2025 04:00:00 </pubDate>
+      <title>Hold Onto That Thought: Assessing KV Cache Compression On Reasoning</title>
+      <link>https://arxiv.org/abs/2512.12008</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2512.12008</guid>
+      <description>arXiv:2512.12008v1 Announce Type: new 
+Abstract: Large language models (LLMs) have demonstrated remarkable performance on long-context tasks, but are often bottlenecked by memory constraints. Namely, the KV cache, which is used to significantly speed up attention computations, grows linearly with co...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, LLM, reasoning, arxiv, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Dec 2025 05:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>attention</category>
-      <category>research</category>
-      <category>arxiv</category>
-    </item>
-    <item>
-      <title>DeltaLLM: A Training-Free Framework Exploiting Temporal Sparsity for Efficient Edge LLM Inference</title>
-      <link>https://arxiv.org/abs/2507.19608</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2507.19608</guid>
-      <description>arXiv:2507.19608v1 Announce Type: new 
-Abstract: Deploying Large Language Models (LLMs) on edge devices remains challenging due to their quadratically increasing computations with the sequence length. Existing studies for dynamic attention pruning are designed for hardware with massively parallel co...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; attention, fine-tuning, LLM, context window, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 29 Jul 2025 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>attention</category>
-      <category>fine-tuning</category>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>Wavelet Logic Machines: Learning and Reasoning in the Spectral Domain Without Neural Networks</title>
-      <link>https://arxiv.org/abs/2507.19514</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2507.19514</guid>
-      <description>arXiv:2507.19514v1 Announce Type: new 
-Abstract: We introduce a fully spectral learning framework that eliminates traditional neural layers by operating entirely in the wavelet domain. The model applies learnable nonlinear transformations, including soft-thresholding and gain-phase modulation, direc...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; attention, arxiv, framework, reasoning, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 29 Jul 2025 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>attention</category>
-      <category>arxiv</category>
-      <category>framework</category>
-    </item>
-    <item>
-      <title>MoBA - MoBA: Mixture of Block Attention for Long-Context LLMs</title>
-      <link>https://github.com/MoonshotAI/MoBA</link>
-      <guid isPermaLink="false">https://github.com/MoonshotAI/MoBA</guid>
-      <description>MoBA: Mixture of Block Attention for Long-Context LLMs&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; attention, LLM, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 17 Feb 2025 13:27:30 +0000</pubDate>
-      <author>noreply@contextengineering.news (GitHub)</author>
-      <category>Context Management</category>
-      <category>attention</category>
-      <category>LLM</category>
       <category>context</category>
+      <category>LLM</category>
+      <category>reasoning</category>
+    </item>
+    <item>
+      <title>BLASST: Dynamic BLocked Attention Sparsity via Softmax Thresholding</title>
+      <link>https://arxiv.org/abs/2512.12087</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2512.12087</guid>
+      <description>arXiv:2512.12087v1 Announce Type: new 
+Abstract: The growing demand for long-context inference capabilities in Large Language Models (LLMs) has intensified the computational and memory bottlenecks inherent to the standard attention mechanism. To address this challenge, we introduce BLASST, a drop-in...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, LLM, arxiv, attention, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>context</category>
+      <category>LLM</category>
+      <category>arxiv</category>
+    </item>
+    <item>
+      <title>CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving</title>
+      <link>https://arxiv.org/abs/2512.11920</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2512.11920</guid>
+      <description>arXiv:2512.11920v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) have revolutionized natural language processing tasks, but their deployment in datacenter environments faces significant challenges due to the massive memory requirements of key-value (KV) caches. During the autoregressive...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, LLM, framework, memory, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Dec 2025 05:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>arxiv</category>
+      <category>LLM</category>
+      <category>framework</category>
     </item>
   </channel>
 </rss>
