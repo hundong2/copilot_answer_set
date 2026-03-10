@@ -6,54 +6,67 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>One Size Does Not Fit All: Token-Wise Adaptive Compression for KV Cache</title>
-      <link>https://arxiv.org/abs/2603.04411</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2603.04411</guid>
-      <description>arXiv:2603.04411v1 Announce Type: new 
-Abstract: Despite the remarkable progress of Large Language Models (LLMs), the escalating memory footprint of the Key-Value (KV) cache remains a critical bottleneck for efficient inference. While dimensionality reduction offers a promising compression avenue, e...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, memory, experiment, compression, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 06 Mar 2026 05:00:00 </pubDate>
+      <title>How Attention Sinks Emerge in Large Language Models: An Interpretability Perspective</title>
+      <link>https://arxiv.org/abs/2603.06591</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2603.06591</guid>
+      <description>arXiv:2603.06591v1 Announce Type: new 
+Abstract: Large Language Models (LLMs) often allocate disproportionate attention to specific tokens, a phenomenon commonly referred to as the attention sink. While such sinks are generally considered detrimental, prior studies have identified a notable exceptio...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, LLM, arxiv, large language model, transformer | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 10 Mar 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
+      <category>model</category>
+      <category>LLM</category>
       <category>arxiv</category>
-      <category>memory</category>
-      <category>experiment</category>
     </item>
     <item>
-      <title>Thin Keys, Full Values: Reducing KV Cache via Low-Dimensional Attention Selection</title>
-      <link>https://arxiv.org/abs/2603.04427</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2603.04427</guid>
-      <description>arXiv:2603.04427v1 Announce Type: new 
-Abstract: Standard transformer attention uses identical dimensionality for queries, keys, and values ($d_q = d_k = d_v = \dmodel$). Our insight is that these components serve fundamentally different roles, and this symmetry is unnecessary. Queries and keys prod...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, experiment, transformer, compression, fine-tuning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 06 Mar 2026 05:00:00 </pubDate>
+      <title>Structure-Aware Set Transformers: Temporal and Variable-Type Attention Biases for Asynchronous Clinical Time Series</title>
+      <link>https://arxiv.org/abs/2603.06605</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2603.06605</guid>
+      <description>arXiv:2603.06605v1 Announce Type: new 
+Abstract: Electronic health records (EHR) are irregular, asynchronous multivariate time series. As time-series foundation models increasingly tokenize events rather than discretizing time, the input layout becomes a key design choice. Grids expose time$\times$v...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, arxiv, transformer, attention, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 10 Mar 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
+      <category>model</category>
       <category>arxiv</category>
-      <category>experiment</category>
       <category>transformer</category>
     </item>
     <item>
-      <title>Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices</title>
-      <link>https://arxiv.org/abs/2603.04428</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2603.04428</guid>
-      <description>arXiv:2603.04428v1 Announce Type: new 
-Abstract: Multi-agent LLM systems on edge devices face a memory management problem: device RAM is too small to hold every agent&amp;#x27;s KV cache simultaneously. On Apple M4 Pro with 10.2 GB of cache budget, only 3 agents fit at 8K context in FP16. A 10-agent workflow...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, memory, context, prompt, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 06 Mar 2026 05:00:00 </pubDate>
+      <title>LegoNet: Memory Footprint Reduction Through Block Weight Clustering</title>
+      <link>https://arxiv.org/abs/2603.06606</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2603.06606</guid>
+      <description>arXiv:2603.06606v1 Announce Type: new 
+Abstract: As the need for neural network-based applications to become more accurate and powerful grows, so too does their size and memory footprint. With embedded devices, whose cache and RAM are limited, this growth hinders their ability to leverage state-of-t...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, model, fine-tuning, memory, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 10 Mar 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>arxiv</category>
+      <category>RAG</category>
+      <category>model</category>
+      <category>fine-tuning</category>
+    </item>
+    <item>
+      <title>MultiGen: Level-Design for Editable Multiplayer Worlds in Diffusion Game Engines</title>
+      <link>https://arxiv.org/abs/2603.06679</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2603.06679</guid>
+      <description>arXiv:2603.06679v1 Announce Type: new 
+Abstract: Video world models have shown immense promise for interactive simulation and entertainment, but current systems still struggle with two important aspects of interactivity: user control over the environment for reproducible, editable experiences, and s...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, memory, arxiv, context, context window | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 10 Mar 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>model</category>
       <category>memory</category>
-      <category>context</category>
+      <category>arxiv</category>
     </item>
     <item>
       <title>OpenViking - OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.</title>
       <link>https://github.com/volcengine/OpenViking</link>
       <guid isPermaLink="false">https://github.com/volcengine/OpenViking</guid>
-      <description>OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <description>OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
       <pubDate>Mon, 05 Jan 2026 07:11:17 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Context Management</category>
-      <category>memory</category>
       <category>context</category>
+      <category>memory</category>
     </item>
   </channel>
 </rss>
