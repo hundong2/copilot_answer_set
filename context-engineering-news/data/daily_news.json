@@ -1,76 +1,7 @@
 {
-  "generated_at": "2026-03-14T20:07:00.375335",
-  "total_items": 30,
+  "generated_at": "2026-03-15T20:07:44.256463",
+  "total_items": 20,
   "items": [
-    {
-      "title": "Structure-Aware Epistemic Uncertainty Quantification for Neural Operator PDE Surrogates",
-      "url": "https://arxiv.org/abs/2603.11052",
-      "description": "arXiv:2603.11052v1 Announce Type: new \nAbstract: Neural operators (NOs) provide fast, resolution-invariant surrogates for mapping input fields to PDE solution fields, but their predictions can exhibit significant epistemic uncertainty due to finite data, imperfect optimization, and distribution shif...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "alignment",
-        "RAG",
-        "arxiv",
-        "experiment"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Interventional Time Series Priors for Causal Foundation Models",
-      "url": "https://arxiv.org/abs/2603.11090",
-      "description": "arXiv:2603.11090v1 Announce Type: new \nAbstract: Prior-data fitted networks (PFNs) have emerged as powerful foundation models for tabular causal inference, yet their extension to time series remains limited by the absence of synthetic data generators that provide interventional targets. Existing tim...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "in_context_learning",
-      "keywords": [
-        "context",
-        "arxiv",
-        "in-context",
-        "model",
-        "framework"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Graph Tokenization for Bridging Graphs and Transformers",
-      "url": "https://arxiv.org/abs/2603.11099",
-      "description": "arXiv:2603.11099v1 Announce Type: new \nAbstract: The success of large pretrained Transformers is closely tied to tokenizers, which convert raw input into discrete symbols. Extending these models to graph-structured data remains a significant challenge. In this work, we introduce a graph tokenization...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "LLM",
-        "large language model",
-        "arxiv",
-        "transformer",
-        "model",
-        "framework"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Task-Conditioned Routing Signatures in Sparse Mixture-of-Experts Transformers",
-      "url": "https://arxiv.org/abs/2603.11114",
-      "description": "arXiv:2603.11114v1 Announce Type: new \nAbstract: Sparse Mixture-of-Experts (MoE) architectures enable efficient scaling of large language models through conditional computation, yet the routing mechanisms responsible for expert selection remain poorly understood. In this work, we introduce routing s...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "tool",
-        "release",
-        "large language model",
-        "arxiv",
-        "vector",
-        "study",
-        "transformer",
-        "model",
-        "prompt",
-        "analysis"
-      ],
-      "score": 1.0
-    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/davidkimai/Context-Engineering",
@@ -79,10 +10,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "context",
-        "prompt engineering",
         "prompt",
-        "context window"
+        "context window",
+        "context",
+        "prompt engineering"
       ],
       "score": 1.0
     },
@@ -94,11 +25,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "chain-of-thought",
-        "reasoning",
         "CoT",
+        "chain-of-thought",
         "audio",
-        "framework"
+        "framework",
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -124,8 +55,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "context",
         "chain-of-thought",
+        "context",
         "framework"
       ],
       "score": 1.0
@@ -151,8 +82,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
         "RAG",
+        "retrieval",
         "augmented"
       ],
       "score": 1.0
@@ -165,14 +96,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "LLM",
-        "vector",
-        "framework",
-        "retrieval",
-        "reasoning",
-        "knowledge base",
         "model",
-        "RAG"
+        "knowledge base",
+        "vector",
+        "LLM",
+        "RAG",
+        "retrieval",
+        "framework",
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -184,8 +115,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "fine-tuning",
-        "RAG"
+        "RAG",
+        "fine-tuning"
       ],
       "score": 1.0
     },
@@ -197,8 +128,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
         "RAG",
+        "retrieval",
         "augmented"
       ],
       "score": 1.0
@@ -211,11 +142,11 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "API",
-        "retrieval",
         "product",
         "augmented",
-        "RAG"
+        "RAG",
+        "retrieval",
+        "API"
       ],
       "score": 1.0
     },
@@ -227,11 +158,11 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "LLM",
         "vector",
+        "LLM",
         "platform",
-        "prompt",
-        "framework"
+        "framework",
+        "prompt"
       ],
       "score": 1.0
     },
@@ -243,10 +174,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "API",
+        "model",
         "context",
         "tool",
-        "model"
+        "API"
       ],
       "score": 0.8
     },
@@ -258,88 +189,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "chain-of-thought",
         "reasoning",
+        "chain-of-thought",
         "model"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Comparison of Outlier Detection Algorithms on String Data",
-      "url": "https://arxiv.org/abs/2603.11049",
-      "description": "arXiv:2603.11049v1 Announce Type: new \nAbstract: Outlier detection is a well-researched and crucial problem in machine learning. However, there is little research on string data outlier detection, as most literature focuses on outlier detection of numerical data. A robust string data outlier detecti...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "experiment",
-        "arxiv",
-        "research"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Fingerprinting Concepts in Data Streams with Supervised and Unsupervised Meta-Information",
-      "url": "https://arxiv.org/abs/2603.11094",
-      "description": "arXiv:2603.11094v1 Announce Type: new \nAbstract: Streaming sources of data are becoming more common as the ability to collect data in real-time grows. A major concern in dealing with data streams is concept drift, a change in the distribution of data over time, for example, due to changes in environ...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "in_context_learning",
-      "keywords": [
-        "arxiv",
-        "vector",
-        "model",
-        "framework",
-        "example"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Learning Tree-Based Models with Gradient Descent",
-      "url": "https://arxiv.org/abs/2603.11117",
-      "description": "arXiv:2603.11117v1 Announce Type: new \nAbstract: Tree-based models are widely recognized for their interpretability and have proven effective in various application domains, particularly in high-stakes domains. However, learning decision trees (DTs) poses a significant challenge due to their combina...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "arxiv",
-        "model",
-        "RAG",
-        "multimodal"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "A Learning-Based Superposition Operator for Non-Renewal Arrival Processes in Queueing Networks",
-      "url": "https://arxiv.org/abs/2603.11118",
-      "description": "arXiv:2603.11118v1 Announce Type: new \nAbstract: The superposition of arrival processes is a fundamental yet analytically intractable operation in queueing networks when inputs are general non-renewal streams. Classical methods either reduce merged flows to renewal surrogates, rely on computationall...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "arxiv",
-        "framework",
-        "experiment",
-        "model",
-        "analysis"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "High-resolution weather-guided surrogate modeling for data-efficient cross-location building energy prediction",
-      "url": "https://arxiv.org/abs/2603.11121",
-      "description": "arXiv:2603.11121v1 Announce Type: new \nAbstract: Building design optimization often depends on physics-based simulation tools such as EnergyPlus, which, although accurate, are computationally expensive and slow. Surrogate models provide a faster alternative, yet most are location-specific, and even ...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "tool",
-        "study",
-        "arxiv",
-        "experiment",
-        "model"
-      ],
-      "score": 0.6
     },
     {
       "title": "Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline",
@@ -374,11 +228,11 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "example",
         "prompt engineering",
-        "tool",
         "step-by-step",
         "prompt",
-        "example"
+        "tool"
       ],
       "score": 0.6
     },
@@ -390,8 +244,8 @@
       "source": "GitHub",
       "category": "industry_news",
       "keywords": [
-        "context",
-        "model"
+        "model",
+        "context"
       ],
       "score": 0.6
     },
@@ -416,25 +270,11 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
         "prompt",
-        "paper"
+        "paper",
+        "prompt engineering"
       ],
       "score": 0.6
-    },
-    {
-      "title": "Group Resonance Network: Learnable Prototypes and Multi-Subject Resonance for EEG Emotion Recognition",
-      "url": "https://arxiv.org/abs/2603.11119",
-      "description": "arXiv:2603.11119v1 Announce Type: new \nAbstract: Electroencephalography(EEG)-basedemotionrecognitionre- mains challenging in cross-subject settings due to severe inter-subject variability. Existing methods mainly learn subject-invariant features, but often under-exploit stimulus-locked group regular...",
-      "published_date": "2026-03-14T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "experiment",
-        "model",
-        "arxiv"
-      ],
-      "score": 0.4
     },
     {
       "title": "optillm - Optimizing inference proxy for LLMs",
