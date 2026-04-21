@@ -6,67 +6,41 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>PolicyBank: Evolving Policy Understanding for LLM Agents</title>
-      <link>https://arxiv.org/abs/2604.15505</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2604.15505</guid>
-      <description>arXiv:2604.15505v1 Announce Type: new 
-Abstract: LLM agents operating under organizational policies must comply with authorization constraints typically specified in natural language. In practice, such specifications inevitably contain ambiguities and logical or semantic gaps that cause the agent&amp;#x27;s ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, memory, LLM, alignment, tool | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 20 Apr 2026 04:00:00 </pubDate>
+      <title>Support Sufficiency as Consequence-Sensitive Compression in Belief Arbitration</title>
+      <link>https://arxiv.org/abs/2604.16434</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2604.16434</guid>
+      <description>arXiv:2604.16434v1 Announce Type: new 
+Abstract: When a system commits to a hypothesis, much of the evidential structure behind that commitment is lost to compression. Standard accounts assume that selected content and scalar confidence suffice for downstream control. This paper argues that they do ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, paper, RAG, arxiv, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 21 Apr 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
+      <category>context</category>
+      <category>paper</category>
+      <category>RAG</category>
+    </item>
+    <item>
+      <title>BASIS: Balanced Activation Sketching with Invariant Scalars for &amp;quot;Ghost Backpropagation&amp;quot;</title>
+      <link>https://arxiv.org/abs/2604.16324</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2604.16324</guid>
+      <description>arXiv:2604.16324v1 Announce Type: new 
+Abstract: The activation memory required for exact backpropagation scales linearly with network depth, context length, and feature dimensionality, forming an O(L * BN ) spatial bottleneck (where B is the sequence-batch cardinality and N is the feature dimension...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, paper, arxiv, model, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 21 Apr 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>context</category>
+      <category>paper</category>
       <category>arxiv</category>
-      <category>memory</category>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>Consistency Analysis of Sentiment Predictions using Syntactic &amp;amp; Semantic Context Assessment Summarization (SSAS)</title>
-      <link>https://arxiv.org/abs/2604.15547</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2604.15547</guid>
-      <description>arXiv:2604.15547v1 Announce Type: new 
-Abstract: The fundamental challenge of using Large Language Models (LLMs) for reliable, enterprise-grade analytics, such as sentiment prediction, is the conflict between the LLMs&amp;#x27; inherent stochasticity (generative, non-deterministic nature) and the analytical ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; product, attention, model, analysis, prompt | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 20 Apr 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>product</category>
-      <category>attention</category>
-      <category>model</category>
-    </item>
-    <item>
-      <title>Sequential KV Cache Compression via Probabilistic Language Tries: Beyond the Per-Vector Shannon Limit</title>
-      <link>https://arxiv.org/abs/2604.15356</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2604.15356</guid>
-      <description>arXiv:2604.15356v1 Announce Type: new 
-Abstract: Recent work on KV cache quantization, culminating in TurboQuant, has approached the Shannon entropy limit for per-vector compression of transformer key-value caches. We observe that this limit applies to a strictly weaker problem than the one that act...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, attention, model, RAG, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 20 Apr 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>transformer</category>
-      <category>attention</category>
-      <category>model</category>
-    </item>
-    <item>
-      <title>The Illusion of Equivalence: Systematic FP16 Divergence in KV-Cached Autoregressive Inference</title>
-      <link>https://arxiv.org/abs/2604.15409</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2604.15409</guid>
-      <description>arXiv:2604.15409v1 Announce Type: new 
-Abstract: KV caching is a ubiquitous optimization in autoregressive transformer inference, long presumed to be numerically equivalent to cache-free computation. This assumption fails under standard FP16 precision: cache-ON and cache-OFF execution paths employ d...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, attention, model, LLM, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 20 Apr 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>transformer</category>
-      <category>attention</category>
-      <category>model</category>
     </item>
     <item>
       <title>OpenViking - OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.</title>
       <link>https://github.com/volcengine/OpenViking</link>
       <guid isPermaLink="false">https://github.com/volcengine/OpenViking</guid>
-      <description>OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <description>OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
       <pubDate>Mon, 05 Jan 2026 07:11:17 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Context Management</category>
-      <category>context</category>
       <category>memory</category>
+      <category>context</category>
     </item>
   </channel>
 </rss>
