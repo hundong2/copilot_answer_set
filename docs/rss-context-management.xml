@@ -6,30 +6,43 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents</title>
-      <link>https://arxiv.org/abs/2604.23069</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2604.23069</guid>
-      <description>arXiv:2604.23069v1 Announce Type: new 
-Abstract: Large language model (LLM) agents often struggle in long-context interactions. As the agent accumulates more interaction history, context management approaches such as sliding window and prompt compression may omit earlier structured information that ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, compression, prompt, model, large language model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 28 Apr 2026 04:00:00 </pubDate>
+      <title>S^2tory: Story Spine Distillation for Movie Script Summarization</title>
+      <link>https://arxiv.org/abs/2605.03244</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.03244</guid>
+      <description>arXiv:2605.03244v1 Announce Type: new 
+Abstract: Movie scripts pose a fundamental challenge for automatic summarization due to their non-linear, cross-cut narrative structure, which makes surface-level saliency methods ineffective at preserving core story progression. To address this, we introduce S...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; summarization, model, zero-shot, arxiv, experiment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 06 May 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>summarization</category>
+      <category>model</category>
+      <category>zero-shot</category>
+    </item>
+    <item>
+      <title>eOptShrinkQ: Near-Lossless KV Cache Compression Through Optimal Spectral Denoising and Quantization</title>
+      <link>https://arxiv.org/abs/2605.02905</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.02905</guid>
+      <description>arXiv:2605.02905v1 Announce Type: new 
+Abstract: We show that the key-value (KV) cache in transformer attention heads admits a natural decomposition into a low-rank \emph{shared context} component and a full-rank \emph{per-token} residual, well described by the spiked random matrix model. This obser...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, retrieval, model, product, vector | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 06 May 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
       <category>context</category>
-      <category>compression</category>
-      <category>prompt</category>
+      <category>retrieval</category>
+      <category>model</category>
     </item>
     <item>
-      <title>Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing</title>
-      <link>https://arxiv.org/abs/2604.22782</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2604.22782</guid>
-      <description>arXiv:2604.22782v1 Announce Type: new 
-Abstract: Serving transformer language models with high throughput requires caching Key-Values (KVs) to avoid redundant computation during autoregressive generation. The memory footprint of KV caching is significant and heavily impacts serving costs. This work ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; compression, model, fine-tuning, memory, research | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 28 Apr 2026 04:00:00 </pubDate>
+      <title>On the Invariants of Softmax Attention</title>
+      <link>https://arxiv.org/abs/2605.02907</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.02907</guid>
+      <description>arXiv:2605.02907v1 Announce Type: new 
+Abstract: Softmax attention maps every query--key interaction into a probability distribution, but the underlying structure remains largely unexplored. We define the \emph{energy field}, the row-centered attention logit, and show that it exhibits invariant prop...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, arxiv, attention, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 06 May 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>compression</category>
-      <category>model</category>
-      <category>fine-tuning</category>
+      <category>context</category>
+      <category>arxiv</category>
+      <category>attention</category>
     </item>
     <item>
       <title>OpenViking - OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.</title>
