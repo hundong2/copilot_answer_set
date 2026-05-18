@@ -6,54 +6,53 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>RateQuant: Optimal Mixed-Precision KV Cache Quantization via Rate-Distortion Theory</title>
-      <link>https://arxiv.org/abs/2605.06675</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2605.06675</guid>
-      <description>arXiv:2605.06675v1 Announce Type: new 
-Abstract: Large language models cache all previously computed key-value (KV) pairs during generation, and this KV cache grows linearly with sequence length, making it a primary memory bottleneck for serving. Quantizing the KV cache to fewer bits reduces this co...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention, large language model, model, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 11 May 2026 04:00:00 </pubDate>
+      <title>Quantization Undoes Alignment: Bias Emergence in Compressed LLMs Across Models and Precision Levels</title>
+      <link>https://arxiv.org/abs/2605.15208</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.15208</guid>
+      <description>arXiv:2605.15208v1 Announce Type: new 
+Abstract: Large Language Models are routinely compressed via post-training quantization to reduce inference costs and memory footprint for cloud and edge deployment, yet the impact of this compression on model quality remains poorly understood. Existing studies...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; large language model, alignment, LLM, compression, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 18 May 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>large language model</category>
+      <category>alignment</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>GQLA: Group-Query Latent Attention for Hardware-Adaptive Large Language Model Decoding</title>
+      <link>https://arxiv.org/abs/2605.15250</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.15250</guid>
+      <description>arXiv:2605.15250v1 Announce Type: new 
+Abstract: Multi-head Latent Attention (MLA), the attention used in DeepSeek-V2/V3, jointly compresses keys and values into a low-rank latent and matches the H100 roofline almost perfectly. Its trained weights, however, expose only one decoding path - an absorbe...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, large language model, arxiv, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 18 May 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>model</category>
+      <category>large language model</category>
+      <category>arxiv</category>
+    </item>
+    <item>
+      <title>DeepSlide: From Artifacts to Presentation Delivery</title>
+      <link>https://arxiv.org/abs/2605.15202</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.15202</guid>
+      <description>arXiv:2605.15202v1 Announce Type: new 
+Abstract: Presentations are a primary medium for scholarly communication, yet most AI slide generators optimize the artifact (a visually plausible deck) while under-optimizing the delivery process (pacing, narrative, and presentation preparation). We present De...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 18 May 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
       <category>arxiv</category>
       <category>attention</category>
-      <category>large language model</category>
-    </item>
-    <item>
-      <title>LKV: End-to-End Learning of Head-wise Budgets and Token Selection for LLM KV Cache Eviction</title>
-      <link>https://arxiv.org/abs/2605.06676</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2605.06676</guid>
-      <description>arXiv:2605.06676v1 Announce Type: new 
-Abstract: Long-context inference in Large Language Models (LLMs) is bottlenecked by the linear growth of Key-Value (KV) cache memory. Existing KV cache compression paradigms are fundamentally limited by heuristics: heuristic budgeting relies on statistical prio...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, compression, LLM, attention, large language model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 11 May 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>arxiv</category>
-      <category>compression</category>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>Toeplitz MLP Mixers are Low Complexity, Information-Rich Sequence Models</title>
-      <link>https://arxiv.org/abs/2605.06683</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2605.06683</guid>
-      <description>arXiv:2605.06683v1 Announce Type: new 
-Abstract: Transformer-based large language models are in some respects limited by the quadratic time and space computational complexity of attention. We introduce the Toeplitz MLP Mixer (TMM), a transformer-like architecture that swaps attention for triangular-...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, retrieval, transformer, in-context, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 11 May 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>arxiv</category>
-      <category>retrieval</category>
-      <category>transformer</category>
     </item>
     <item>
       <title>OpenViking - OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.</title>
       <link>https://github.com/volcengine/OpenViking</link>
       <guid isPermaLink="false">https://github.com/volcengine/OpenViking</guid>
-      <description>OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <description>OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
       <pubDate>Mon, 05 Jan 2026 07:11:17 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Context Management</category>
-      <category>memory</category>
       <category>context</category>
+      <category>memory</category>
     </item>
   </channel>
 </rss>
