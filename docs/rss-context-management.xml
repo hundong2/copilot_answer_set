@@ -6,53 +6,39 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>Quantization Undoes Alignment: Bias Emergence in Compressed LLMs Across Models and Precision Levels</title>
-      <link>https://arxiv.org/abs/2605.15208</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2605.15208</guid>
-      <description>arXiv:2605.15208v1 Announce Type: new 
-Abstract: Large Language Models are routinely compressed via post-training quantization to reduce inference costs and memory footprint for cloud and edge deployment, yet the impact of this compression on model quality remains poorly understood. Existing studies...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; large language model, alignment, LLM, compression, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 18 May 2026 04:00:00 </pubDate>
+      <title>Tensor Cache: Eviction-conditioned Associative Memory for Transformers</title>
+      <link>https://arxiv.org/abs/2605.22884</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2605.22884</guid>
+      <description>arXiv:2605.22884v1 Announce Type: new 
+Abstract: Autoregressive Transformer KV caches grow linearly with context length; sliding-window caching bounds memory but discards evicted tokens entirely, so relevant evidence outside the window becomes inaccessible. We introduce \emph{Tensor Cache}, a two-le...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, product, attention, arxiv, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 25 May 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>large language model</category>
-      <category>alignment</category>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>GQLA: Group-Query Latent Attention for Hardware-Adaptive Large Language Model Decoding</title>
-      <link>https://arxiv.org/abs/2605.15250</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2605.15250</guid>
-      <description>arXiv:2605.15250v1 Announce Type: new 
-Abstract: Multi-head Latent Attention (MLA), the attention used in DeepSeek-V2/V3, jointly compresses keys and values into a low-rank latent and matches the H100 roofline almost perfectly. Its trained weights, however, expose only one decoding path - an absorbe...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, large language model, arxiv, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 18 May 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>model</category>
-      <category>large language model</category>
-      <category>arxiv</category>
-    </item>
-    <item>
-      <title>DeepSlide: From Artifacts to Presentation Delivery</title>
-      <link>https://arxiv.org/abs/2605.15202</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2605.15202</guid>
-      <description>arXiv:2605.15202v1 Announce Type: new 
-Abstract: Presentations are a primary medium for scholarly communication, yet most AI slide generators optimize the artifact (a visually plausible deck) while under-optimizing the delivery process (pacing, narrative, and presentation preparation). We present De...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 18 May 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>arxiv</category>
+      <category>transformer</category>
+      <category>product</category>
       <category>attention</category>
     </item>
     <item>
       <title>OpenViking - OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.</title>
       <link>https://github.com/volcengine/OpenViking</link>
       <guid isPermaLink="false">https://github.com/volcengine/OpenViking</guid>
-      <description>OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <description>OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
       <pubDate>Mon, 05 Jan 2026 07:11:17 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Context Management</category>
-      <category>context</category>
       <category>memory</category>
+      <category>context</category>
+    </item>
+    <item>
+      <title>WrenAI - Give AI agents the context to query business data correctly through the open context layer that gives AI agents grounded, governed memory, context, SQL across 20+ data sources, that helps you build GenBI, agentic BI, text-to-sql, dashboards, and agentic analytics.</title>
+      <link>https://github.com/Canner/WrenAI</link>
+      <guid isPermaLink="false">https://github.com/Canner/WrenAI</guid>
+      <description>Give AI agents the context to query business data correctly through the open context layer that gives AI agents grounded, governed memory, context, SQL across 20+ data sources, that helps you build GenBI, agentic BI, text-to-sql, dashboards, and agentic analytics.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 13 Mar 2024 06:18:20 +0000</pubDate>
+      <author>noreply@contextengineering.news (GitHub)</author>
+      <category>Context Management</category>
+      <category>memory</category>
+      <category>context</category>
     </item>
   </channel>
 </rss>
