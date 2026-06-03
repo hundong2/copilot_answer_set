@@ -6,30 +6,43 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>Universal Quantum Transformer</title>
-      <link>https://arxiv.org/abs/2606.00045</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.00045</guid>
-      <description>arXiv:2606.00045v1 Announce Type: new 
-Abstract: Classical continuous-space neural networks fundamentally struggle to lock into exact mathematical symmetries, such as modular arithmetic and non-commutative algebra. To approximate these discrete logical rules, they often rely on massive parameter sca...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; reasoning, attention, arxiv, embedding, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 02 Jun 2026 04:00:00 </pubDate>
+      <title>Do Value Vectors in Deep Layers Need Context from the Residual Stream?</title>
+      <link>https://arxiv.org/abs/2606.02780</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.02780</guid>
+      <description>arXiv:2606.02780v1 Announce Type: new 
+Abstract: The success of the transformer architecture as the backbone of modern LLMs is in large part due to its use of attention layers. An attention layer follows the standard neural network paradigm: it takes the residual stream as input and thereby produces...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, model, LLM, transformer, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 03 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>reasoning</category>
-      <category>attention</category>
-      <category>arxiv</category>
+      <category>memory</category>
+      <category>model</category>
+      <category>LLM</category>
     </item>
     <item>
-      <title>BitsMoE: Efficient Spectral Energy-Guided Bit Allocation for MoE LLM Quantization</title>
-      <link>https://arxiv.org/abs/2606.00079</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.00079</guid>
-      <description>arXiv:2606.00079v1 Announce Type: new 
-Abstract: Mixture-of-Experts (MoE) large language models reduce per-token computation through sparse expert activation, but their deployment remains memory-intensive because all expert weights must be kept resident in memory. Existing MoE compression methods st...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; large language model, compression, experiment, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 02 Jun 2026 04:00:00 </pubDate>
+      <title>Spectral Asymptotics of Neural Network Loss Landscapes: An Exact Decomposition of the Curvature Exponent</title>
+      <link>https://arxiv.org/abs/2606.02596</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.02596</guid>
+      <description>arXiv:2606.02596v1 Announce Type: new 
+Abstract: The curvature exponent $\alpha$ in $h_k \propto \sigma_k^\alpha$ -- governing how Hessian eigenvalues scale with gradient singular values -- varies systematically across layer types ($\alpha \approx 2$ for convolutions, $\approx 1$ for transformer att...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; alignment, transformer, attention, arxiv, vision | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 03 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>large language model</category>
-      <category>compression</category>
-      <category>experiment</category>
+      <category>alignment</category>
+      <category>transformer</category>
+      <category>attention</category>
+    </item>
+    <item>
+      <title>AURA: Action-Gated Memory for Robot Policies at Constant VRAM</title>
+      <link>https://arxiv.org/abs/2606.02775</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.02775</guid>
+      <description>arXiv:2606.02775v1 Announce Type: new 
+Abstract: The KV-cache is the right memory for datacenters but the wrong memory for robots. Datacenter inference batches many short requests and resets them, amortizing an attention cache across a crowd. Embodied agents instead run one long, non-resetting episo...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, attention, arxiv, demonstration, vision | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 03 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>memory</category>
+      <category>attention</category>
+      <category>arxiv</category>
     </item>
     <item>
       <title>OpenViking - OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.</title>
