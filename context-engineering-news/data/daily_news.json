@@ -1,119 +1,7 @@
 {
-  "generated_at": "2026-06-06T20:27:55.246686",
-  "total_items": 31,
+  "generated_at": "2026-06-07T20:29:27.863983",
+  "total_items": 19,
   "items": [
-    {
-      "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
-      "url": "https://arxiv.org/abs/2606.05256",
-      "description": "arXiv:2606.05256v1 Announce Type: new \nAbstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated acco...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "alignment",
-        "study",
-        "LLM",
-        "arxiv",
-        "experiment",
-        "model",
-        "analysis",
-        "ICL",
-        "large language model",
-        "research",
-        "release"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2606.05304",
-      "description": "arXiv:2606.05304v1 Announce Type: new \nAbstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form co...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "industry_news",
-      "keywords": [
-        "context window",
-        "arxiv",
-        "model",
-        "product",
-        "context",
-        "ICL",
-        "large language model",
-        "API"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "GITCO: Gated Inference-Time Context Optimization in TSFMs",
-      "url": "https://arxiv.org/abs/2606.05332",
-      "description": "arXiv:2606.05332v1 Announce Type: new \nAbstract: Patch-based Time Series Foundation Models (TSFMs) suffer from context poisoning: structurally anomalous patches capture disproportionate attention and silently degrade zero-shot forecast quality. We propose improving TSFM accuracy at inference time by...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "attention",
-        "framework",
-        "arxiv",
-        "model",
-        "context",
-        "RAG",
-        "zero-shot"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory",
-      "url": "https://arxiv.org/abs/2606.05334",
-      "description": "arXiv:2606.05334v1 Announce Type: new \nAbstract: Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining capability. Reuse cannot be decided from the current inspection alone, because future function fulfillment and component ...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "LLM",
-        "arxiv",
-        "analysis",
-        "tool",
-        "product",
-        "paper"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Synthetic Contrastive Reasoning for Multi-Table Q&A",
-      "url": "https://arxiv.org/abs/2606.05382",
-      "description": "arXiv:2606.05382v1 Announce Type: new \nAbstract: Multi-table question answering requires models to retrieve relevant evidence, link schemas, and perform compositional reasoning across relational tables. Existing multi-table Q&amp;A resources typically provide questions and final answers but lack rea...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "chain_of_thought",
-      "keywords": [
-        "vision",
-        "LLM",
-        "fine-tuning",
-        "arxiv",
-        "model",
-        "RAG",
-        "reasoning"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Stability vs. Manipulability: Evaluating Robustness Under Post-Decision Interaction in LLM Judges",
-      "url": "https://arxiv.org/abs/2606.05384",
-      "description": "arXiv:2606.05384v1 Announce Type: new \nAbstract: LLM-as-judge evaluation is widely used in benchmarking pipelines, where model outputs are compared and ranked using automated evaluators. These pipelines typically assume that judgments are stable properties of fixed inputs. We show that this assumpti...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "study",
-        "LLM",
-        "arxiv",
-        "model",
-        "experiment"
-      ],
-      "score": 1.0
-    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/davidkimai/Context-Engineering",
@@ -122,9 +10,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
-        "context",
         "context window",
+        "context",
+        "prompt",
         "prompt engineering"
       ],
       "score": 1.0
@@ -138,13 +26,13 @@
       "category": "tools_frameworks",
       "keywords": [
         "prompt",
-        "prompt engineering",
+        "platform",
         "LLM",
-        "model",
-        "tool",
-        "paper",
         "large language model",
-        "platform"
+        "paper",
+        "model",
+        "prompt engineering",
+        "tool"
       ],
       "score": 1.0
     },
@@ -157,10 +45,10 @@
       "category": "chain_of_thought",
       "keywords": [
         "framework",
-        "CoT",
-        "audio",
         "chain-of-thought",
-        "reasoning"
+        "reasoning",
+        "CoT",
+        "audio"
       ],
       "score": 1.0
     },
@@ -172,9 +60,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "vector",
         "RAG",
-        "reasoning",
-        "vector"
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -187,8 +75,8 @@
       "category": "chain_of_thought",
       "keywords": [
         "framework",
-        "chain-of-thought",
-        "context"
+        "context",
+        "chain-of-thought"
       ],
       "score": 1.0
     },
@@ -200,9 +88,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "augmented",
         "RAG",
-        "retrieval",
-        "augmented"
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -214,14 +102,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "framework",
-        "retrieval",
         "vector",
-        "LLM",
-        "model",
         "RAG",
+        "retrieval",
+        "framework",
+        "reasoning",
+        "LLM",
         "knowledge base",
-        "reasoning"
+        "model"
       ],
       "score": 1.0
     },
@@ -233,8 +121,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
-        "fine-tuning"
+        "fine-tuning",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -246,9 +134,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "augmented",
         "RAG",
-        "retrieval",
-        "augmented"
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -260,10 +148,10 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
         "product",
-        "API",
         "RAG",
+        "retrieval",
+        "API",
         "augmented"
       ],
       "score": 1.0
@@ -277,8 +165,8 @@
       "category": "tools_frameworks",
       "keywords": [
         "API",
-        "model",
         "context",
+        "model",
         "tool"
       ],
       "score": 0.8
@@ -291,45 +179,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "model",
         "chain-of-thought",
+        "model",
         "reasoning"
       ],
       "score": 0.8
-    },
-    {
-      "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
-      "url": "https://arxiv.org/abs/2606.05342",
-      "description": "arXiv:2606.05342v1 Announce Type: new \nAbstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searching for alternatives, or otherwise trying to force progr...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "attention",
-        "prompt",
-        "arxiv",
-        "model",
-        "tool"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "An interpretable and trustworthy AI framework for large-scale longitudinal structure-pain association studies using data from the Osteoarthritis Initiative (OAI)",
-      "url": "https://arxiv.org/abs/2606.05357",
-      "description": "arXiv:2606.05357v1 Announce Type: new \nAbstract: Purpose: To develop an interpretable and trustworthy AI framework that combines deep learning based MRI Osteoarthritis Knee Score (MOAKS) prediction with interpretable statistical modeling to study structure-pain relationships at scale using data from...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "study",
-        "arxiv",
-        "model",
-        "analysis",
-        "API",
-        "example"
-      ],
-      "score": 0.6
     },
     {
       "title": "code-review-graph - Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
@@ -366,10 +220,10 @@
       "category": "prompt_engineering",
       "keywords": [
         "prompt",
-        "prompt engineering",
-        "tool",
         "example",
-        "step-by-step"
+        "step-by-step",
+        "prompt engineering",
+        "tool"
       ],
       "score": 0.6
     },
@@ -381,8 +235,8 @@
       "source": "GitHub",
       "category": "industry_news",
       "keywords": [
-        "model",
-        "context"
+        "context",
+        "model"
       ],
       "score": 0.6
     },
@@ -414,22 +268,6 @@
       "score": 0.6
     },
     {
-      "title": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
-      "url": "https://arxiv.org/abs/2606.05316",
-      "description": "arXiv:2606.05316v1 Announce Type: new \nAbstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation. Existing methods often overlook such knowledge or rely on fixed parametric knowledge of pretrained models that may be incomplete, outdated, or unavailab...",
-      "published_date": "2026-06-06T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "experiment",
-        "arxiv",
-        "model",
-        "multimodal"
-      ],
-      "score": 0.4
-    },
-    {
       "title": "optillm - Optimizing inference proxy for LLMs",
       "url": "https://github.com/algorithmicsuperintelligence/optillm",
       "description": "Optimizing inference proxy for LLMs",
@@ -440,42 +278,6 @@
         "LLM"
       ],
       "score": 0.4
-    },
-    {
-      "title": "Five labs, five minds: building a multi-model finance drama on small models",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-      "description": "...",
-      "published_date": "2026-06-06T19:02:33",
-      "source": "Hugging Face Blog",
-      "category": "industry_news",
-      "keywords": [
-        "model"
-      ],
-      "score": 0.2
-    },
-    {
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "description": "...",
-      "published_date": "2026-06-04T18:57:45",
-      "source": "Hugging Face Blog",
-      "category": "multimodal_context",
-      "keywords": [
-        "multimodal"
-      ],
-      "score": 0.2
-    },
-    {
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "description": "...",
-      "published_date": "2026-06-04T12:24:58",
-      "source": "Hugging Face Blog",
-      "category": "tools_frameworks",
-      "keywords": [
-        "tool"
-      ],
-      "score": 0.2
     }
   ]
 }
