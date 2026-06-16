@@ -6,174 +6,264 @@
     <description>Latest Research Papers news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>The Coin Flip Judge? Reliability and Bias in LLM-as-a-Judge Evaluation</title>
-      <link>https://arxiv.org/abs/2606.13685</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13685</guid>
-      <description>arXiv:2606.13685v1 Announce Type: new 
-Abstract: LLM-as-a-Judge is now widely used to rank model outputs, train reward models, and populate public leaderboards, but its run-to-run reliability remains under-characterized. We study repeated identical evaluations on 29 tasks spanning 10 categories usin...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, prompt, analysis, GPT, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
+      <title>Context Compression Is Not One Thing: Readable Symbolic Re-expression vs. Coherent Summary at Matched Budget</title>
+      <link>https://arxiv.org/abs/2606.14875</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14875</guid>
+      <description>arXiv:2606.14875v1 Announce Type: new 
+Abstract: We study context compression for multi-hop question answering with small language models. We propose Telegraph English, a readable symbolic format that rewrites retrieved passages into structured entity-relation statements, preserving reasoning eviden...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; compression, summarization, context, reasoning, experiment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
-      <category>RAG</category>
-      <category>prompt</category>
-      <category>analysis</category>
+      <category>compression</category>
+      <category>summarization</category>
+      <category>context</category>
     </item>
     <item>
-      <title>The Culture Funnel: You Can&amp;#x27;t Align What isn&amp;#x27;t in the Data</title>
-      <link>https://arxiv.org/abs/2606.13808</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13808</guid>
-      <description>arXiv:2606.13808v1 Announce Type: new 
-Abstract: Current cultural alignment approaches focus on inference-time interventions, assuming models already contain sufficient cultural knowledge. We argue modern LLM pipelines suffer from a cultural data funnel. Using a multidimensional tagging framework ac...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; research, alignment, release, framework, fine-tuning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
+      <title>Simplifying the Modeling of Arbitrary Conditionals in Natural Language</title>
+      <link>https://arxiv.org/abs/2606.14943</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14943</guid>
+      <description>arXiv:2606.14943v1 Announce Type: new 
+Abstract: Causal Transformers model sequences through an autoregressive factorization of the joint distribution, which enables efficient left-to-right decoding and conditional likelihood computation. However, they cannot tractably sample from or evaluate arbitr...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, LLM, context, GPT, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
-      <category>research</category>
-      <category>alignment</category>
-      <category>release</category>
+      <category>transformer</category>
+      <category>LLM</category>
+      <category>context</category>
     </item>
     <item>
-      <title>DLawBench: Evaluating LLMs Through Multi-Turn Legal Consultation</title>
-      <link>https://arxiv.org/abs/2606.13931</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13931</guid>
-      <description>arXiv:2606.13931v1 Announce Type: new 
-Abstract: Lawyer-client consultation is a critical starting point for legal services. Effective legal assistance hinges on eliciting sufficient and truthful information from clients in order to devise strategies that best protect their interests. This task requ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; large language model, GPT, experiment, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
+      <title>ReportQA: QA-Based Radiology Report Evaluation</title>
+      <link>https://arxiv.org/abs/2606.15037</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.15037</guid>
+      <description>arXiv:2606.15037v1 Announce Type: new 
+Abstract: Radiology report evaluation is essential for advancing automated report generation. Natural language generation metrics have limited clinical relevance. Clinical efficacy (CE) metrics evaluate important medical findings, but focus mainly on presence a...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; image, vision, template, large language model, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
+      <category>image</category>
+      <category>vision</category>
+      <category>template</category>
+    </item>
+    <item>
+      <title>Equity with Efficiency: An Empirical Study of Tokenizers for Multilingual Large Language Models</title>
+      <link>https://arxiv.org/abs/2606.15044</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.15044</guid>
+      <description>arXiv:2606.15044v1 Announce Type: new 
+Abstract: Multilingual large language models (LLMs) depend on subword tokenization to bridge discrete text and continuous neural representation. State-of-the-art multilingual LLMs often use Byte-level Byte-Pair Encoding (BPE) tokenizers that structurally favor ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; compression, large language model, transformer, LLM, reasoning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>compression</category>
       <category>large language model</category>
-      <category>GPT</category>
-      <category>experiment</category>
-    </item>
-    <item>
-      <title>A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem</title>
-      <link>https://arxiv.org/abs/2606.13682</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13682</guid>
-      <description>arXiv:2606.13682v1 Announce Type: new 
-Abstract: The open shop scheduling problem (OSSP) arises in many industrial and service settings but remains computationally challenging as the number of jobs and machines increases. While exact methods quickly become intractable, classical dispatching rules an...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, attention, transformer, arxiv, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>RAG</category>
-      <category>attention</category>
       <category>transformer</category>
     </item>
     <item>
-      <title>UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented Dialogue Systems</title>
-      <link>https://arxiv.org/abs/2606.13683</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13683</guid>
-      <description>arXiv:2606.13683v1 Announce Type: new 
-Abstract: To address the challenge that current dialogue policy planning methods struggle to dynamically adapt to diverse user characteristics, this paper proposes a User Portrait based Nested Rollout Policy Adaptation (UP-NRPA) online framework with Large Lang...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; large language model, RAG, framework, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>large language model</category>
-      <category>RAG</category>
-      <category>framework</category>
-    </item>
-    <item>
-      <title>Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher</title>
-      <link>https://arxiv.org/abs/2606.13710</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13710</guid>
-      <description>arXiv:2606.13710v1 Announce Type: new 
-Abstract: Deep research and agent evolution serve as de-facto tasks for AI agents in real-world applications toward artificial general intelligence. The former enables autonomous retrieval and integration of information in open-ended environments to tackle open...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, research, retrieval, framework, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>RAG</category>
-      <category>research</category>
-      <category>retrieval</category>
-    </item>
-    <item>
-      <title>TwinBI: An Agentic Digital Twin for Efficient Augmented Interactions with Business Intelligence Dashboards</title>
-      <link>https://arxiv.org/abs/2606.13731</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13731</guid>
-      <description>arXiv:2606.13731v1 Announce Type: new 
-Abstract: Business intelligence (BI) increasingly combines dashboard interaction with LLM-based assistance, but these two modes often fall out of sync during multi-step analysis. As users switch between direct dashboard manipulation and natural-language queries...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, analysis, augmented, framework, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
+      <title>A Definition of Good Explanations and the Challenges Explaining LLM Outputs</title>
+      <link>https://arxiv.org/abs/2606.14838</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14838</guid>
+      <description>arXiv:2606.14838v1 Announce Type: new 
+Abstract: How to define a good explanation is a long-standing philosophical debate which has found recent renewed interest in the context of AI outputs. Explainability is crucial for AI adoption in many contexts, but in order to produce good explanations of AI ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, arxiv, paper, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
       <category>context</category>
+      <category>arxiv</category>
+      <category>paper</category>
+    </item>
+    <item>
+      <title>Dr-DCI: Scaling Direct Corpus Interaction via Dynamic Workspace Expansion</title>
+      <link>https://arxiv.org/abs/2606.14885</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14885</guid>
+      <description>arXiv:2606.14885v1 Announce Type: new 
+Abstract: Agentic search over large corpora relies on retriever-mediated interfaces (e.g., BM25 or ColBERT) for scalable candidate discovery. While effective at ranking relevant documents, these interfaces expose evidence only as ranked results or bounded docum...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; tool, analysis, RAG, context, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>tool</category>
       <category>analysis</category>
+      <category>RAG</category>
+    </item>
+    <item>
+      <title>AI Engram: In Search of Memory Traces in Artificial Intelligence</title>
+      <link>https://arxiv.org/abs/2606.14997</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14997</guid>
+      <description>arXiv:2606.14997v1 Announce Type: new 
+Abstract: Memory formation is fundamental to intelligence, yet whether deep neural networks preserve identifiable memory traces analogous to biological memory units remains an open question. This work introduces a geometric framework to identify such &amp;quot;AI engram...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, RAG, LLM, framework, experiment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>memory</category>
+      <category>RAG</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>Metric Match: A Subset Selection Approach to Evaluating LLM Judge Reliability</title>
+      <link>https://arxiv.org/abs/2606.15029</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.15029</guid>
+      <description>arXiv:2606.15029v1 Announce Type: new 
+Abstract: LLM judges are used to reduce the need for costly human labor in evaluating open-ended text generation. However, the reliability of these judges depends critically on their alignment with human raters -- a property that itself depends on costly human ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, LLM, ICL, alignment, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>RAG</category>
+      <category>LLM</category>
+      <category>ICL</category>
+    </item>
+    <item>
+      <title>OSGuard: A Benchmark for Safety in Computer-Use Agents</title>
+      <link>https://arxiv.org/abs/2606.15034</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.15034</guid>
+      <description>arXiv:2606.15034v1 Announce Type: new 
+Abstract: Computer-use agents are increasingly evaluated by whether they complete realistic desktop and web tasks. However, task success alone can miss failures in which an agent reaches the nominal goal through an unsafe shortcut. We introduce OSGuard, a dual-...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; multimodal, context, augmented, experiment, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>multimodal</category>
+      <category>context</category>
       <category>augmented</category>
     </item>
     <item>
-      <title>Can Editing 1 Neuron Fix Repetition Loops in LLMs?</title>
-      <link>https://arxiv.org/abs/2606.13705</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13705</guid>
-      <description>arXiv:2606.13705v1 Announce Type: new 
-Abstract: Yes. Can it cure doom loops? Probably not.
-  The Gemma 4 instruction-tuned models share a reproducible failure: on long factual enumeration prompts, such as listing every episode of a TV series, the 88 IAU constellations, or the 151 original Pokemon, ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompt, demonstration, arxiv, study, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>prompt</category>
-      <category>demonstration</category>
-      <category>arxiv</category>
-    </item>
-    <item>
-      <title>Beyond LoRA: Is Sparsity-Induced Adaptation Better?</title>
-      <link>https://arxiv.org/abs/2606.13767</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13767</guid>
-      <description>arXiv:2606.13767v1 Announce Type: new 
-Abstract: Low-rank adaptation (LoRA) and its variants provide a memory- and compute-efficient alternative to full fine-tuning of pre-trained models. However, questions remain about the comparative generalizability of these approaches and how the structural rest...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, tool, analysis, fine-tuning, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
+      <title>GRASP: Gradient-Aligned Sequential Parameter Transfer for Memory-Efficient Multi-Source Learning</title>
+      <link>https://arxiv.org/abs/2606.14900</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14900</guid>
+      <description>arXiv:2606.14900v1 Announce Type: new 
+Abstract: Multi-source transfer learning faces a fundamental scalability bottleneck: existing approaches require either loading all K source models into memory simultaneously during parameter fusion, requiring O(K) memory, or deploying all models at inference t...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, product, fine-tuning, experiment, alignment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
       <category>memory</category>
-      <category>tool</category>
-      <category>analysis</category>
+      <category>product</category>
+      <category>fine-tuning</category>
     </item>
     <item>
-      <title>WorkBench Revisited: Workplace Agents Two Years On</title>
-      <link>https://arxiv.org/abs/2606.13715</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13715</guid>
-      <description>arXiv:2606.13715v1 Announce Type: new 
-Abstract: The best agent on WorkBench in March 2024, GPT-4, completed 43% of tasks and took an unintended harmful action, such as emailing the wrong person, on 26% of them. We re-visit the benchmark in June 2026 and find that the best agent to date, Claude Opus...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; analysis, release, GPT, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
+      <title>Remember, Don&amp;#x27;t Re-read: Stateful ReAct Agents for Token-Efficient Autonomous Experimentation</title>
+      <link>https://arxiv.org/abs/2606.14945</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14945</guid>
+      <description>arXiv:2606.14945v1 Announce Type: new 
+Abstract: The autoresearch pattern enables autonomous experimentation by having a large language model (LLM) iteratively modify code to optimize a target metric. Its stateless design, however, reconstructs experimental context from scratch at every iteration, i...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; large language model, paper, tool, LLM, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
-      <category>analysis</category>
-      <category>release</category>
+      <category>large language model</category>
+      <category>paper</category>
+      <category>tool</category>
+    </item>
+    <item>
+      <title>A Comparative Study of Graph Neural Network Layer Selection for Interaction Modelling in Driving Trajectory Prediction</title>
+      <link>https://arxiv.org/abs/2606.14956</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14956</guid>
+      <description>arXiv:2606.14956v1 Announce Type: new 
+Abstract: Autonomous driving systems rely on precise trajectory prediction to plan safe and efficient movement. Graph Neural Networks (GNNs) have become a promising approach for modelling spatiotemporal interactions among road agents. However, designing GNN arc...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; paper, attention, arxiv, study, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>paper</category>
+      <category>attention</category>
+      <category>arxiv</category>
+    </item>
+    <item>
+      <title>Leveraging Physiological Signals to Predict Exam Outcomes with Machine Learning</title>
+      <link>https://arxiv.org/abs/2606.14960</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14960</guid>
+      <description>arXiv:2606.14960v1 Announce Type: new 
+Abstract: This study investigates the application of machine learning models to predict exam outcomes using physiological data collected during examination sessions. Physiological stress indicators, including electrodermal activity, heart rate, and skin tempera...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, vector, RAG, transformer, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>memory</category>
+      <category>vector</category>
+      <category>RAG</category>
+    </item>
+    <item>
+      <title>Evaluating the Robustness of Proof Autoformalization in Lean 4</title>
+      <link>https://arxiv.org/abs/2606.14867</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14867</guid>
+      <description>arXiv:2606.14867v1 Announce Type: new 
+Abstract: Proof autoformalization aims to translate a mathematical informal proof written in natural language into a formal proof in a formal language such as Lean~4. Several works have developed LLM-based models for proof autoformalization. However, existing e...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, study, model, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>arxiv</category>
+      <category>study</category>
+      <category>model</category>
+    </item>
+    <item>
+      <title>Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents</title>
+      <link>https://arxiv.org/abs/2606.15017</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.15017</guid>
+      <description>arXiv:2606.15017v1 Announce Type: new 
+Abstract: Online web agents often augment a base actor with memory, workflow, or skill modules. These modules can improve performance, but they also consume test-time tokens, a cost rarely reported alongside the actor&amp;#x27;s inference cost. We study online augmentat...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, reasoning, GPT, arxiv, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>memory</category>
+      <category>reasoning</category>
       <category>GPT</category>
     </item>
     <item>
-      <title>D2H-AD: A Hybrid Model Utilizing Hyperdimensional Computing for Advanced Anomaly Detection</title>
-      <link>https://arxiv.org/abs/2606.13754</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13754</guid>
-      <description>arXiv:2606.13754v1 Announce Type: new 
-Abstract: Anomaly detection is a fundamental component of intelligent systems with applications in healthcare, cybersecurity, smart grids, and IoT environments. Although conventional machine learning and deep learning methods have demonstrated effectiveness in ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, framework, arxiv, vector, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
+      <title>Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2606.14923</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14923</guid>
+      <description>arXiv:2606.14923v1 Announce Type: new 
+Abstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates. Yet we lack a standard way to measure trust between AI agents. We propose a behavioral measure based on costly verification. In a cooperative ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, GPT, framework, arxiv, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
       <category>memory</category>
+      <category>GPT</category>
       <category>framework</category>
-      <category>arxiv</category>
     </item>
     <item>
-      <title>Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces</title>
-      <link>https://arxiv.org/abs/2606.13686</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13686</guid>
-      <description>arXiv:2606.13686v1 Announce Type: new 
-Abstract: As autonomous web agents are increasingly deployed to perform real-world tasks, ensuring their safety has become a critical concern. In this work, we study web agent behavior under realistic deceptive interfaces in the e-commerce domain. We introduce ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompt, framework, multimodal, arxiv, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
+      <title>Benchmarking Instance-Dependent Label Noise with Controlled Corruptions</title>
+      <link>https://arxiv.org/abs/2606.14965</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14965</guid>
+      <description>arXiv:2606.14965v1 Announce Type: new 
+Abstract: Synthetic instance-dependent label noise (IDN) benchmarks are widely used to evaluate noisy-label learning methods, yet existing approaches typically generate noise through imperfect annotators or classifier raters, leaving the source of ambiguity imp...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; experiment, arxiv, study, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
-      <category>prompt</category>
-      <category>framework</category>
-      <category>multimodal</category>
-    </item>
-    <item>
-      <title>FedSPC: Shared Parameter Correction for Personalized Federated Learning</title>
-      <link>https://arxiv.org/abs/2606.13748</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2606.13748</guid>
-      <description>arXiv:2606.13748v1 Announce Type: new 
-Abstract: Personalized federated learning (PFL) is one of the important approaches in federated learning for addressing statistical heterogeneity while enabling client-specific adaptation. Many PFL methods split the model into shared and personalized parameters...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, experiment, arxiv, image | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Mon, 15 Jun 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>model</category>
       <category>experiment</category>
       <category>arxiv</category>
+      <category>study</category>
+    </item>
+    <item>
+      <title>PhoneHarness: Harnessing Phone-Use Agents through Mixed GUI, CLI, and Tool Actions</title>
+      <link>https://arxiv.org/abs/2606.14832</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14832</guid>
+      <description>arXiv:2606.14832v1 Announce Type: new 
+Abstract: Phone agents are increasingly expected to complete real mobile workflows rather than merely predict the next screen action. However, much of the current mobile-agent literature still evaluates agents primarily as GUI controllers that observe a screen,...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, study, tool | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>arxiv</category>
+      <category>study</category>
+      <category>tool</category>
+    </item>
+    <item>
+      <title>Relational Structural Causal Models</title>
+      <link>https://arxiv.org/abs/2606.14892</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14892</guid>
+      <description>arXiv:2606.14892v1 Announce Type: new 
+Abstract: An artificial intelligence must have a model of its environment that is causal, supporting reasoning about interventions and counterfactuals, and also combinatorial, supporting generalization to unseen combinations of objects. In this work, we formall...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; reasoning, arxiv, study, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>reasoning</category>
+      <category>arxiv</category>
+      <category>study</category>
+    </item>
+    <item>
+      <title>GRAPE: Guided Parameter-Space Evolution for Compact Adversarial Robustness</title>
+      <link>https://arxiv.org/abs/2606.14865</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.14865</guid>
+      <description>arXiv:2606.14865v1 Announce Type: new 
+Abstract: Adversarial Training (AT) improves neural network robustness, but most methods train a fixed parameter space from the start. This paper asks whether the order in which parameters become optimizable can affect the final robust solution, even when the f...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; paper, release, framework, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>paper</category>
+      <category>release</category>
+      <category>framework</category>
     </item>
   </channel>
 </rss>
