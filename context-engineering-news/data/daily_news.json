@@ -1,7 +1,22 @@
 {
-  "generated_at": "2026-06-22T21:03:18.932944",
-  "total_items": 19,
+  "generated_at": "2026-06-23T20:46:13.892450",
+  "total_items": 23,
   "items": [
+    {
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "description": "...",
+      "published_date": "2026-06-23T00:00:00",
+      "source": "Hugging Face Blog",
+      "category": "rag_retrieval",
+      "keywords": [
+        "experiment",
+        "API",
+        "transformer",
+        "RAG"
+      ],
+      "score": 1.0
+    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -10,9 +25,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "context",
         "context window",
         "prompt",
+        "context",
         "prompt engineering"
       ],
       "score": 1.0
@@ -25,14 +40,14 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "platform",
-        "tool",
-        "prompt engineering",
+        "LLM",
         "large language model",
+        "prompt engineering",
         "model",
         "prompt",
+        "tool",
         "paper",
-        "LLM"
+        "platform"
       ],
       "score": 1.0
     },
@@ -44,11 +59,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "CoT",
         "reasoning",
         "chain-of-thought",
-        "framework",
         "audio",
-        "CoT"
+        "framework"
       ],
       "score": 1.0
     },
@@ -74,8 +89,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "context",
         "chain-of-thought",
+        "context",
         "framework"
       ],
       "score": 1.0
@@ -88,9 +103,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
+        "augmented",
         "RAG",
-        "augmented"
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -102,14 +117,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "LLM",
         "reasoning",
         "vector",
         "model",
         "retrieval",
         "RAG",
         "framework",
-        "knowledge base",
-        "LLM"
+        "knowledge base"
       ],
       "score": 1.0
     },
@@ -134,9 +149,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
+        "augmented",
         "RAG",
-        "augmented"
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -148,11 +163,11 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
         "API",
-        "RAG",
+        "retrieval",
+        "product",
         "augmented",
-        "product"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -164,10 +179,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
+        "model",
         "context",
         "API",
-        "tool",
-        "model"
+        "tool"
       ],
       "score": 0.8
     },
@@ -179,8 +194,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "model",
         "chain-of-thought",
+        "model",
         "reasoning"
       ],
       "score": 0.8
@@ -206,8 +221,8 @@
       "source": "GitHub",
       "category": "context_management",
       "keywords": [
-        "context",
-        "memory"
+        "memory",
+        "context"
       ],
       "score": 0.6
     },
@@ -219,10 +234,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "tool",
         "prompt engineering",
-        "prompt",
         "example",
+        "prompt",
+        "tool",
         "step-by-step"
       ],
       "score": 0.6
@@ -235,8 +250,8 @@
       "source": "GitHub",
       "category": "industry_news",
       "keywords": [
-        "context",
-        "model"
+        "model",
+        "context"
       ],
       "score": 0.6
     },
@@ -248,8 +263,8 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "paper",
         "prompt",
+        "paper",
         "prompt engineering"
       ],
       "score": 0.6
@@ -277,6 +292,42 @@
         "context"
       ],
       "score": 0.4
+    },
+    {
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "description": "...",
+      "published_date": "2026-06-23T12:51:55",
+      "source": "Hugging Face Blog",
+      "category": "in_context_learning",
+      "keywords": [
+        "example"
+      ],
+      "score": 0.2
+    },
+    {
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "description": "...",
+      "published_date": "2026-06-23T00:00:00",
+      "source": "Hugging Face Blog",
+      "category": "tools_frameworks",
+      "keywords": [
+        "tool"
+      ],
+      "score": 0.2
+    },
+    {
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "description": "...",
+      "published_date": "2026-06-22T00:00:00",
+      "source": "Hugging Face Blog",
+      "category": "industry_news",
+      "keywords": [
+        "model"
+      ],
+      "score": 0.2
     }
   ]
 }
