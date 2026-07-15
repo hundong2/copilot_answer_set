@@ -6,53 +6,43 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>LLT: Local Linear Transformer for PDE Operator Learning</title>
-      <link>https://arxiv.org/abs/2607.07718</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.07718</guid>
-      <description>arXiv:2607.07718v1 Announce Type: new 
-Abstract: Neural operators have become a common approach for learning PDE solution maps and accelerating numerical simulations. Transformer-based neural operators are of particular interest, since attention can learn long-range dependencies in the computational...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention, transformer | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 10 Jul 2026 04:00:00 </pubDate>
+      <title>Semidirect Fourier Delta Attention: Phase-Controlled Delta Memory with Constructive Chunk-WY Kernels</title>
+      <link>https://arxiv.org/abs/2607.11897</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.11897</guid>
+      <description>arXiv:2607.11897v1 Announce Type: new 
+Abstract: Linear attention replaces softmax attention&amp;#x27;s growing KV cache with a fixed recurrent state, but this compression limits exact state tracking and long-context memory. We introduce \emph{Semidirect Fourier Delta Attention} (SFDA), a phase-controlled ge...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention, compression, product, experiment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 15 Jul 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
       <category>arxiv</category>
       <category>attention</category>
-      <category>transformer</category>
+      <category>compression</category>
     </item>
     <item>
-      <title>Uncertainty-gated selection for block-sparse attention</title>
-      <link>https://arxiv.org/abs/2607.07724</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.07724</guid>
-      <description>arXiv:2607.07724v1 Announce Type: new 
-Abstract: Block-sparse attention scales long-context language models by replacing the O(N^2) softmax with a per-query top-k selection over key blocks. This cutoff is myopic: when the k-th and (k+1)-th blocks are nearly tied in score, the selector commits withou...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention, model, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 10 Jul 2026 04:00:00 </pubDate>
+      <title>How Query Visibility Changes KV-Cache Compression Rankings: A Matched-Budget Audit</title>
+      <link>https://arxiv.org/abs/2607.11942</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.11942</guid>
+      <description>arXiv:2607.11942v1 Announce Type: new 
+Abstract: KV-cache compression methods are predominantly evaluated with the query appended to the context before compression -- a query-aware protocol. Yet the economic case for a compressed KV cache is reuse: compress a document once, answer many future questi...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention, compression, model, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 15 Jul 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>arxiv</category>
+      <category>attention</category>
+      <category>compression</category>
+    </item>
+    <item>
+      <title>OmniPMNet: Bridging discrete and gridded PM10 forecasts via omni-query neural processes</title>
+      <link>https://arxiv.org/abs/2607.11896</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.11896</guid>
+      <description>arXiv:2607.11896v1 Announce Type: new 
+Abstract: Forecasting particulate matter (PM10) requires both station-scale accuracy and continuous spatial fields, especially during severe dust storms. Chemical transport models (CTMs) provide gridded forecasts but retain local biases, whereas graph neural ne...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 15 Jul 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
       <category>arxiv</category>
       <category>attention</category>
       <category>model</category>
-    </item>
-    <item>
-      <title>Architecture Generalization with MetaNCA</title>
-      <link>https://arxiv.org/abs/2607.07743</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.07743</guid>
-      <description>arXiv:2607.07743v1 Announce Type: new 
-Abstract: Self-organization is an emergent property of life, driven by the collective behavior of individual components acting on local information. Biological neurons, through local interactions transmitted through synapses, are able to learn efficiently and c...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, arxiv, model, transformer, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 10 Jul 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>framework</category>
-      <category>arxiv</category>
-      <category>model</category>
-    </item>
-    <item>
-      <title>Profiling in PyTorch (Part 3): Attention is all you profile</title>
-      <link>https://huggingface.co/blog/torch-attention-profile</link>
-      <guid isPermaLink="false">https://huggingface.co/blog/torch-attention-profile</guid>
-      <description>...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; Hugging Face Blog | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 </pubDate>
-      <author>noreply@contextengineering.news (Hugging Face Blog)</author>
-      <category>Context Management</category>
-      <category>attention</category>
     </item>
   </channel>
 </rss>
