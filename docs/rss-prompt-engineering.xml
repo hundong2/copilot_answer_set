@@ -6,56 +6,43 @@
     <description>Latest Prompt Engineering news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>CogArena: A Multimethod Evaluation of Cognitive Ability Structure in Large Language Models</title>
-      <link>https://arxiv.org/abs/2607.24999</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.24999</guid>
-      <description>arXiv:2607.24999v1 Announce Type: new 
-Abstract: LLM cognitive scores are increasingly summarized as per-ability profiles whose dimensions should converge across tasks, respond selectively to matched interventions, and generalize beyond the models used to define them. We introduce CogArena, a proced...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, prompt, study, framework, large language model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 29 Jul 2026 04:00:00 </pubDate>
+      <title>DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues</title>
+      <link>https://arxiv.org/abs/2607.26178</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.26178</guid>
+      <description>arXiv:2607.26178v1 Announce Type: new 
+Abstract: Turn-taking is a central component of full-duplex interaction. Which turn-taking behaviors are appropriate varies with the scenario, yet current models apply a single norm regardless of context. This limitation originates in their training data: human...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; prompting, context, model, LLM, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Thu, 30 Jul 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Prompt Engineering</category>
-      <category>LLM</category>
-      <category>prompt</category>
-      <category>study</category>
+      <category>prompting</category>
+      <category>context</category>
+      <category>model</category>
     </item>
     <item>
-      <title>Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than Llama-Guard-3-8B</title>
-      <link>https://arxiv.org/abs/2607.22545</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.22545</guid>
-      <description>arXiv:2607.22545v1 Announce Type: new 
-Abstract: Deploying large language models in financial-services and agentic settings requires safety classifiers that simultaneously handle prompt injection, regulatory compliance, and general harm, a combination no existing open guardrail addresses in a single...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RAG, prompt, large language model, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 29 Jul 2026 04:00:00 </pubDate>
+      <title>Steering Instruction Hierarchies at Inference Time</title>
+      <link>https://arxiv.org/abs/2607.26228</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.26228</guid>
+      <description>arXiv:2607.26228v1 Announce Type: new 
+Abstract: Instruction hierarchies are a core safety assumption of language model deployment: higher priority inputs, such as system prompts, should override conflicting lower priority inputs from users or tools. Yet frontier LLMs often violate this hierarchy. W...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; vector, model, instruction, LLM, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Thu, 30 Jul 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Prompt Engineering</category>
-      <category>RAG</category>
-      <category>prompt</category>
-      <category>large language model</category>
+      <category>vector</category>
+      <category>model</category>
+      <category>instruction</category>
     </item>
     <item>
-      <title>CORVUS: Context Optimization and Reduction Via Underlying Synchronization for LLM Coding Agents</title>
-      <link>https://arxiv.org/abs/2607.22711</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.22711</guid>
-      <description>arXiv:2607.22711v1 Announce Type: new 
-Abstract: LLM coding agents operate by constructing trajectories that accumulate reasoning, tool calls, and results to enable multi-step decision-making. However, the conventional append-only trajectory architecture found in practice tightly couples file-read a...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; tool, RAG, LLM, prompt, reasoning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 29 Jul 2026 04:00:00 </pubDate>
+      <title>Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation</title>
+      <link>https://arxiv.org/abs/2607.26286</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.26286</guid>
+      <description>arXiv:2607.26286v1 Announce Type: new 
+Abstract: Large language models (LLMs) are increasingly used as general-purpose translation systems, but their behavior is usually evaluated under a single prompt shape: translate one source sentence into one target language. In practice, users may ask for one ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; zero-shot, prompting, few-shot, experiment, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Thu, 30 Jul 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Prompt Engineering</category>
-      <category>tool</category>
-      <category>RAG</category>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>Beyond Shapley: An Influence-Based Data Auditing Pipeline for LLM Alignment and Evaluation</title>
-      <link>https://arxiv.org/abs/2607.22766</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2607.22766</guid>
-      <description>arXiv:2607.22766v1 Announce Type: new 
-Abstract: The alignment of Large Language Models (LLMs) is increasingly bottlenecked by data quality. As datasets scale, massive preference and instruction-tuning corpora inevitably accumulate hidden structural contradictions, safety risks, and systemic human a...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; RLHF, tool, LLM, alignment, instruction | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 29 Jul 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Prompt Engineering</category>
-      <category>RLHF</category>
-      <category>tool</category>
-      <category>LLM</category>
+      <category>zero-shot</category>
+      <category>prompting</category>
+      <category>few-shot</category>
     </item>
     <item>
       <title>Context-Engineering - &amp;quot;Context engineering is the delicate art and science of filling the context window with just the right information for the next step.&amp;quot; — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.</title>
@@ -68,6 +55,19 @@ Abstract: The alignment of Large Language Models (LLMs) is increasingly bottlene
       <category>context</category>
       <category>context window</category>
       <category>prompt engineering</category>
+    </item>
+    <item>
+      <title>Early Verdicts, Better Budgets: Sequential Adaptive Rollout Allocation for Compute-Efficient RLVR</title>
+      <link>https://arxiv.org/abs/2607.26253</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2607.26253</guid>
+      <description>arXiv:2607.26253v1 Announce Type: new 
+Abstract: Reinforcement learning with verifiable rewards (RLVR) is bottlenecked by rollout generation, yet many sampled prompts produce saturated groups (all responses correct or all incorrect) whose zero reward variance yields no policy-gradient signal. Existi...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, arxiv, prompt, RAG, reasoning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Thu, 30 Jul 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Prompt Engineering</category>
+      <category>model</category>
+      <category>arxiv</category>
+      <category>prompt</category>
     </item>
     <item>
       <title>yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.</title>
@@ -85,13 +85,13 @@ Abstract: The alignment of Large Language Models (LLMs) is increasingly bottlene
       <title>Claude-Code-Everything-You-Need-to-Know - A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claude Code.</title>
       <link>https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know</link>
       <guid isPermaLink="false">https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know</guid>
-      <description>A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claude Code.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; example, prompt engineering, prompt, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <description>A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claude Code.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; GitHub | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; example, model, prompt engineering, prompt | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
       <pubDate>Sun, 17 Aug 2025 14:45:39 +0000</pubDate>
       <author>noreply@contextengineering.news (GitHub)</author>
       <category>Prompt Engineering</category>
       <category>example</category>
+      <category>model</category>
       <category>prompt engineering</category>
-      <category>prompt</category>
     </item>
     <item>
       <title>AlphaCodium - Official implementation for the paper: &amp;quot;Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering&amp;quot;&amp;quot;</title>
