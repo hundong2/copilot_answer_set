@@ -1,160 +1,7 @@
 {
-  "generated_at": "2026-08-08T20:13:00.279989",
-  "total_items": 29,
+  "generated_at": "2026-08-09T20:08:44.571575",
+  "total_items": 19,
   "items": [
-    {
-      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
-      "url": "https://arxiv.org/abs/2608.05151",
-      "description": "arXiv:2608.05151v1 Announce Type: new \nAbstract: Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O rising?\" or \"what happens if I cut aeration by 20%?\". ...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "model",
-        "retrieval",
-        "augmented",
-        "large language model",
-        "reasoning",
-        "arxiv",
-        "tool"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
-      "url": "https://arxiv.org/abs/2608.05152",
-      "description": "arXiv:2608.05152v1 Announce Type: new \nAbstract: Large language models (LLMs) with chain-of-thought reasoning have been widely applied in recent years, and theoretical explanations of their behavior may help deepen our understanding and guide model optimization. In this study, we introduce a framewo...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "LLM",
-        "experiment",
-        "chain-of-thought",
-        "RAG",
-        "large language model",
-        "framework",
-        "reasoning",
-        "arxiv",
-        "study"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
-      "url": "https://arxiv.org/abs/2608.05153",
-      "description": "arXiv:2608.05153v1 Announce Type: new \nAbstract: GraphRAG underperforms vector RAG on citation precision in many reports, but where and why have remained corpus-bound. We present a triple-robustness analysis that holds the retrieval architecture fixed and varies three orthogonal axes embedder (local...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "GPT",
-        "LLM",
-        "embedding",
-        "retrieval",
-        "RAG",
-        "arxiv",
-        "analysis",
-        "vector"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
-      "url": "https://arxiv.org/abs/2608.05154",
-      "description": "arXiv:2608.05154v1 Announce Type: new \nAbstract: Rotary positional encoding (RoPE) is a core component of modern language models and has been extended to multimodal LLMs through multidimensional variants such as multimodal RoPE (M-RoPE), which split positional channels into temporal, height, and wid...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "multimodal_context",
-      "keywords": [
-        "model",
-        "LLM",
-        "multimodal",
-        "image",
-        "context",
-        "attention",
-        "cross-modal",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
-      "url": "https://arxiv.org/abs/2608.05155",
-      "description": "arXiv:2608.05155v1 Announce Type: new \nAbstract: Traditional sentiment analysis (SA) models, while effective for polarity classification, provide limited insight into the rhetorical, ideological, and framing dimensions of political discourse -- dimensions that are central to research in the social s...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "LLM",
-        "research",
-        "analysis",
-        "platform",
-        "framework",
-        "paper",
-        "ICL",
-        "arxiv",
-        "study"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Large Language Models Threaten Double-blind Review",
-      "url": "https://arxiv.org/abs/2608.05157",
-      "description": "arXiv:2608.05157v1 Announce Type: new \nAbstract: Double blind peer review serves as the scientific community primary defense against status and affiliation bias. Its effectiveness rests on the assumption that anonymized manuscripts convey scientific merit without revealing their authors. While autho...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "LLM",
-        "research",
-        "augmented",
-        "RAG",
-        "large language model",
-        "paper",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters",
-      "url": "https://arxiv.org/abs/2608.05161",
-      "description": "arXiv:2608.05161v1 Announce Type: new \nAbstract: Instruction-tuned LLMs are deployed into environments where domains evolve, yet extending a fine-tuned model's capabilities without full retraining remains an unsolved practical challenge. We present SemiAdapt-Instruct, a modular framework that discov...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "LLM",
-        "framework",
-        "instruction",
-        "arxiv",
-        "study",
-        "fine-tuning"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "PoolBench: A Benchmark for Pooling Strategies in Concept Representation Evaluation for Decoder-Only LLMs",
-      "url": "https://arxiv.org/abs/2608.05162",
-      "description": "arXiv:2608.05162v1 Announce Type: new \nAbstract: Pooling is a consequential but under-examined design choice in decoder-only concept representation work: practitioners must collapse token-level hidden states into a passage-level vector, yet no shared protocol exists for comparing this choice across ...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "LLM",
-        "experiment",
-        "research",
-        "release",
-        "arxiv",
-        "vector"
-      ],
-      "score": 1.0
-    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -165,8 +12,8 @@
       "keywords": [
         "prompt",
         "prompt engineering",
-        "context",
-        "context window"
+        "context window",
+        "context"
       ],
       "score": 1.0
     },
@@ -180,9 +27,9 @@
       "keywords": [
         "audio",
         "chain-of-thought",
-        "CoT",
+        "reasoning",
         "framework",
-        "reasoning"
+        "CoT"
       ],
       "score": 1.0
     },
@@ -194,9 +41,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "vector",
         "reasoning",
-        "RAG",
-        "vector"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -208,8 +55,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "chain-of-thought",
         "framework",
+        "chain-of-thought",
         "context"
       ],
       "score": 1.0
@@ -250,13 +97,13 @@
       "category": "rag_retrieval",
       "keywords": [
         "model",
-        "LLM",
-        "retrieval",
-        "RAG",
-        "framework",
+        "vector",
         "knowledge base",
         "reasoning",
-        "vector"
+        "RAG",
+        "framework",
+        "retrieval",
+        "LLM"
       ],
       "score": 1.0
     },
@@ -295,28 +142,13 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
-        "augmented",
         "RAG",
+        "retrieval",
         "API",
+        "augmented",
         "product"
       ],
       "score": 1.0
-    },
-    {
-      "title": "Safe Evolution with Circuit Anchors",
-      "url": "https://arxiv.org/abs/2608.05158",
-      "description": "arXiv:2608.05158v1 Announce Type: new \nAbstract: In biological evolution, unconstrained mutation can lead to catastrophic outcomes: organisms may evolve enhanced capabilities while losing essential functions for survival. Nature's solution is \\textit{developmental constraints}, where core regulatory...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "arxiv",
-        "model",
-        "experiment"
-      ],
-      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -341,25 +173,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "chain-of-thought",
         "model",
+        "chain-of-thought",
         "reasoning"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs",
-      "url": "https://arxiv.org/abs/2608.05156",
-      "description": "arXiv:2608.05156v1 Announce Type: new \nAbstract: Post-training of large language models optimizes only parameters, while inference-time procedural scaffolds are typically designed independently of parameter training. This disconnect makes it difficult to automatically acquire and internalize complex...",
-      "published_date": "2026-08-08T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "arxiv",
-        "model"
-      ],
-      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -369,9 +187,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "library",
         "prompt",
-        "prompt engineering"
+        "prompt engineering",
+        "library"
       ],
       "score": 0.6
     },
@@ -396,10 +214,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
+        "model",
         "example",
-        "prompt engineering",
-        "model"
+        "prompt",
+        "prompt engineering"
       ],
       "score": 0.6
     },
@@ -424,8 +242,8 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
         "paper",
+        "prompt",
         "prompt engineering"
       ],
       "score": 0.6
