@@ -1,354 +1,328 @@
 {
-  "generated_at": "2026-08-12T20:14:58.638243",
-  "total_items": 51,
+  "generated_at": "2026-08-13T20:12:43.931486",
+  "total_items": 52,
   "items": [
     {
-      "title": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents",
-      "url": "https://arxiv.org/abs/2608.09934",
-      "description": "arXiv:2608.09934v1 Announce Type: new \nAbstract: Large language model (LLM) agents improve task performance by decomposing problems into role-specialized behaviors. However, their practical deployment is often limited by the computational cost and instability associated with the on-the-fly agent des...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "retrieval",
-        "experiment",
-        "framework",
-        "arxiv",
-        "LLM",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Conflict or Strategy? Asymmetric Role Framing of La France insoumise and Rassemblement National in French News Headlines, 2022-2025",
-      "url": "https://arxiv.org/abs/2608.09936",
-      "description": "arXiv:2608.09936v1 Announce Type: new \nAbstract: Do French news headlines frame left- and right-populist challengers as symmetric ``extremes,'' or as fundamentally different political adversaries? We examine 28,592 headlines about La France insoumise (LFI) and Rassemblement National (RN) published b...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "research",
-        "framework",
-        "arxiv",
-        "LLM",
-        "paper",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Carefully Considering Culture: Analyzing LLM Alignment in Single- and Multi-Cultural Settings using Cultural Consensus Theory",
-      "url": "https://arxiv.org/abs/2608.09937",
-      "description": "arXiv:2608.09937v1 Announce Type: new \nAbstract: Recent work in NLP has probed large language models for their understanding of cultural norms across countries. However, this work typically considers distributional patterns, ignoring group consensus or possible multicultural environments within a co...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
+      "url": "https://arxiv.org/abs/2608.11232",
+      "description": "arXiv:2608.11232v1 Announce Type: new \nAbstract: Evaluating LLM coding agents in algorithmic trading is difficult because static benchmarks risk data contamination and numerical backtest outputs require ground truth from actual code execution. We present Backtrader-Bench, a framework with two comple...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
       "category": "rag_retrieval",
       "keywords": [
-        "large language model",
-        "model",
-        "alignment",
+        "RAG",
+        "tool",
         "arxiv",
+        "GPT",
         "LLM",
-        "RAG"
+        "framework",
+        "model",
+        "augmented",
+        "template"
       ],
       "score": 1.0
     },
     {
-      "title": "The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs",
-      "url": "https://arxiv.org/abs/2608.09941",
-      "description": "arXiv:2608.09941v1 Announce Type: new \nAbstract: While 4-bit weight quantization is critical for deploying Small Language Models (SLMs) on edge devices, evaluations of the resulting performance degradation-the quantization tax-remain overwhelmingly English-centric. We present a zero-shot multilingua...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "Retrofitting Recurrent Depth into a Pretrained Language Model: Installation, Extrapolation, Transfer, and Retention at Two Parameter Budgets",
+      "url": "https://arxiv.org/abs/2608.11233",
+      "description": "arXiv:2608.11233v1 Announce Type: new \nAbstract: A dense, pretrained language model can be retrofitted with recurrent depth and learn an iterative latent transition that persists after outcome-only annealing. Qwen2.5-0.5B-Instruct is split into a Prelude, a weight-tied Recurrent Block, and a Coda, w...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "chain_of_thought",
+      "keywords": [
+        "zero-shot",
+        "fine-tuning",
+        "arxiv",
+        "transformer",
+        "model",
+        "vision",
+        "scratchpad",
+        "reasoning"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Lost in Compaction: Evaluating Side-Constraint Loss under Context Compaction",
+      "url": "https://arxiv.org/abs/2608.11242",
+      "description": "arXiv:2608.11242v1 Announce Type: new \nAbstract: When the context window is under pressure, LLM systems compact prior context to continue ongoing tasks. We identify a class of user-issued instructions, Session Constraints (SCs), such as \"do not delete any emails until I confirm,\" that are meant to c...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
       "category": "prompt_engineering",
       "keywords": [
         "RAG",
+        "prompt",
+        "context window",
+        "research",
+        "LLM",
+        "company",
+        "arxiv",
+        "instruction",
+        "context"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Diffuse to Compress: Leveraging Diffusion LMs for Lossless Compression",
+      "url": "https://arxiv.org/abs/2608.11249",
+      "description": "arXiv:2608.11249v1 Announce Type: new \nAbstract: We study the problem of lossless text compression, motivated by the rapid growth in the collection and storage of digital textual data - including plain text, source code, and structured formats such as XML - and by recent advances in neural language ...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "RAG",
+        "experiment",
+        "LLM",
+        "framework",
+        "compression",
+        "API",
         "model",
-        "zero-shot",
+        "study",
+        "arxiv",
+        "context"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
+      "url": "https://arxiv.org/abs/2608.11332",
+      "description": "arXiv:2608.11332v1 Announce Type: new \nAbstract: Sign-language research for resource-constrained languages is often limited by the cost of dense linguistic labels such as glosses, temporal boundaries, and sign order. Broadcast news offers a practical alternative by pairing continuous signing with sp...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "analysis",
+        "RAG",
+        "LLM",
+        "example",
+        "vision",
+        "study",
+        "arxiv",
+        "research"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "url": "https://arxiv.org/abs/2608.11350",
+      "description": "arXiv:2608.11350v1 Announce Type: new \nAbstract: Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model weights but also on the skills, context, action interfaces, and execution harness surrounding the model. While supervised fine-tuni...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "tools_frameworks",
+      "keywords": [
+        "fine-tuning",
+        "framework",
+        "API",
+        "model",
+        "arxiv",
+        "context"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning",
+      "url": "https://arxiv.org/abs/2608.11408",
+      "description": "arXiv:2608.11408v1 Announce Type: new \nAbstract: Prior white-box studies show that large language models can retain latent traces of target knowledge after unlearning, even when the knowledge is no longer expressed in their outputs. However, existing audits remain limited to one-off diagnostics: it ...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "large language model",
+        "fine-tuning",
+        "LLM",
+        "model",
         "arxiv"
       ],
       "score": 1.0
     },
     {
-      "title": "When Chain-of-Thought Helps and When It Hurts: An Empirical Investigation of the Serial-Depth Bottleneck in LLM Reasoning",
-      "url": "https://arxiv.org/abs/2608.09942",
-      "description": "arXiv:2608.09942v1 Announce Type: new \nAbstract: It is widely assumed that chain-of-thought (CoT) prompting universally improves LLM reasoning. We investigate this through the conceptual framework of the H_dp bandwidth bound (Chen et al., 2024): although the formal bound binds only asymptotically (a...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "url": "https://arxiv.org/abs/2608.11207",
+      "description": "arXiv:2608.11207v1 Announce Type: new \nAbstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops varying its approach, and the conversat...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "analysis",
+        "LLM",
+        "alignment",
+        "API",
+        "model",
+        "paper",
+        "arxiv",
+        "context"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
+      "url": "https://arxiv.org/abs/2608.11210",
+      "description": "arXiv:2608.11210v1 Announce Type: new \nAbstract: Bayesian calibration of process-based models requires a prior distribution for each model parameter. Despite decades of methodological work, researchers almost always fall back on uniform priors. The main reason is that building informative priors fro...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "prompt",
+        "tool",
+        "research",
+        "LLM",
+        "model",
+        "paper",
+        "arxiv",
+        "context"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "url": "https://arxiv.org/abs/2608.11215",
+      "description": "arXiv:2608.11215v1 Announce Type: new \nAbstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the cognition of any sing...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "context_management",
+      "keywords": [
+        "memory",
+        "large language model",
+        "LLM",
+        "model",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "MaSRead: Content-Addressed Reading of Replicated Latent Stores",
+      "url": "https://arxiv.org/abs/2608.11218",
+      "description": "arXiv:2608.11218v1 Announce Type: new \nAbstract: Independent agents that reason in latent space can share computed state as key-value cache fragments rather than text. Merged by a conflict-free replicated data type, these fragments form a store that converges under any delivery order or duplication....",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "RAG",
+        "model",
+        "arxiv",
+        "attention"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "From Monolithic to Modular: Segment-level Automatic Prompt Optimization",
+      "url": "https://arxiv.org/abs/2608.11219",
+      "description": "arXiv:2608.11219v1 Announce Type: new \nAbstract: Automatic Prompt Optimization (APO) often rewrites prompts monolithically, which can improve one behavior while degrading others. We present SAPO, a segment-level APO method that decomposes prompts into role, context, tasks, and output format, then ap...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
       "category": "prompt_engineering",
       "keywords": [
-        "chain-of-thought",
-        "context",
-        "instruction",
-        "framework",
-        "arxiv",
-        "prompt",
-        "LLM",
-        "reasoning",
-        "transformer",
-        "CoT",
-        "model",
-        "prompting"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Position Encoding in Transformers: From Absolute and Relative Methods to Rotary Position Embeddings and Long-Context Scaling",
-      "url": "https://arxiv.org/abs/2608.10021",
-      "description": "arXiv:2608.10021v1 Announce Type: new \nAbstract: Self-attention models content-dependent interactions between tokens but does not by itself encode token order. Position encoding addresses this limitation by introducing absolute coordinates, relative distances, or position-dependent rotations into Tr...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "large language model",
-        "attention",
-        "retrieval",
-        "embedding",
-        "context",
-        "arxiv",
-        "reasoning",
-        "transformer",
-        "product",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Multimodal Item Parameter Estimation using Simulated Response Probabilitie",
-      "url": "https://arxiv.org/abs/2608.10154",
-      "description": "arXiv:2608.10154v1 Announce Type: new \nAbstract: We present results from reconstructing multiple-choice model (MCM) and three-parameter logistic (3PL) model curves using a fine-tuned multimodal large language model (LLM) based on Qwen3.5. The model is prompted and fine-tuned to replicate choice prob...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "multimodal_context",
-      "keywords": [
-        "large language model",
-        "arxiv",
-        "prompt",
-        "LLM",
-        "image",
-        "model",
-        "multimodal"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Similarity Gates Approve Reversals: A Validity Audit of Embedding-Cosine Thresholds in Agent Systems",
-      "url": "https://arxiv.org/abs/2608.10216",
-      "description": "arXiv:2608.10216v1 Announce Type: new \nAbstract: Agent frameworks ship quality gates that compare text blocks by embedding-cosine similarity and decide at a fixed cutoff. Deduplication filters, semantic caches, drift guards, and answer grader gates deploy to answer the question: \"Does this text stil...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "release",
-        "embedding",
-        "framework",
-        "instruction",
-        "arxiv",
-        "study",
-        "product"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
-      "url": "https://arxiv.org/abs/2608.09949",
-      "description": "arXiv:2608.09949v1 Announce Type: new \nAbstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation. The framework is driven by data from a 49-channel phytosensor network, encompassi...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "experiment",
         "analysis",
-        "framework",
-        "arxiv",
-        "LLM",
-        "study",
-        "product",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomplete Multimodal Sentiment Analysis",
-      "url": "https://arxiv.org/abs/2608.09986",
-      "description": "arXiv:2608.09986v1 Announce Type: new \nAbstract: Most existing multimodal sentiment analysis approaches assume access to complete multimodal inputs. However, real-world applications frequently encounter incomplete or corrupted modalities, posing a critical challenge. Although several methods have be...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "experiment",
-        "analysis",
-        "model",
-        "framework",
-        "alignment",
-        "arxiv",
         "RAG",
-        "multimodal"
+        "prompt",
+        "zero-shot",
+        "GPT",
+        "LLM",
+        "example",
+        "arxiv",
+        "context"
       ],
       "score": 1.0
     },
     {
-      "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
-      "url": "https://arxiv.org/abs/2608.09998",
-      "description": "arXiv:2608.09998v1 Announce Type: new \nAbstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human tasks. Despite their benefits, growing attention has been directed toward their environmental implications, primarily due to ...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "LLMs in Process Diagram Engineering: From Optimal PFDs to Validated P&IDs",
+      "url": "https://arxiv.org/abs/2608.11220",
+      "description": "arXiv:2608.11220v1 Announce Type: new \nAbstract: Nowadays, the creation of a process flow diagram (PFD) and its subsequent transformation into a piping and instrumentation diagram (P&amp;ID) is predominantly performed manually. Applying artificial intelligence in the task could potentially lead not ...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "research",
-        "attention",
-        "experiment",
-        "analysis",
+        "large language model",
+        "LLM",
+        "model",
         "arxiv",
+        "research"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Why AI Detection Fails for Academic Integrity",
+      "url": "https://arxiv.org/abs/2608.11256",
+      "description": "arXiv:2608.11256v1 Announce Type: new \nAbstract: Institutions use commercial AI detectors for academic integrity, yet detectors cannot distinguish AI editing from full LLM drafts and may treat both as misconduct. In a controlled study of published English abstracts (four domains; 2013 to 2015 vs. 20...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "GPT",
+        "arxiv",
+        "LLM",
+        "study"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Long-Horizon Forecasting of Complete Financial Statements with Forma",
+      "url": "https://arxiv.org/abs/2608.11327",
+      "description": "arXiv:2608.11327v1 Announce Type: new \nAbstract: Specialist training beats generalist scale when forecasting financial statements. To our knowledge, no prior work jointly forecasts complete financial statements beyond one year, yet in a discounted-cash-flow valuation most firm value sits past that w...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "analysis",
+        "large language model",
+        "zero-shot",
+        "transformer",
+        "release",
+        "model",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Weightless Fine-Tuning: Personalizing LLMs via Logit-Space Transport",
+      "url": "https://arxiv.org/abs/2608.11342",
+      "description": "arXiv:2608.11342v1 Announce Type: new \nAbstract: Supervised fine-tuning (SFT) is a standard approach for adapting LLMs to a target distribution, but in settings such as personalization, where each author requires separate weight access, optimization, storage, and retraining, its costs become prohibi...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "analysis",
+        "RAG",
+        "prompt",
+        "fine-tuning",
+        "LLM",
+        "model",
+        "arxiv",
+        "context"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Dynamics Models for Offline Hyperparameter Selection in Real-World RL",
+      "url": "https://arxiv.org/abs/2608.11349",
+      "description": "arXiv:2608.11349v1 Announce Type: new \nAbstract: A key obstacle to deploying reinforcement learning in real-world systems is hyperparameter selection, particularly when simulators are unavailable and online experimentation is costly. Prior work has proposed calibration models trained on offline data...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "fine-tuning",
+        "experiment",
+        "model",
         "paper",
-        "tool",
-        "model"
+        "arxiv"
       ],
       "score": 1.0
     },
     {
-      "title": "CHORUS: Complementary Experts for High-Coverage Testbench Stimulus Generation",
-      "url": "https://arxiv.org/abs/2608.10090",
-      "description": "arXiv:2608.10090v1 Announce Type: new \nAbstract: Large language models (LLMs) have advanced code generation, where executable feedback provides a more reliable learning signal than textual imitation alone. Hardware verification is an important application of code generation and accounts for a substa...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "large language model",
-        "model",
-        "framework",
-        "arxiv",
-        "LLM",
-        "fine-tuning",
-        "RAG"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI",
-      "url": "https://arxiv.org/abs/2608.10153",
-      "description": "arXiv:2608.10153v1 Announce Type: new \nAbstract: Enterprises are deploying autonomous AI agents faster than they can govern them, and prevailing approaches stretch a single discipline, typically DevSecOps built for deterministic automation, across every scale of agency. We argue that agentic AI gove...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "model",
-        "framework",
-        "arxiv",
-        "platform",
-        "tool",
-        "ICL",
-        "product",
-        "RAG"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Transformer Geometry Observatory TGO-IV: Developmental Topology Observatory",
-      "url": "https://arxiv.org/abs/2608.09997",
-      "description": "arXiv:2608.09997v1 Announce Type: new \nAbstract: Transformers have had a profound impact on the world of language processing and computer vision. As efforts to answer the million-dollar question of ``How does a Transformer learn?\" have been increasing, existing interpretability studies primarily ana...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "Market-Information-Aware Gated-LoRA of Foundation Models for Transferable Day-Ahead Electricity Price Forecasting",
+      "url": "https://arxiv.org/abs/2608.11359",
+      "description": "arXiv:2608.11359v1 Announce Type: new \nAbstract: Electricity price forecasting is crucial for market participants but remains difficult because prices are volatile, market-specific, and closely tied to anticipated system conditions. Existing supervised methods depend largely on market-specific histo...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "analysis",
-        "framework",
-        "arxiv",
-        "study",
-        "vision",
-        "transformer"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Sheaf-Based Federated Representation Learning",
-      "url": "https://arxiv.org/abs/2608.10016",
-      "description": "arXiv:2608.10016v1 Announce Type: new \nAbstract: Heterogeneous federated systems require agents to learn and exchange informative representations despite differences in data distributions, sensing modalities, model architectures, latent dimensionalities, and local learning objectives. To address thi...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "embedding",
-        "framework",
-        "context",
-        "alignment",
-        "arxiv",
-        "compression",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "DOCSCHISEL: Adaptive Tool Documentation Optimization Framework for LLM Agents",
-      "url": "https://arxiv.org/abs/2608.10037",
-      "description": "arXiv:2608.10037v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly rely on external tools to accomplish complex real-world tasks, making tool documentation a critical grounding resource for LLM agents. Existing studies mainly focus on improving the tool-use capabilities of LL...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "experiment",
-        "model",
-        "framework",
-        "arxiv",
-        "LLM",
-        "study",
-        "compression",
-        "tool",
-        "RAG"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "FlowScout: From Execution Feedback to Reliable Tool-Using Agent Workflows",
-      "url": "https://arxiv.org/abs/2608.10039",
-      "description": "arXiv:2608.10039v1 Announce Type: new \nAbstract: Agentic workflows have become an important abstraction for building reliable LLM-based automation systems by organizing large language models (LLMs), tools, and control logic into explicit execution structures. However, constructing high-quality agent...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "large language model",
+        "RAG",
+        "zero-shot",
         "experiment",
         "framework",
-        "arxiv",
-        "LLM",
-        "tool",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Finding the Signal in the Spam: Jointly Learning Rewards and Worker Reliability from Pairwise Comparisons",
-      "url": "https://arxiv.org/abs/2608.10045",
-      "description": "arXiv:2608.10045v1 Announce Type: new \nAbstract: The problem of learning from pairwise comparisons has been widely studied across many domains such as recommendation systems, social choice, and more recently, fine-tuning large language models. In this problem, the goal is to learn item rewards based...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "experiment",
-        "arxiv",
-        "platform",
-        "fine-tuning",
-        "ICL",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Physics-Informed Machine Learning in Prognostics and Health Management: A Systematic Literature Review",
-      "url": "https://arxiv.org/abs/2608.10047",
-      "description": "arXiv:2608.10047v1 Announce Type: new \nAbstract: In modern industry, keeping complex systems reliable, safe, and efficient hinges on Prognostics and Health Management (PHM). Machine Learning (ML) has largely driven advancements in diagnostics and prognostics, yet purely data-driven models face inher...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "research",
         "model",
-        "context",
+        "paper",
         "arxiv",
-        "RAG"
+        "context"
       ],
       "score": 1.0
     },
@@ -360,10 +334,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "context window",
         "prompt",
-        "prompt engineering",
-        "context"
+        "context",
+        "context window",
+        "prompt engineering"
       ],
       "score": 1.0
     },
@@ -375,11 +349,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "chain-of-thought",
         "framework",
-        "reasoning",
-        "audio",
         "CoT",
-        "chain-of-thought"
+        "reasoning",
+        "audio"
       ],
       "score": 1.0
     },
@@ -405,8 +379,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "framework",
         "chain-of-thought",
+        "framework",
         "context"
       ],
       "score": 1.0
@@ -425,16 +399,16 @@
       "score": 1.0
     },
     {
-      "title": "LightRAG - [EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "title": "LightRAG - [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
       "url": "https://github.com/HKUDS/LightRAG",
-      "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
       "published_date": "2024-10-02T11:57:54+00:00",
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
         "RAG",
-        "retrieval",
-        "augmented"
+        "augmented",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -446,14 +420,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
-        "model",
-        "framework",
-        "knowledge base",
-        "reasoning",
-        "LLM",
         "RAG",
-        "vector"
+        "LLM",
+        "framework",
+        "model",
+        "vector",
+        "knowledge base",
+        "retrieval",
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -479,8 +453,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "RAG",
-        "retrieval",
-        "augmented"
+        "augmented",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -492,82 +466,59 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
-        "API",
         "product",
-        "augmented",
-        "RAG"
+        "RAG",
+        "API",
+        "retrieval",
+        "augmented"
       ],
       "score": 1.0
     },
     {
-      "title": "PERCEPT: A Corpus for POS Tagging and Analysis of Persian-English Code-Mixing",
-      "url": "https://arxiv.org/abs/2608.10109",
-      "description": "arXiv:2608.10109v1 Announce Type: new \nAbstract: Social media has become a major venue for multilingual communication, where users frequently mix multiple languages within a single utterance. Although code-mixed corpora have been developed for several language pairs, Persian-English code-mixing rema...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "analysis",
-        "framework",
-        "arxiv",
-        "LLM",
-        "platform",
-        "ICL",
-        "model"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "MESA:Task-Adaptive Multi-Structure Evidence Selection for Long-Horizon Agent Memory",
-      "url": "https://arxiv.org/abs/2608.10108",
-      "description": "arXiv:2608.10108v1 Announce Type: new \nAbstract: Long-horizon agents accumulate trajectories spanning hundreds of interleaved reasoning, action, and observation steps, where answering a query may depend on evidence buried far back in the history. External memory stores such trajectories as structure...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "analysis",
-        "framework",
-        "context",
-        "library",
-        "arxiv",
-        "reasoning",
-        "vision",
-        "model",
-        "memory"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "Uncertainty-Aware Ensemble Deep Randomized Neural Networks for Classification",
-      "url": "https://arxiv.org/abs/2608.10007",
-      "description": "arXiv:2608.10007v1 Announce Type: new \nAbstract: The current state-of-the-art (SOTA) deep randomized neural networks, such as deep Random Vector Functional Link (dRVFL) and ensemble deep RVFL (edRVFL), treat all training samples uniformly, which limits their robustness and effectiveness when applied...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "TRACE Bench: Task-driven Roleplay Agentic Checklist Evaluation",
+      "url": "https://arxiv.org/abs/2608.11236",
+      "description": "arXiv:2608.11236v1 Announce Type: new \nAbstract: Roleplay evaluation should do more than assign a single score: it should reveal which role requirements were tested, which failed, and which dialogue evidence supports the judgment. We propose TRACE Bench, a task-driven agentic checklist evaluation fr...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
+        "RAG",
         "experiment",
         "framework",
-        "arxiv",
+        "release",
         "model",
-        "vector"
+        "arxiv"
       ],
       "score": 0.8
     },
     {
-      "title": "UserToolBench: A User-Profile-Hidden Benchmark for Personalized Decision Making in Tool-Use LLMs",
-      "url": "https://arxiv.org/abs/2608.10042",
-      "description": "arXiv:2608.10042v1 Announce Type: new \nAbstract: Tool-use LLMs are increasingly asked to act on users' behalf, but existing benchmarks usually focus on profile recall, style imitation, generic tool use, or response-level personalization. We introduce UserToolBench , a benchmark for personalized deci...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "A Conceptual Framework for Refining Influence Knowledge from Simulation Evidence in Cyber-Physical Systems",
+      "url": "https://arxiv.org/abs/2608.11221",
+      "description": "arXiv:2608.11221v1 Announce Type: new \nAbstract: Cyber-physical systems (CPS) are typically developed by multiple stakeholders who produce artefacts tailored to their specific domains of expertise. The behaviour of these systems emerges from the interaction between those artefacts and their operatio...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
-      "category": "tools_frameworks",
+      "category": "research_papers",
       "keywords": [
-        "experiment",
+        "RAG",
+        "framework",
+        "model",
+        "study",
+        "arxiv"
+      ],
+      "score": 0.8
+    },
+    {
+      "title": "Contextual Quality-Diversity Evolutionary Reinforcement Learning for HVAC Control in Tropical Commercial Buildings",
+      "url": "https://arxiv.org/abs/2608.11324",
+      "description": "arXiv:2608.11324v1 Announce Type: new \nAbstract: This paper proposes a contextual quality-diversity evolutionary reinforcement-learning controller, CQD-ERL, for the supervisory control of a tropical, water-cooled chiller plant and its associated air side. Rather than converging to a single scalarise...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "product",
+        "paper",
         "arxiv",
-        "LLM",
-        "API",
-        "tool",
-        "model"
+        "context"
       ],
       "score": 0.8
     },
@@ -594,11 +545,81 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "chain-of-thought",
         "model",
-        "reasoning",
-        "chain-of-thought"
+        "reasoning"
       ],
       "score": 0.8
+    },
+    {
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "description": "...",
+      "published_date": "2026-08-13T17:16:04",
+      "source": "Hugging Face Blog",
+      "category": "rag_retrieval",
+      "keywords": [
+        "RAG"
+      ],
+      "score": 0.6
+    },
+    {
+      "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+      "url": "https://arxiv.org/abs/2608.11338",
+      "description": "arXiv:2608.11338v1 Announce Type: new \nAbstract: Recently, the practice of augmenting LLM agent capability with skills has gained prevalence. We explore the cost effective adaptation of agents to novel domains by means of learning skills. Existing works focus on performance gain over cost effectiven...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "augmented",
+        "LLM",
+        "arxiv"
+      ],
+      "score": 0.6
+    },
+    {
+      "title": "ODE-Based Transformer Decoders for Iterative Sign Language Translation",
+      "url": "https://arxiv.org/abs/2608.11352",
+      "description": "arXiv:2608.11352v1 Announce Type: new \nAbstract: Sign language translation has achieved strong results with Transformer architectures, yet recent improvements largely rely on scaling model capacity at the cost of increased computation. We propose a parameter-efficient alternative that improves expre...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "transformer",
+        "model",
+        "arxiv"
+      ],
+      "score": 0.6
+    },
+    {
+      "title": "FarSky: Task-Aware Latent-Space Coupling for Generative Intra-Hour Solar Forecasting",
+      "url": "https://arxiv.org/abs/2608.11254",
+      "description": "arXiv:2608.11254v1 Announce Type: new \nAbstract: Accurate solar irradiance forecasting is essential for the reliable integration of photovoltaic power into modern electricity grids. All-sky imagers (ASI) provide high-resolution observations of clouds, making them well suited for intra-hour forecasti...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "RAG",
+        "framework",
+        "image",
+        "model",
+        "arxiv"
+      ],
+      "score": 0.6
+    },
+    {
+      "title": "Terminal Symmetry as a Decision Resource: Statewise Refinement for Anytime Verified Construction",
+      "url": "https://arxiv.org/abs/2608.11318",
+      "description": "arXiv:2608.11318v1 Announce Type: new \nAbstract: Many sequential construction tasks exhibit exact symmetry at completion while their execution remains directed and history-dependent. We develop a decision-resource view of terminal symmetry: process evidence supplies directionality, terminal correspo...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "RAG",
+        "model",
+        "arxiv"
+      ],
+      "score": 0.6
     },
     {
       "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
@@ -610,46 +631,6 @@
       "keywords": [
         "embedding",
         "analysis"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Automating and Scaling Behavioral Scientific Research on AI Agents",
-      "url": "https://arxiv.org/abs/2608.10030",
-      "description": "arXiv:2608.10030v1 Announce Type: new \nAbstract: As AI agents are increasingly deployed in complex environments, understanding their behaviors becomes critical. Yet behavioral scientific research on AI agents remains manual and labor-intensive. We introduce AEROBAT, the first multi-agent system to a...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "research",
-        "experiment",
-        "arxiv"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "SBCO: Self-Supervised, Verifier-Grounded Harness Optimization For Planning Agents",
-      "url": "https://arxiv.org/abs/2608.10157",
-      "description": "arXiv:2608.10157v1 Announce Type: new \nAbstract: Self-improving agents seek to reduce the human engineering effort behind AI systems by enabling them to evolve and self-improve their performance over time. Recently, methods like the Darwin G\\\"odel Machine and the Huxley G\\\"odel Machine have been pro...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "alignment",
-        "arxiv"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Detecting Soft Skills in ML Engineering Roles CVs",
-      "url": "https://arxiv.org/abs/2608.10046",
-      "description": "arXiv:2608.10046v1 Announce Type: new \nAbstract: Soft skills shape collaboration among ML engineers, data scientists, and software engineers building ML-enabled systems, yet what we know about them comes almost entirely from the demand side. Job advertisements, surveys, and hiring manager interviews...",
-      "published_date": "2026-08-12T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "arxiv",
-        "LLM"
       ],
       "score": 0.6
     },
@@ -688,10 +669,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "model",
         "example",
         "prompt",
-        "prompt engineering",
-        "model"
+        "prompt engineering"
       ],
       "score": 0.6
     },
@@ -723,47 +704,61 @@
       "score": 0.6
     },
     {
-      "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2608.09967",
-      "description": "arXiv:2608.09967v1 Announce Type: new \nAbstract: Deep reinforcement learning (DRL) agents achieve strong performance in complex environments, yet their decision-making processes remain difficult to interpret. We introduce SPOT (Sampling Policy Observation Tree), a novel model-agnostic, sampling-base...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
+      "url": "https://arxiv.org/abs/2608.11211",
+      "description": "arXiv:2608.11211v1 Announce Type: new \nAbstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists. We report a systematic, fully reproducible attack by an autonomous AI research agent, scored under the track's partial-credit metric. Our...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "study",
+        "research",
         "arxiv",
-        "model",
         "framework"
       ],
       "score": 0.4
     },
     {
-      "title": "ReCBM: Uncertainty-Gated Relational Reasoning for Concept Bottleneck Models",
-      "url": "https://arxiv.org/abs/2608.10004",
-      "description": "arXiv:2608.10004v1 Announce Type: new \nAbstract: Concept Bottleneck Models (CBMs) provide an interpretable framework by grounding predictions in human-understandable concepts, enabling semantic inspection and test-time intervention. Recent variants have improved CBMs through richer concept represent...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2608.11212",
+      "description": "arXiv:2608.11212v1 Announce Type: new \nAbstract: Top-k Mixture-of-Experts (MoE) routing is discontinuous, so a deployment-motivated numerical disturbance -- simulated 4-bit KV-cache quantization read by a protected BF16 gate -- pushes tokens across decision boundaries and flips which experts fire. T...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "experiment",
-        "framework",
-        "arxiv",
-        "reasoning",
-        "model"
+        "paper",
+        "model",
+        "arxiv"
       ],
       "score": 0.4
     },
     {
-      "title": "CurveFP: Rational-Radix Logarithmic Datatypes with Closed Products for Language Models",
-      "url": "https://arxiv.org/abs/2608.10010",
-      "description": "arXiv:2608.10010v1 Announce Type: new \nAbstract: Low-precision datatypes reduce language-model cost, but most formats optimize scalar fidelity while leaving the arithmetic induced by their products unchanged. We introduce CurveFP, a closed-product codebook family that distributes quantized magnitude...",
-      "published_date": "2026-08-12T04:00:00",
+      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "url": "https://arxiv.org/abs/2608.11216",
+      "description": "arXiv:2608.11216v1 Announce Type: new \nAbstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous ...",
+      "published_date": "2026-08-13T04:00:00",
       "source": "arXiv",
-      "category": "industry_news",
+      "category": "research_papers",
       "keywords": [
-        "arxiv",
         "model",
-        "product"
+        "arxiv",
+        "research"
+      ],
+      "score": 0.4
+    },
+    {
+      "title": "Federated Learning for Distributed CNC Tool Wear Prediction",
+      "url": "https://arxiv.org/abs/2608.11281",
+      "description": "arXiv:2608.11281v1 Announce Type: new \nAbstract: Tool wear prediction is an important task in CNC machining, where accurate monitoring of tool condition supports product quality and process reliability. Machine learning methods have shown potential for this task, but their use in industrial environm...",
+      "published_date": "2026-08-13T04:00:00",
+      "source": "arXiv",
+      "category": "tools_frameworks",
+      "keywords": [
+        "product",
+        "tool",
+        "framework",
+        "model",
+        "paper",
+        "arxiv"
       ],
       "score": 0.4
     },
@@ -792,6 +787,18 @@
       "score": 0.4
     },
     {
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "description": "...",
+      "published_date": "2026-08-13T00:00:00",
+      "source": "Hugging Face Blog",
+      "category": "research_papers",
+      "keywords": [
+        "paper"
+      ],
+      "score": 0.2
+    },
+    {
       "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
       "description": "...",
@@ -800,18 +807,6 @@
       "category": "multimodal_context",
       "keywords": [
         "vision"
-      ],
-      "score": 0.2
-    },
-    {
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "url": "https://huggingface.co/blog/muse-glimmer",
-      "description": "...",
-      "published_date": "2026-08-10T00:00:00",
-      "source": "Hugging Face Blog",
-      "category": "multimodal_context",
-      "keywords": [
-        "multimodal"
       ],
       "score": 0.2
     }
