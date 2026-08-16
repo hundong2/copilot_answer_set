@@ -1,153 +1,7 @@
 {
-  "generated_at": "2026-08-15T20:04:18.080306",
-  "total_items": 32,
+  "generated_at": "2026-08-16T20:04:23.472188",
+  "total_items": 20,
   "items": [
-    {
-      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
-      "url": "https://arxiv.org/abs/2608.12345",
-      "description": "arXiv:2608.12345v1 Announce Type: new \nAbstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action r...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "reasoning",
-        "LLM",
-        "context",
-        "research",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
-      "url": "https://arxiv.org/abs/2608.12368",
-      "description": "arXiv:2608.12368v1 Announce Type: new \nAbstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same j...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "LLM",
-        "context",
-        "alignment",
-        "analysis",
-        "attention",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
-      "url": "https://arxiv.org/abs/2608.12371",
-      "description": "arXiv:2608.12371v1 Announce Type: new \nAbstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-service (QoS) requirements complicate decentralized scheduling. This paper...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "experiment",
-        "LLM",
-        "context",
-        "memory",
-        "vision",
-        "arxiv",
-        "prompt",
-        "paper",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Position: We Need Practical AI Alignment Methods to Mirror Human Reasoning",
-      "url": "https://arxiv.org/abs/2608.12372",
-      "description": "arXiv:2608.12372v1 Announce Type: new \nAbstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers. This position paper argues that in many settings, particularly high-stakes decision-making, we need accurate cognitively-aligned AI systems that ...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "reasoning",
-        "alignment",
-        "research",
-        "vision",
-        "arxiv",
-        "paper"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese",
-      "url": "https://arxiv.org/abs/2608.12373",
-      "description": "arXiv:2608.12373v1 Announce Type: new \nAbstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's dec...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "experiment",
-        "reasoning",
-        "LLM",
-        "context",
-        "alignment",
-        "arxiv",
-        "prompt",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
-      "url": "https://arxiv.org/abs/2608.12385",
-      "description": "arXiv:2608.12385v1 Announce Type: new \nAbstract: As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two inference phases stress hardware differently: prompt prefill is parallel and typically compute-bound...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "experiment",
-        "transformer",
-        "attention",
-        "memory",
-        "arxiv",
-        "study",
-        "prompt",
-        "model",
-        "embedding"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Learning to Adapt Cross-Domain Preferences via Meta-LoRA for LLM Personalization",
-      "url": "https://arxiv.org/abs/2608.12389",
-      "description": "arXiv:2608.12389v1 Announce Type: new \nAbstract: Cross-domain zero- or few-shot personalization aims to generate user-preferred responses in unseen conversational domains from only a handful of target-domain interactions. Existing adaptation methods struggle to calibrate update magnitude under spars...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "few-shot",
-        "experiment",
-        "LLM",
-        "arxiv",
-        "prompt"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Research Assistant: AstraZeneca's Agentic System for R&D",
-      "url": "https://arxiv.org/abs/2608.12395",
-      "description": "arXiv:2608.12395v1 Announce Type: new \nAbstract: We describe Research Assistant, an internal LLM-based system developed at AstraZeneca to help scientists and clinicians explore biomedical questions across a broad range of data sources. The system provides a chat-style interface that brings together ...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "experiment",
-        "product",
-        "LLM",
-        "research",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -156,10 +10,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
-        "context",
         "context window",
-        "prompt engineering"
+        "context",
+        "prompt engineering",
+        "prompt"
       ],
       "score": 1.0
     },
@@ -171,11 +25,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "reasoning",
+        "audio",
         "framework",
+        "reasoning",
         "chain-of-thought",
-        "CoT",
-        "audio"
+        "CoT"
       ],
       "score": 1.0
     },
@@ -188,8 +42,8 @@
       "category": "chain_of_thought",
       "keywords": [
         "vector",
-        "reasoning",
-        "RAG"
+        "RAG",
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -216,8 +70,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "augmented",
-        "retrieval",
-        "RAG"
+        "RAG",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -229,14 +83,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "reasoning",
+        "knowledge base",
+        "RAG",
         "retrieval",
-        "framework",
         "LLM",
         "vector",
-        "RAG",
-        "model",
-        "knowledge base"
+        "reasoning",
+        "framework",
+        "model"
       ],
       "score": 1.0
     },
@@ -262,8 +116,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "augmented",
-        "retrieval",
-        "RAG"
+        "RAG",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -275,30 +129,13 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "product",
+        "RAG",
         "retrieval",
         "API",
-        "RAG",
-        "augmented"
+        "augmented",
+        "product"
       ],
       "score": 1.0
-    },
-    {
-      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
-      "url": "https://arxiv.org/abs/2608.12346",
-      "description": "arXiv:2608.12346v1 Announce Type: new \nAbstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment techni...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "tool",
-        "alignment",
-        "API",
-        "arxiv",
-        "paper",
-        "model"
-      ],
-      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -309,9 +146,9 @@
       "category": "tools_frameworks",
       "keywords": [
         "context",
-        "tool",
+        "API",
         "model",
-        "API"
+        "tool"
       ],
       "score": 0.8
     },
@@ -323,23 +160,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "chain-of-thought",
+        "model",
         "reasoning",
-        "model"
+        "chain-of-thought"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "description": "...",
-      "published_date": "2026-08-13T17:16:04",
-      "source": "Hugging Face Blog",
-      "category": "rag_retrieval",
-      "keywords": [
-        "RAG"
-      ],
-      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -349,9 +174,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
         "library",
-        "prompt engineering"
+        "prompt engineering",
+        "prompt"
       ],
       "score": 0.6
     },
@@ -376,10 +201,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
         "example",
         "prompt engineering",
-        "model"
+        "model",
+        "prompt"
       ],
       "score": 0.6
     },
@@ -404,27 +229,11 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
         "paper",
-        "prompt engineering"
+        "prompt engineering",
+        "prompt"
       ],
       "score": 0.6
-    },
-    {
-      "title": "Position: Reasoning is a Learnable Rule-Based Process",
-      "url": "https://arxiv.org/abs/2608.12325",
-      "description": "arXiv:2608.12325v1 Announce Type: new \nAbstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and ...",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "reasoning",
-        "research",
-        "API",
-        "arxiv",
-        "model"
-      ],
-      "score": 0.4
     },
     {
       "title": "semantica - Graph-Native Infrastructure for Context and Accountable AI Systems",
@@ -471,18 +280,6 @@
       "category": "industry_news",
       "keywords": [
         "model"
-      ],
-      "score": 0.2
-    },
-    {
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "description": "...",
-      "published_date": "2026-08-13T00:00:00",
-      "source": "Hugging Face Blog",
-      "category": "research_papers",
-      "keywords": [
-        "paper"
       ],
       "score": 0.2
     }
