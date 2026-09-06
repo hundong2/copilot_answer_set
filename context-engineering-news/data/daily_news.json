@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T20:09:44.705885",
-  "total_items": 23,
+  "generated_at": "2026-09-06T20:10:11.970555",
+  "total_items": 19,
   "items": [
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
@@ -10,10 +10,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "context",
         "prompt engineering",
         "prompt",
-        "context window",
-        "context"
+        "context window"
       ],
       "score": 1.0
     },
@@ -25,11 +25,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "audio",
-        "framework",
-        "chain-of-thought",
+        "CoT",
         "reasoning",
-        "CoT"
+        "chain-of-thought",
+        "framework",
+        "audio"
       ],
       "score": 1.0
     },
@@ -41,9 +41,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "vector",
         "reasoning",
-        "RAG"
+        "RAG",
+        "vector"
       ],
       "score": 1.0
     },
@@ -55,8 +55,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "context",
         "chain-of-thought",
+        "context",
         "framework"
       ],
       "score": 1.0
@@ -83,14 +83,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "knowledge base",
-        "retrieval",
-        "RAG",
         "LLM",
-        "vector",
-        "framework",
         "reasoning",
-        "model"
+        "vector",
+        "retrieval",
+        "knowledge base",
+        "framework",
+        "model",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -131,9 +131,9 @@
       "keywords": [
         "augmented",
         "retrieval",
+        "API",
         "RAG",
-        "product",
-        "API"
+        "product"
       ],
       "score": 1.0
     },
@@ -146,9 +146,9 @@
       "category": "tools_frameworks",
       "keywords": [
         "context",
+        "API",
         "model",
-        "tool",
-        "API"
+        "tool"
       ],
       "score": 0.8
     },
@@ -161,23 +161,10 @@
       "category": "chain_of_thought",
       "keywords": [
         "chain-of-thought",
-        "reasoning",
-        "model"
+        "model",
+        "reasoning"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "description": "...",
-      "published_date": "2026-09-03T00:00:00",
-      "source": "Hugging Face Blog",
-      "category": "industry_news",
-      "keywords": [
-        "model",
-        "fine-tuning"
-      ],
-      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -215,8 +202,8 @@
       "category": "prompt_engineering",
       "keywords": [
         "prompt engineering",
-        "prompt",
         "example",
+        "prompt",
         "model"
       ],
       "score": 0.6
@@ -243,8 +230,8 @@
       "category": "prompt_engineering",
       "keywords": [
         "prompt engineering",
-        "prompt",
-        "paper"
+        "paper",
+        "prompt"
       ],
       "score": 0.6
     },
@@ -283,42 +270,6 @@
         "context"
       ],
       "score": 0.4
-    },
-    {
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "description": "...",
-      "published_date": "2026-09-03T13:13:48",
-      "source": "Hugging Face Blog",
-      "category": "multimodal_context",
-      "keywords": [
-        "multimodal"
-      ],
-      "score": 0.2
-    },
-    {
-      "title": "Give Your Coding Agents a Memory You Own",
-      "url": "https://huggingface.co/blog/funes",
-      "description": "...",
-      "published_date": "2026-09-03T00:00:00",
-      "source": "Hugging Face Blog",
-      "category": "context_management",
-      "keywords": [
-        "memory"
-      ],
-      "score": 0.2
-    },
-    {
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "url": "https://huggingface.co/blog/train-to-paint-with-code",
-      "description": "...",
-      "published_date": "2026-09-03T00:00:00",
-      "source": "Hugging Face Blog",
-      "category": "industry_news",
-      "keywords": [
-        "model"
-      ],
-      "score": 0.2
     }
   ]
 }
