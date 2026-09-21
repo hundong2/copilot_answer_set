@@ -6,43 +6,56 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>GVD: Governed Versioning and Deduplication for Document Repositories</title>
-      <link>https://arxiv.org/abs/2609.17696</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.17696</guid>
-      <description>arXiv:2609.17696v1 Announce Type: new 
-Abstract: Document repositories evolve continuously. Guidelines and policies are revised, superseded, and re-uploaded, so the same content recurs in different wording and newer versions refine or contradict earlier ones. These inconsistencies belong to the grow...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, alignment, model, arxiv, framework | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 17 Sep 2026 04:00:00 </pubDate>
+      <title>RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.20971</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.20971</guid>
+      <description>arXiv:2609.20971v1 Announce Type: new 
+Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly releva...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, experiment, large language model, RAG, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 21 Sep 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>memory</category>
-      <category>alignment</category>
+      <category>LLM</category>
+      <category>experiment</category>
+      <category>large language model</category>
+    </item>
+    <item>
+      <title>Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.21113</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.21113</guid>
+      <description>arXiv:2609.21113v1 Announce Type: new 
+Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we investigate how fine-tuning alters internal repr...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, large language model, arxiv, model, fine-tuning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 21 Sep 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>LLM</category>
+      <category>large language model</category>
+      <category>arxiv</category>
+    </item>
+    <item>
+      <title>TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers</title>
+      <link>https://arxiv.org/abs/2609.21139</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.21139</guid>
+      <description>arXiv:2609.21139v1 Announce Type: new 
+Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \emph{quality-gated post-training conversion} framework using CeNN-inspi...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; LLM, framework, release, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 21 Sep 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>LLM</category>
+      <category>framework</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>Elastic Threshold Attention: Learned Contextual Sparsity for Long-Context Decoding</title>
+      <link>https://arxiv.org/abs/2609.20888</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2609.20888</guid>
+      <description>arXiv:2609.20888v1 Announce Type: new 
+Abstract: Massive KV caches can cause severe memory-bandwidth bottlenecks during long-context decoding. Sparse attention methods mitigate this via selective loading, but that comes at a cost: rigid heuristics drop necessary context, leading to quality degradati...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; retrieval, arxiv, model, reasoning, memory | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 21 Sep 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>retrieval</category>
+      <category>arxiv</category>
       <category>model</category>
-    </item>
-    <item>
-      <title>Where Grokking Happens: Distributed Utility and Fourier Recoding Without a Module Switch</title>
-      <link>https://arxiv.org/abs/2609.17571</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.17571</guid>
-      <description>arXiv:2609.17571v1 Announce Type: new 
-Abstract: Where in a Transformer is the change from memorization to generalization functionally expressed? We introduce Transition Games--behavior-aligned exact activation games with paired non-generalizing controls--and find distributed utility gain with a pro...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, attention, example, memory, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 17 Sep 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>transformer</category>
-      <category>attention</category>
-      <category>example</category>
-    </item>
-    <item>
-      <title>Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches</title>
-      <link>https://arxiv.org/abs/2609.17652</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.17652</guid>
-      <description>arXiv:2609.17652v1 Announce Type: new 
-Abstract: When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan that ranks all n keys for a top-k step becomes the traffic that bounds decoding. We present F...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, memory, attention, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Thu, 17 Sep 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>context</category>
-      <category>memory</category>
-      <category>attention</category>
     </item>
   </channel>
 </rss>
