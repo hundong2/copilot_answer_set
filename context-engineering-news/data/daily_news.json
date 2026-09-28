@@ -1,7 +1,259 @@
 {
-  "generated_at": "2026-09-27T20:11:05.187854",
-  "total_items": 19,
+  "generated_at": "2026-09-28T20:11:06.308045",
+  "total_items": 37,
   "items": [
+    {
+      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
+      "url": "https://arxiv.org/abs/2609.30287",
+      "description": "arXiv:2609.30287v1 Announce Type: new \nAbstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predictions remain poorly understood. We study which neurons in a frozen BERT-base-uncased encoder support AI-text detection, u...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "instruction",
+        "study",
+        "analysis",
+        "model",
+        "alignment",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Manifold Projection and Iterative Autoencoder Refinement for Masked Language Modeling",
+      "url": "https://arxiv.org/abs/2609.30288",
+      "description": "arXiv:2609.30288v1 Announce Type: new \nAbstract: In Transformer-based masked language models, attention is the primary mechanism for context mixing, but there are other ways to mix data across tokens. Recent attention-free mixers replace attention with fixed or hypernetwork-generated MLPs, alternati...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "transformer",
+        "embedding",
+        "context",
+        "attention",
+        "model",
+        "RAG",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
+      "url": "https://arxiv.org/abs/2609.30289",
+      "description": "arXiv:2609.30289v1 Announce Type: new \nAbstract: In team collaboration scenarios, memory is heterogeneous and continually evolving. Team memories capture collective decisions, protocols, and current consensus, while individual memories preserve member-specific observations, execution traces, and int...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "LLM",
+        "augmented",
+        "memory",
+        "model",
+        "framework",
+        "experiment",
+        "retrieval",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Auditing and Repairing LLM-as-Judge Failures in a Production Text-to-SQL Pipeline",
+      "url": "https://arxiv.org/abs/2609.30290",
+      "description": "arXiv:2609.30290v1 Announce Type: new \nAbstract: Production text-to-SQL pipelines often end with an LLM-as-judge whose agreement with human annotators has never actually been measured. When we checked ours, the deployed gpt-4o-mini judge agreed with two-author gold at only Cohen's kappa = 0.04 on a ...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "LLM",
+        "GPT",
+        "RAG",
+        "product",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "A Survey on Fake Review Detection: From Pre-trained Language Models to Large Language Models",
+      "url": "https://arxiv.org/abs/2609.30292",
+      "description": "arXiv:2609.30292v1 Announce Type: new \nAbstract: Online reviews shape consumer decisions, platform governance, and corporate reputation.Fake reviews compromise this information channel by injecting deceptive evidence into rating systems, recommendation pipelines, and public trust mechanisms.The rise...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "industry_news",
+      "keywords": [
+        "platform",
+        "LLM",
+        "context",
+        "model",
+        "multimodal",
+        "large language model",
+        "product",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents",
+      "url": "https://arxiv.org/abs/2609.30293",
+      "description": "arXiv:2609.30293v1 Announce Type: new \nAbstract: The Model Context Protocol (MCP) enables AI agents to discover and call tools, but loading every definition becomes expensive as connected catalogs grow. We present Cartograph, a federated MCP proxy that changes agent-visible tool discovery from $O(n)...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "LLM",
+        "tool",
+        "context",
+        "analysis",
+        "model",
+        "retrieval",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "SignTrace: Describe a Sign, Find the Word",
+      "url": "https://arxiv.org/abs/2609.30295",
+      "description": "arXiv:2609.30295v1 Announce Type: new \nAbstract: Identifying an unfamiliar sign is difficult when a learner remembers its movement but does not know its meaning or formal feature codes. SignTrace addresses this longstanding reverse-lookup problem through natural-language access to a Chinese sign-lan...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "tool",
+        "LLM",
+        "retrieval",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "A Benchmark Framework for Screening Automation in Systematic Reviews",
+      "url": "https://arxiv.org/abs/2609.30298",
+      "description": "arXiv:2609.30298v1 Announce Type: new \nAbstract: Systematic reviews (SR) are essential for evidence-based research, but their screening phase is highly time-consuming and labor-intensive. Large language models (LLMs) offer a promising opportunity to reduce this workload by assisting with article rel...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "LLM",
+        "tool",
+        "paper",
+        "research",
+        "analysis",
+        "model",
+        "framework",
+        "experiment",
+        "ICL",
+        "large language model",
+        "prompt",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+      "url": "https://arxiv.org/abs/2609.30325",
+      "description": "arXiv:2609.30325v1 Announce Type: new \nAbstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "industry_news",
+      "keywords": [
+        "instruction",
+        "model",
+        "alignment",
+        "release",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "url": "https://arxiv.org/abs/2609.30341",
+      "description": "arXiv:2609.30341v1 Announce Type: new \nAbstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructure...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "in_context_learning",
+      "keywords": [
+        "LLM",
+        "tool",
+        "context",
+        "model",
+        "ICL",
+        "large language model",
+        "retrieval",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+      "url": "https://arxiv.org/abs/2609.30383",
+      "description": "arXiv:2609.30383v1 Announce Type: new \nAbstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specific task. Skill-based agent systems therefore enable flexible reuse of t...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "LLM",
+        "instruction",
+        "attention",
+        "study",
+        "paper",
+        "framework",
+        "release",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
+      "url": "https://arxiv.org/abs/2609.30456",
+      "description": "arXiv:2609.30456v1 Announce Type: new \nAbstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate steps. These approaches largely treat in...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "model",
+        "alignment",
+        "image",
+        "RAG",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Pretrained ASR Pseudo-labeling for Noisy Police Audio",
+      "url": "https://arxiv.org/abs/2609.30469",
+      "description": "arXiv:2609.30469v1 Announce Type: new \nAbstract: Pretrained ASR systems perform poorly on noisy Broadcast Police Communication (BPC), hindering efforts to understand police decision-making. Pseudo-labeling offers an unsupervised path to improve ASR without expensive human labels, but the efficacy of...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "LLM",
+        "context",
+        "audio",
+        "model",
+        "RAG",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Do LLMs Understand Context? A Knowledge Graph-Based Evaluation Framework",
+      "url": "https://arxiv.org/abs/2609.30484",
+      "description": "arXiv:2609.30484v1 Announce Type: new \nAbstract: While large language models (LLMs) have achieved remarkable linguistic capabilities, a profound question lingers at their core: do these models truly comprehend context or simply excel at pattern matching on an unprecedented scale? Contextual understa...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "LLM",
+        "reasoning",
+        "context",
+        "study",
+        "analysis",
+        "model",
+        "framework",
+        "large language model",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -10,10 +262,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "context window",
         "context",
-        "prompt engineering",
         "prompt",
-        "context window"
+        "prompt engineering"
       ],
       "score": 1.0
     },
@@ -25,11 +277,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "framework",
-        "CoT",
-        "audio",
         "reasoning",
-        "chain-of-thought"
+        "chain-of-thought",
+        "audio",
+        "CoT",
+        "framework"
       ],
       "score": 1.0
     },
@@ -41,9 +293,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "RAG",
         "vector",
-        "reasoning"
+        "reasoning",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -70,8 +322,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "RAG",
-        "augmented",
-        "retrieval"
+        "retrieval",
+        "augmented"
       ],
       "score": 1.0
     },
@@ -83,14 +335,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "LLM",
+        "reasoning",
+        "vector",
+        "knowledge base",
+        "model",
         "framework",
         "RAG",
-        "LLM",
-        "knowledge base",
-        "reasoning",
-        "retrieval",
-        "vector",
-        "model"
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -116,8 +368,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "RAG",
-        "augmented",
-        "retrieval"
+        "retrieval",
+        "augmented"
       ],
       "score": 1.0
     },
@@ -130,12 +382,61 @@
       "category": "rag_retrieval",
       "keywords": [
         "augmented",
+        "product",
         "API",
         "RAG",
-        "retrieval",
-        "product"
+        "retrieval"
       ],
       "score": 1.0
+    },
+    {
+      "title": "SlideLab: Audience-Centered Scientific Slide Generation and Evaluation",
+      "url": "https://arxiv.org/abs/2609.30294",
+      "description": "arXiv:2609.30294v1 Announce Type: new \nAbstract: Scientific presentations are more than summaries of research papers. They need to present the work in a coherent sequence, explain the main ideas clearly, and help the audience follow the presentation. We present SlideLab, a training-free multi-agent ...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "paper",
+        "research",
+        "framework",
+        "arxiv"
+      ],
+      "score": 0.8
+    },
+    {
+      "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
+      "url": "https://arxiv.org/abs/2609.30397",
+      "description": "arXiv:2609.30397v1 Announce Type: new \nAbstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the literature, existing evaluation approaches typica...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "paper",
+        "analysis",
+        "model",
+        "framework",
+        "experiment",
+        "image",
+        "arxiv"
+      ],
+      "score": 0.8
+    },
+    {
+      "title": "Predicting Transmembrane Protein Topology from 3D Structure",
+      "url": "https://arxiv.org/abs/2609.30446",
+      "description": "arXiv:2609.30446v1 Announce Type: new \nAbstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on the same dataset used to develop the recent DeepTMHMM model with 5-fold cross-validation. Unlike the ...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "paper",
+        "embedding",
+        "model",
+        "arxiv"
+      ],
+      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -145,10 +446,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
+        "tool",
         "context",
-        "API",
         "model",
-        "tool"
+        "API"
       ],
       "score": 0.8
     },
@@ -174,8 +475,8 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
         "prompt",
+        "prompt engineering",
         "library"
       ],
       "score": 0.6
@@ -188,8 +489,8 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "context",
-        "tool"
+        "tool",
+        "context"
       ],
       "score": 0.6
     },
@@ -202,9 +503,9 @@
       "category": "prompt_engineering",
       "keywords": [
         "model",
-        "prompt engineering",
+        "example",
         "prompt",
-        "example"
+        "prompt engineering"
       ],
       "score": 0.6
     },
@@ -229,11 +530,27 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
+        "paper",
         "prompt",
-        "paper"
+        "prompt engineering"
       ],
       "score": 0.6
+    },
+    {
+      "title": "Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops",
+      "url": "https://arxiv.org/abs/2609.30297",
+      "description": "arXiv:2609.30297v1 Announce Type: new \nAbstract: Conversational recommendation agents are a new paradigm for content discovery, enabling users to express complex intents through natural language (e.g., \"recommend Italian indie artists I haven't heard before\"). A central challenge in building such ag...",
+      "published_date": "2026-09-28T04:00:00",
+      "source": "arXiv",
+      "category": "tools_frameworks",
+      "keywords": [
+        "tool",
+        "framework",
+        "prompt",
+        "product",
+        "arxiv"
+      ],
+      "score": 0.4
     },
     {
       "title": "semantica - Graph-Native Infrastructure for Context and Accountable AI Systems",
