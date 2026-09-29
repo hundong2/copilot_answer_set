@@ -1,165 +1,20 @@
 {
-  "generated_at": "2026-09-28T20:11:06.308045",
-  "total_items": 37,
+  "generated_at": "2026-09-29T20:12:36.543317",
+  "total_items": 36,
   "items": [
-    {
-      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
-      "url": "https://arxiv.org/abs/2609.30287",
-      "description": "arXiv:2609.30287v1 Announce Type: new \nAbstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predictions remain poorly understood. We study which neurons in a frozen BERT-base-uncased encoder support AI-text detection, u...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "instruction",
-        "study",
-        "analysis",
-        "model",
-        "alignment",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Manifold Projection and Iterative Autoencoder Refinement for Masked Language Modeling",
-      "url": "https://arxiv.org/abs/2609.30288",
-      "description": "arXiv:2609.30288v1 Announce Type: new \nAbstract: In Transformer-based masked language models, attention is the primary mechanism for context mixing, but there are other ways to mix data across tokens. Recent attention-free mixers replace attention with fixed or hypernetwork-generated MLPs, alternati...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "transformer",
-        "embedding",
-        "context",
-        "attention",
-        "model",
-        "RAG",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
-      "url": "https://arxiv.org/abs/2609.30289",
-      "description": "arXiv:2609.30289v1 Announce Type: new \nAbstract: In team collaboration scenarios, memory is heterogeneous and continually evolving. Team memories capture collective decisions, protocols, and current consensus, while individual memories preserve member-specific observations, execution traces, and int...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "LLM",
-        "augmented",
-        "memory",
-        "model",
-        "framework",
-        "experiment",
-        "retrieval",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Auditing and Repairing LLM-as-Judge Failures in a Production Text-to-SQL Pipeline",
-      "url": "https://arxiv.org/abs/2609.30290",
-      "description": "arXiv:2609.30290v1 Announce Type: new \nAbstract: Production text-to-SQL pipelines often end with an LLM-as-judge whose agreement with human annotators has never actually been measured. When we checked ours, the deployed gpt-4o-mini judge agreed with two-author gold at only Cohen's kappa = 0.04 on a ...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "LLM",
-        "GPT",
-        "RAG",
-        "product",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "A Survey on Fake Review Detection: From Pre-trained Language Models to Large Language Models",
-      "url": "https://arxiv.org/abs/2609.30292",
-      "description": "arXiv:2609.30292v1 Announce Type: new \nAbstract: Online reviews shape consumer decisions, platform governance, and corporate reputation.Fake reviews compromise this information channel by injecting deceptive evidence into rating systems, recommendation pipelines, and public trust mechanisms.The rise...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "industry_news",
-      "keywords": [
-        "platform",
-        "LLM",
-        "context",
-        "model",
-        "multimodal",
-        "large language model",
-        "product",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents",
-      "url": "https://arxiv.org/abs/2609.30293",
-      "description": "arXiv:2609.30293v1 Announce Type: new \nAbstract: The Model Context Protocol (MCP) enables AI agents to discover and call tools, but loading every definition becomes expensive as connected catalogs grow. We present Cartograph, a federated MCP proxy that changes agent-visible tool discovery from $O(n)...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "LLM",
-        "tool",
-        "context",
-        "analysis",
-        "model",
-        "retrieval",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "SignTrace: Describe a Sign, Find the Word",
-      "url": "https://arxiv.org/abs/2609.30295",
-      "description": "arXiv:2609.30295v1 Announce Type: new \nAbstract: Identifying an unfamiliar sign is difficult when a learner remembers its movement but does not know its meaning or formal feature codes. SignTrace addresses this longstanding reverse-lookup problem through natural-language access to a Chinese sign-lan...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "tool",
-        "LLM",
-        "retrieval",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "A Benchmark Framework for Screening Automation in Systematic Reviews",
-      "url": "https://arxiv.org/abs/2609.30298",
-      "description": "arXiv:2609.30298v1 Announce Type: new \nAbstract: Systematic reviews (SR) are essential for evidence-based research, but their screening phase is highly time-consuming and labor-intensive. Large language models (LLMs) offer a promising opportunity to reduce this workload by assisting with article rel...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "LLM",
-        "tool",
-        "paper",
-        "research",
-        "analysis",
-        "model",
-        "framework",
-        "experiment",
-        "ICL",
-        "large language model",
-        "prompt",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
     {
       "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
       "url": "https://arxiv.org/abs/2609.30325",
       "description": "arXiv:2609.30325v1 Announce Type: new \nAbstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability...",
-      "published_date": "2026-09-28T04:00:00",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "industry_news",
       "keywords": [
         "instruction",
-        "model",
-        "alignment",
         "release",
-        "arxiv"
+        "arxiv",
+        "alignment",
+        "model"
       ],
       "score": 1.0
     },
@@ -167,18 +22,18 @@
       "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
       "url": "https://arxiv.org/abs/2609.30341",
       "description": "arXiv:2609.30341v1 Announce Type: new \nAbstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructure...",
-      "published_date": "2026-09-28T04:00:00",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "in_context_learning",
       "keywords": [
-        "LLM",
-        "tool",
-        "context",
-        "model",
         "ICL",
         "large language model",
-        "retrieval",
-        "arxiv"
+        "arxiv",
+        "tool",
+        "context",
+        "LLM",
+        "model",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -186,18 +41,18 @@
       "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
       "url": "https://arxiv.org/abs/2609.30383",
       "description": "arXiv:2609.30383v1 Announce Type: new \nAbstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specific task. Skill-based agent systems therefore enable flexible reuse of t...",
-      "published_date": "2026-09-28T04:00:00",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "LLM",
         "instruction",
-        "attention",
-        "study",
-        "paper",
-        "framework",
         "release",
-        "arxiv"
+        "arxiv",
+        "study",
+        "framework",
+        "paper",
+        "LLM",
+        "attention"
       ],
       "score": 1.0
     },
@@ -205,15 +60,15 @@
       "title": "Spectral Feedback for Test-Time Alignment of Protein Diffusion Models",
       "url": "https://arxiv.org/abs/2609.30456",
       "description": "arXiv:2609.30456v1 Announce Type: new \nAbstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate steps. These approaches largely treat in...",
-      "published_date": "2026-09-28T04:00:00",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "rag_retrieval",
       "keywords": [
-        "model",
+        "arxiv",
         "alignment",
         "image",
         "RAG",
-        "arxiv"
+        "model"
       ],
       "score": 1.0
     },
@@ -221,16 +76,16 @@
       "title": "Pretrained ASR Pseudo-labeling for Noisy Police Audio",
       "url": "https://arxiv.org/abs/2609.30469",
       "description": "arXiv:2609.30469v1 Announce Type: new \nAbstract: Pretrained ASR systems perform poorly on noisy Broadcast Police Communication (BPC), hindering efforts to understand police decision-making. Pseudo-labeling offers an unsupervised path to improve ASR without expensive human labels, but the efficacy of...",
-      "published_date": "2026-09-28T04:00:00",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "rag_retrieval",
       "keywords": [
-        "LLM",
-        "context",
         "audio",
-        "model",
+        "arxiv",
+        "context",
+        "LLM",
         "RAG",
-        "arxiv"
+        "model"
       ],
       "score": 1.0
     },
@@ -238,19 +93,54 @@
       "title": "Do LLMs Understand Context? A Knowledge Graph-Based Evaluation Framework",
       "url": "https://arxiv.org/abs/2609.30484",
       "description": "arXiv:2609.30484v1 Announce Type: new \nAbstract: While large language models (LLMs) have achieved remarkable linguistic capabilities, a profound question lingers at their core: do these models truly comprehend context or simply excel at pattern matching on an unprecedented scale? Contextual understa...",
-      "published_date": "2026-09-28T04:00:00",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "LLM",
         "reasoning",
-        "context",
+        "large language model",
+        "arxiv",
         "study",
         "analysis",
-        "model",
         "framework",
-        "large language model",
-        "arxiv"
+        "context",
+        "LLM",
+        "model"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "HybridInfer: Thermal-Aware Reinforcement-Learning Tier Routing for On-Device, Edge, and Cloud LLM Inference",
+      "url": "https://arxiv.org/abs/2609.30270",
+      "description": "arXiv:2609.30270v1 Announce Type: new \nAbstract: On-device inference with small language models keeps user data local, works offline, and incurs no per-query cost, so the on-device tier is preferred when it is adequate. It is thermally constrained, however, and I find the constraint is sharper than ...",
+      "published_date": "2026-09-29T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "arxiv",
+        "tool",
+        "LLM",
+        "RAG",
+        "GPT",
+        "model",
+        "prompt",
+        "retrieval"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Offline Policy Evaluation as a decision support tool for designing Adaptive Experiments",
+      "url": "https://arxiv.org/abs/2609.30273",
+      "description": "arXiv:2609.30273v1 Announce Type: new \nAbstract: We investigate how historical data from fixed randomized experiments (A/B tests) can be used to inform the deployment of adaptive experiments based on contextual bandits. Given data collected under a static allocation, our goal is to assess which adap...",
+      "published_date": "2026-09-29T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "arxiv",
+        "experiment",
+        "tool",
+        "context"
       ],
       "score": 1.0
     },
@@ -278,10 +168,10 @@
       "category": "chain_of_thought",
       "keywords": [
         "reasoning",
-        "chain-of-thought",
         "audio",
-        "CoT",
-        "framework"
+        "chain-of-thought",
+        "framework",
+        "CoT"
       ],
       "score": 1.0
     },
@@ -293,9 +183,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "vector",
+        "RAG",
         "reasoning",
-        "RAG"
+        "vector"
       ],
       "score": 1.0
     },
@@ -307,9 +197,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "framework",
         "context",
-        "chain-of-thought",
-        "framework"
+        "chain-of-thought"
       ],
       "score": 1.0
     },
@@ -322,8 +212,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "RAG",
-        "retrieval",
-        "augmented"
+        "augmented",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -335,14 +225,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "LLM",
         "reasoning",
-        "vector",
-        "knowledge base",
         "model",
         "framework",
+        "knowledge base",
+        "LLM",
         "RAG",
-        "retrieval"
+        "retrieval",
+        "vector"
       ],
       "score": 1.0
     },
@@ -354,8 +244,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "fine-tuning",
-        "RAG"
+        "RAG",
+        "fine-tuning"
       ],
       "score": 1.0
     },
@@ -368,8 +258,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "RAG",
-        "retrieval",
-        "augmented"
+        "augmented",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -381,45 +271,29 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "augmented",
         "product",
         "API",
         "RAG",
+        "augmented",
         "retrieval"
       ],
       "score": 1.0
     },
     {
-      "title": "SlideLab: Audience-Centered Scientific Slide Generation and Evaluation",
-      "url": "https://arxiv.org/abs/2609.30294",
-      "description": "arXiv:2609.30294v1 Announce Type: new \nAbstract: Scientific presentations are more than summaries of research papers. They need to present the work in a coherent sequence, explain the main ideas clearly, and help the audience follow the presentation. We present SlideLab, a training-free multi-agent ...",
-      "published_date": "2026-09-28T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "study",
-        "paper",
-        "research",
-        "framework",
-        "arxiv"
-      ],
-      "score": 0.8
-    },
-    {
       "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
       "url": "https://arxiv.org/abs/2609.30397",
       "description": "arXiv:2609.30397v1 Announce Type: new \nAbstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the literature, existing evaluation approaches typica...",
-      "published_date": "2026-09-28T04:00:00",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "paper",
-        "analysis",
-        "model",
-        "framework",
-        "experiment",
+        "arxiv",
         "image",
-        "arxiv"
+        "experiment",
+        "analysis",
+        "framework",
+        "paper",
+        "model"
       ],
       "score": 0.8
     },
@@ -427,14 +301,28 @@
       "title": "Predicting Transmembrane Protein Topology from 3D Structure",
       "url": "https://arxiv.org/abs/2609.30446",
       "description": "arXiv:2609.30446v1 Announce Type: new \nAbstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on the same dataset used to develop the recent DeepTMHMM model with 5-fold cross-validation. Unlike the ...",
-      "published_date": "2026-09-28T04:00:00",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
         "paper",
-        "embedding",
+        "arxiv",
         "model",
-        "arxiv"
+        "embedding"
+      ],
+      "score": 0.8
+    },
+    {
+      "title": "When Does Advection-Aware Graph Nowcasting Help? A Controlled Study of Distributed Solar Ramp Forecasting with a Self-Supervised Cloud-Motion Estimator",
+      "url": "https://arxiv.org/abs/2609.30286",
+      "description": "arXiv:2609.30286v1 Announce Type: new \nAbstract: Short-term forecasting of cloud-induced power ramps across a network of distributed photovoltaic (PV) or irradiance sensors is a recognised pain point for grid operators. A natural idea is to make the graph neural network (GNN) advection-aware: connec...",
+      "published_date": "2026-09-29T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "arxiv",
+        "vector"
       ],
       "score": 0.8
     },
@@ -448,8 +336,8 @@
       "keywords": [
         "tool",
         "context",
-        "model",
-        "API"
+        "API",
+        "model"
       ],
       "score": 0.8
     },
@@ -461,11 +349,63 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "model",
+        "reasoning",
         "chain-of-thought",
-        "reasoning"
+        "model"
       ],
       "score": 0.8
+    },
+    {
+      "title": "ENAS: An Efficient Hardware-Aware Neural Architecture Search Framework for TinyML on Resource-Constrained Microcontrollers",
+      "url": "https://arxiv.org/abs/2609.30272",
+      "description": "arXiv:2609.30272v1 Announce Type: new \nAbstract: We present \\textbf{ENAS}, a hardware-aware Neural Architecture Search (NAS) framework that combines a static feasibility check, a cell-based search space supporting standard, depthwise-separable, and bottleneck blocks with optional skip connections, a...",
+      "published_date": "2026-09-29T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "release",
+        "arxiv",
+        "image",
+        "experiment",
+        "model",
+        "analysis",
+        "framework",
+        "memory"
+      ],
+      "score": 0.6
+    },
+    {
+      "title": "Cosine Similarity Is Not Evidence: Measuring the Noise Floor of Interpretability Transfer Under Quantization",
+      "url": "https://arxiv.org/abs/2609.30275",
+      "description": "arXiv:2609.30275v1 Announce Type: new \nAbstract: A statistic reported without the quantity needed to interpret it is not evidence. We develop that thesis for a concrete practice in AI safety. Interpretability artifacts are calibrated on full-precision weights, deployed on quantized ones, and certifi...",
+      "published_date": "2026-09-29T04:00:00",
+      "source": "arXiv",
+      "category": "industry_news",
+      "keywords": [
+        "product",
+        "release",
+        "study",
+        "arxiv",
+        "compression",
+        "model"
+      ],
+      "score": 0.6
+    },
+    {
+      "title": "Seasonal and Quantum-inspired Models for Neutron Monitor Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2609.30281",
+      "description": "arXiv:2609.30281v1 Announce Type: new \nAbstract: We present a focused and reproducible study of multi-horizon forecasting on the Lomnicky Stit neutron monitor (LMKS) time series. Our evaluation suite covers simple seasonal baselines, modern deep sequence models, and functional and quantum-inspired a...",
+      "published_date": "2026-09-29T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "arxiv",
+        "model",
+        "analysis",
+        "memory"
+      ],
+      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -475,9 +415,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "library",
         "prompt",
-        "prompt engineering",
-        "library"
+        "prompt engineering"
       ],
       "score": 0.6
     },
@@ -502,8 +442,8 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "model",
         "example",
+        "model",
         "prompt",
         "prompt engineering"
       ],
@@ -537,17 +477,43 @@
       "score": 0.6
     },
     {
-      "title": "Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops",
-      "url": "https://arxiv.org/abs/2609.30297",
-      "description": "arXiv:2609.30297v1 Announce Type: new \nAbstract: Conversational recommendation agents are a new paradigm for content discovery, enabling users to express complex intents through natural language (e.g., \"recommend Italian indie artists I haven't heard before\"). A central challenge in building such ag...",
-      "published_date": "2026-09-28T04:00:00",
+      "title": "When the Preconditioning Exponent Turns Negative: Learning-Rate Coupling and Cross-Environment Generalization",
+      "url": "https://arxiv.org/abs/2609.30271",
+      "description": "arXiv:2609.30271v1 Announce Type: new \nAbstract: Adaptive optimizers are commonly parameterized by a fixed power of the second-moment estimate. Existing partially adaptive methods study exponents between momentum-like updates and the standard Adam square root, while the interaction between this expo...",
+      "published_date": "2026-09-29T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "arxiv",
+        "model"
+      ],
+      "score": 0.4
+    },
+    {
+      "title": "Fixed Points Without Fixed Diffusion: Implicit Neural Sheaves for Convergent Test-Time Computation",
+      "url": "https://arxiv.org/abs/2609.30277",
+      "description": "arXiv:2609.30277v1 Announce Type: new \nAbstract: Implicit Graph Neural Networks (IGNNs) define node representations as fixed points of message-passing operators, enabling effectively infinite-depth propagation, iteration-independent parameterization, and flexible test-time computation. Yet these ben...",
+      "published_date": "2026-09-29T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "arxiv",
+        "experiment"
+      ],
+      "score": 0.4
+    },
+    {
+      "title": "Neural Ideals and Neural Codes: An Algebraic Framework for Neural Network Classification and Feature Interpretation",
+      "url": "https://arxiv.org/abs/2609.30279",
+      "description": "arXiv:2609.30279v1 Announce Type: new \nAbstract: Understanding the features captured by the hidden layers of neural networks is a fundamental challenge in machine learning, despite their widespread success across various classification problems. In this work, we propose an algebraic framework for ex...",
+      "published_date": "2026-09-29T04:00:00",
       "source": "arXiv",
       "category": "tools_frameworks",
       "keywords": [
         "tool",
         "framework",
-        "prompt",
-        "product",
+        "model",
         "arxiv"
       ],
       "score": 0.4
