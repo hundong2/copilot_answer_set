@@ -1,74 +1,7 @@
 {
-  "generated_at": "2026-10-03T21:01:20.832340",
-  "total_items": 29,
+  "generated_at": "2026-10-04T20:45:30.386961",
+  "total_items": 20,
   "items": [
-    {
-      "title": "How Far is Adam from Natural Gradient Descent?",
-      "url": "https://arxiv.org/abs/2610.00004",
-      "description": "arXiv:2610.00004v1 Announce Type: new \nAbstract: Adam is the standard optimizer in deep learning, yet its geometric relationship to natural gradient descent (NGD) contains unresolved questions. We study Adam's full update rule, including momentum, as a diagonal empirical Fisher approximation subject...",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "alignment",
-        "context",
-        "study",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "FourierQK: Filter Shape, Admissibility and the Leakage-Coverage Law",
-      "url": "https://arxiv.org/abs/2610.00009",
-      "description": "arXiv:2610.00009v1 Announce Type: new \nAbstract: Frequency-collapse attention [Zeris, 2026e] achieves large gains over standard dot-product attention by replacing the Q/K dot product with a bandpass-filtered inner product at a learned frequency. A natural follow-up question is: which filter shape wo...",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "attention",
-        "GPT",
-        "context",
-        "RAG",
-        "arxiv",
-        "model",
-        "experiment",
-        "paper",
-        "product"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Fast Polynomial Transcendentals for LLMs",
-      "url": "https://arxiv.org/abs/2610.00049",
-      "description": "arXiv:2610.00049v1 Announce Type: new \nAbstract: Graphics processing unit (GPU) generations scale matrix, special-function, and memory pipelines at different rates, so kernel bottlenecks move as hardware evolves. FlashAttention-4 exposed this imbalance inside attention on NVIDIA Blackwell. We test w...",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "context_management",
-      "keywords": [
-        "attention",
-        "arxiv",
-        "model",
-        "memory",
-        "LLM",
-        "large language model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "One Mastery Threshold Does Not Fit All Knowledge Tracing Models",
-      "url": "https://arxiv.org/abs/2610.00095",
-      "description": "arXiv:2610.00095v1 Announce Type: new \nAbstract: Tutoring systems use mastery thresholds to decide when students can stop practicing and advance, but the same numerical threshold can lead to very different decisions when the underlying knowledge tracing (KT) model changes. We examine six KT models a...",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "RAG",
-        "model",
-        "arxiv",
-        "instruction"
-      ],
-      "score": 1.0
-    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -78,9 +11,9 @@
       "category": "prompt_engineering",
       "keywords": [
         "prompt engineering",
-        "context",
         "prompt",
-        "context window"
+        "context window",
+        "context"
       ],
       "score": 1.0
     },
@@ -92,10 +25,10 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "CoT",
-        "audio",
         "chain-of-thought",
         "framework",
+        "audio",
+        "CoT",
         "reasoning"
       ],
       "score": 1.0
@@ -108,9 +41,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "vector",
         "reasoning",
-        "RAG",
-        "vector"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -122,9 +55,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "context",
         "chain-of-thought",
-        "framework"
+        "framework",
+        "context"
       ],
       "score": 1.0
     },
@@ -136,9 +69,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "augmented",
         "retrieval",
-        "RAG"
+        "RAG",
+        "augmented"
       ],
       "score": 1.0
     },
@@ -150,14 +83,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "knowledge base",
-        "vector",
-        "RAG",
         "model",
-        "retrieval",
+        "RAG",
+        "LLM",
+        "knowledge base",
         "framework",
-        "reasoning",
-        "LLM"
+        "retrieval",
+        "vector",
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -182,9 +115,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "augmented",
         "retrieval",
-        "RAG"
+        "RAG",
+        "augmented"
       ],
       "score": 1.0
     },
@@ -196,58 +129,13 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "API",
         "RAG",
-        "product",
         "retrieval",
-        "augmented"
+        "API",
+        "augmented",
+        "product"
       ],
       "score": 1.0
-    },
-    {
-      "title": "Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices",
-      "url": "https://arxiv.org/abs/2610.00002",
-      "description": "arXiv:2610.00002v1 Announce Type: new \nAbstract: We introduce reverse Item Response Theory (IRT) to pharmacogenomic drug-response analysis by treating cancer types as latent \"subjects\" with resistance ability and drugs as \"items\" with evasion difficulty. Applied to 242,036 drug sensitivity measureme...",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "platform",
-        "analysis",
-        "model",
-        "arxiv",
-        "RAG"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "SW-KAN: Kolmogorov-Arnold Networks with Stieltjes-Wigert q-Orthogonal Polynomials",
-      "url": "https://arxiv.org/abs/2610.00050",
-      "description": "arXiv:2610.00050v1 Announce Type: new \nAbstract: Kolmogorov-Arnold Networks (KANs) represent a paradigmatic shift in deep learning by replacing fixed node activations with learnable univariate functions on edges, offering enhanced interpretability and parameter efficiency. While recent polynomial-ba...",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "experiment",
-        "arxiv",
-        "image",
-        "RAG"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "\"very likely\" Means \"uncertain\"? How LLMs Diverge from Humans in Linguistic Uncertainty Quantification",
-      "url": "https://arxiv.org/abs/2610.00083",
-      "description": "arXiv:2610.00083v1 Announce Type: new \nAbstract: Humans express uncertainty verbally via markers (e.g., \"possible,\" \"likely\"), yet most LLM uncertainty quantification (UQ) relies on costing likelihood- or consistency-based signals. From a cognitive perspective, accurate verbal uncertainty reflects m...",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "LLM",
-        "paper",
-        "arxiv"
-      ],
-      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -257,10 +145,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "tool",
-        "context",
+        "model",
         "API",
-        "model"
+        "tool",
+        "context"
       ],
       "score": 0.8
     },
@@ -272,41 +160,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "chain-of-thought",
         "model",
+        "chain-of-thought",
         "reasoning"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Integrating Fairness and Explainability in a Multiple Instance Reinforcement Learning System",
-      "url": "https://arxiv.org/abs/2610.00035",
-      "description": "arXiv:2610.00035v1 Announce Type: new \nAbstract: Predicting student performance from educational interaction data requires models that are both accurate and sufficiently transparent to support meaningful intervention, while demographic information introduces an additional risk of unfair predictions....",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "analysis",
-        "model",
-        "arxiv",
-        "framework",
-        "study"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Format-Aware Fusion for Fast FP4 Pretraining",
-      "url": "https://arxiv.org/abs/2610.00053",
-      "description": "arXiv:2610.00053v1 Announce Type: new \nAbstract: Four-bit floating-point (FP4) Tensor Cores accelerate matrix multiplication, but scale computation, operand packing, layout construction, and saved backward state can erase the gain. We present \\emph{format-aware fusion}, which co-designs each quantiz...",
-      "published_date": "2026-10-03T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "transformer",
-        "model",
-        "arxiv"
-      ],
-      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -343,9 +201,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "model",
         "prompt engineering",
         "prompt",
-        "model",
         "example"
       ],
       "score": 0.6
@@ -358,8 +216,8 @@
       "source": "GitHub",
       "category": "industry_news",
       "keywords": [
-        "context",
-        "model"
+        "model",
+        "context"
       ],
       "score": 0.6
     },
@@ -371,9 +229,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "paper",
         "prompt engineering",
-        "prompt",
-        "paper"
+        "prompt"
       ],
       "score": 0.6
     },
