@@ -6,56 +6,56 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models</title>
-      <link>https://arxiv.org/abs/2609.20971</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.20971</guid>
-      <description>arXiv:2609.20971v1 Announce Type: new 
-Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly releva...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, context, prompt, memory, large language model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 22 Sep 2026 04:00:00 </pubDate>
+      <title>Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute</title>
+      <link>https://arxiv.org/abs/2610.10845</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.10845</guid>
+      <description>arXiv:2610.10845v1 Announce Type: new 
+Abstract: A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer, the public package galahad-kv, that saves the KV stat...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; product, memory, large language model, context window, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>arxiv</category>
-      <category>context</category>
-      <category>prompt</category>
-    </item>
-    <item>
-      <title>Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models</title>
-      <link>https://arxiv.org/abs/2609.21113</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.21113</guid>
-      <description>arXiv:2609.21113v1 Announce Type: new 
-Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we investigate how fine-tuning alters internal repr...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, large language model, fine-tuning, attention, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 22 Sep 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>arxiv</category>
+      <category>product</category>
+      <category>memory</category>
       <category>large language model</category>
-      <category>fine-tuning</category>
     </item>
     <item>
-      <title>TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers</title>
-      <link>https://arxiv.org/abs/2609.21139</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.21139</guid>
-      <description>arXiv:2609.21139v1 Announce Type: new 
-Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \emph{quality-gated post-training conversion} framework using CeNN-inspi...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, arxiv, memory, attention, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 22 Sep 2026 04:00:00 </pubDate>
+      <title>Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning</title>
+      <link>https://arxiv.org/abs/2610.10857</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.10857</guid>
+      <description>arXiv:2610.10857v1 Announce Type: new 
+Abstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horizons. Existing policy architectures rely on recurrent or attention-based mechanisms to capture long-...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, model, context, arxiv, RAG | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>framework</category>
+      <category>memory</category>
+      <category>model</category>
+      <category>context</category>
+    </item>
+    <item>
+      <title>Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression</title>
+      <link>https://arxiv.org/abs/2610.10552</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.10552</guid>
+      <description>arXiv:2610.10552v1 Announce Type: new 
+Abstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a common but flawed practice: when the arms being compared have very different trainable-parameter counts, a shared rate can simultaneously depress the larger ar...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; vision, arxiv, memory, model, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>vision</category>
       <category>arxiv</category>
       <category>memory</category>
     </item>
     <item>
-      <title>AI-inferred expressed well-being and collective-action discourse in climate-change campaigns on X</title>
-      <link>https://arxiv.org/abs/2609.22096</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2609.22096</guid>
-      <description>arXiv:2609.22096v1 Announce Type: new 
-Abstract: Climate campaigns are often evaluated through attention and mobilization, but less is known about the well-being language that accompanies them. Whether campaign periods alter positive affect and hope, and whether happiness aligns with action language...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, model, attention | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 22 Sep 2026 04:00:00 </pubDate>
+      <title>Lossy Compressive Text Autoencoders</title>
+      <link>https://arxiv.org/abs/2610.10738</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.10738</guid>
+      <description>arXiv:2610.10738v1 Announce Type: new 
+Abstract: Our work explores learning a compressed latent representation of text, at the intersection of data compression and representation learning. We propose an autoencoder architecture that performs residual downscaling and upscaling of hidden representatio...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, LLM, compression, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Fri, 09 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>arxiv</category>
       <category>model</category>
-      <category>attention</category>
+      <category>LLM</category>
+      <category>compression</category>
     </item>
   </channel>
 </rss>
