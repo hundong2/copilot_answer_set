@@ -1,306 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:11:31.778147",
-  "total_items": 48,
+  "generated_at": "2026-10-10T20:11:26.990054",
+  "total_items": 20,
   "items": [
-    {
-      "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
-      "url": "https://arxiv.org/abs/2610.10550",
-      "description": "arXiv:2610.10550v1 Announce Type: new \nAbstract: Personalizing text-to-image diffusion models from a few reference images requires preserving subject identity while following prompts that describe new contexts. Full-model fine-tuning is parameter-intensive, whereas low-rank adaptation (LoRA) reduces...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "image",
-        "arxiv",
-        "experiment",
-        "model",
-        "context",
-        "fine-tuning",
-        "transformer",
-        "alignment",
-        "prompt"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
-      "url": "https://arxiv.org/abs/2610.10650",
-      "description": "arXiv:2610.10650v1 Announce Type: new \nAbstract: Work zones are critical yet hazardous components of transportation infrastructure, requiring carefully designed Transportation Management Plans (TMPs) to ensure safety and mobility. However, TMP preparation remains labor-intensive and heavily dependen...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "study",
-        "arxiv",
-        "framework",
-        "large language model",
-        "experiment",
-        "model",
-        "paper",
-        "fine-tuning",
-        "context",
-        "RAG",
-        "ICL",
-        "LLM"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Grammar Concept Annotation at Scale: Deployed Fine-Tuned Small Language Models Outperform Prompted Frontier Models",
-      "url": "https://arxiv.org/abs/2610.10827",
-      "description": "arXiv:2610.10827v1 Announce Type: new \nAbstract: Corrective feedback is among the best-evidenced drivers of second-language acquisition, yet corrections delivered during lessons rarely accumulate into an actionable view of grammar mastery. Prompted frontier models can provide such a view from learne...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "vision",
-        "instruction",
-        "GPT",
-        "platform",
-        "experiment",
-        "model",
-        "fine-tuning",
-        "arxiv",
-        "prompt"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
-      "url": "https://arxiv.org/abs/2610.10845",
-      "description": "arXiv:2610.10845v1 Announce Type: new \nAbstract: A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer, the public package galahad-kv, that saves the KV stat...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "context_management",
-      "keywords": [
-        "product",
-        "memory",
-        "large language model",
-        "context window",
-        "model",
-        "context",
-        "arxiv",
-        "LLM",
-        "prompt",
-        "attention"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Sparse Attention Is Matrix Approximation, Not Choosing from a Bag of Values",
-      "url": "https://arxiv.org/abs/2610.10871",
-      "description": "arXiv:2610.10871v1 Announce Type: new \nAbstract: Large Language Models (LLMs) achieve strong performance across many domains, but their efficiency is limited by the quadratic cost of attention with respect to prompt length. Sparse attention reduces this cost by retaining only a small fraction of que...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "product",
-        "vector",
-        "framework",
-        "large language model",
-        "experiment",
-        "model",
-        "arxiv",
-        "LLM",
-        "prompt",
-        "attention"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-      "url": "https://arxiv.org/abs/2610.10541",
-      "description": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or unsui...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "paper",
-        "arxiv",
-        "RAG",
-        "alignment"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "url": "https://arxiv.org/abs/2610.10549",
-      "description": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a ...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "tool",
-        "framework",
-        "API",
-        "model",
-        "arxiv",
-        "RAG",
-        "LLM"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-      "url": "https://arxiv.org/abs/2610.10590",
-      "description": "arXiv:2610.10590v1 Announce Type: new \nAbstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at i...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "instruction",
-        "tool",
-        "study",
-        "API",
-        "model",
-        "context",
-        "arxiv",
-        "prompt"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
-      "url": "https://arxiv.org/abs/2610.10629",
-      "description": "arXiv:2610.10629v1 Announce Type: new \nAbstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it ...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "vision",
-        "instruction",
-        "tool",
-        "model",
-        "arxiv",
-        "LLM"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
-      "url": "https://arxiv.org/abs/2610.10635",
-      "description": "arXiv:2610.10635v1 Announce Type: new \nAbstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-driven instructions; on a frozen OpenFly navigator, this \\emph{instruction gap} drops success rate ...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "vision",
-        "instruction",
-        "zero-shot",
-        "model",
-        "arxiv",
-        "prompt",
-        "example"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
-      "url": "https://arxiv.org/abs/2610.10857",
-      "description": "arXiv:2610.10857v1 Announce Type: new \nAbstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horizons. Existing policy architectures rely on recurrent or attention-based mechanisms to capture long-...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "context_management",
-      "keywords": [
-        "memory",
-        "model",
-        "context",
-        "arxiv",
-        "RAG",
-        "attention"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
-      "url": "https://arxiv.org/abs/2610.10552",
-      "description": "arXiv:2610.10552v1 Announce Type: new \nAbstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a common but flawed practice: when the arms being compared have very different trainable-parameter counts, a shared rate can simultaneously depress the larger ar...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "context_management",
-      "keywords": [
-        "vision",
-        "arxiv",
-        "memory",
-        "model",
-        "compression",
-        "fine-tuning",
-        "attention"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction",
-      "url": "https://arxiv.org/abs/2610.10571",
-      "description": "arXiv:2610.10571v1 Announce Type: new \nAbstract: Electroencephalography (EEG) provides a non-invasive measure of ongoing neural activity, but building general-purpose EEG models remains challenging due to the heterogeneity of subjects, devices, and electrode montages. Existing EEG foundation models ...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "embedding",
-        "model",
-        "arxiv",
-        "RAG",
-        "attention"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Coverage, Not Difficulty, Sets How Much Synthetic Data an Activation Probe Needs",
-      "url": "https://arxiv.org/abs/2610.10594",
-      "description": "arXiv:2610.10594v1 Announce Type: new \nAbstract: Activation probes that monitor deployed language models are trained on synthetic conversations, and how many a probe needs is open. We trace learning curves over 10-590 synthetic samples for three monitoring concepts, high-stakes situations, replies h...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "instruction",
-        "model",
-        "release",
-        "arxiv",
-        "RAG",
-        "LLM",
-        "prompt"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
-      "url": "https://arxiv.org/abs/2610.10613",
-      "description": "arXiv:2610.10613v1 Announce Type: new \nAbstract: Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exchange information over the Controller Area Network (CAN) bus. Due to the rapidity, structure, and repetition of this communication, even slight variations in t...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "framework",
-        "experiment",
-        "API",
-        "model",
-        "context",
-        "arxiv",
-        "transformer",
-        "ICL"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
-      "url": "https://arxiv.org/abs/2610.10616",
-      "description": "arXiv:2610.10616v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) language models produce routing information during inference that may be logged or exposed for monitoring, debugging, load analysis, and safety auditing. Unlike ordinary model outputs, this telemetry reveals a view of the mode...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "analysis",
-        "augmented",
-        "instruction",
-        "model",
-        "fine-tuning",
-        "arxiv",
-        "example"
-      ],
-      "score": 1.0
-    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -310,9 +11,9 @@
       "category": "prompt_engineering",
       "keywords": [
         "prompt engineering",
+        "context",
         "context window",
-        "prompt",
-        "context"
+        "prompt"
       ],
       "score": 1.0
     },
@@ -324,11 +25,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "CoT",
-        "framework",
-        "chain-of-thought",
         "audio",
-        "reasoning"
+        "chain-of-thought",
+        "reasoning",
+        "framework",
+        "CoT"
       ],
       "score": 1.0
     },
@@ -340,9 +41,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "vector",
         "reasoning",
-        "RAG",
-        "vector"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -355,8 +56,8 @@
       "category": "chain_of_thought",
       "keywords": [
         "chain-of-thought",
-        "framework",
-        "context"
+        "context",
+        "framework"
       ],
       "score": 1.0
     },
@@ -368,9 +69,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "retrieval",
         "augmented",
-        "RAG",
-        "retrieval"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -382,14 +83,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "vector",
-        "retrieval",
+        "reasoning",
         "framework",
-        "model",
         "LLM",
+        "model",
+        "vector",
         "knowledge base",
-        "RAG",
-        "reasoning"
+        "retrieval",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -401,8 +102,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
-        "fine-tuning"
+        "fine-tuning",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -414,9 +115,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "retrieval",
         "augmented",
-        "RAG",
-        "retrieval"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -428,81 +129,13 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "RAG",
         "product",
-        "augmented",
-        "retrieval",
         "API",
-        "RAG"
+        "retrieval",
+        "augmented"
       ],
       "score": 1.0
-    },
-    {
-      "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
-      "url": "https://arxiv.org/abs/2610.10786",
-      "description": "arXiv:2610.10786v1 Announce Type: new \nAbstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcomes over many steps. Yet assumptions made during planning may be invalidated by the environment, too...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "vision",
-        "tool",
-        "framework",
-        "model",
-        "arxiv",
-        "LLM"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
-      "url": "https://arxiv.org/abs/2610.10833",
-      "description": "arXiv:2610.10833v1 Announce Type: new \nAbstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-Bench Lite and Qwen3...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "product",
-        "study",
-        "arxiv",
-        "LLM",
-        "prompt"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "Recurrent Self-Improvement: Dynamic Cross-Loop On-Policy Distillation for Looped Language Models",
-      "url": "https://arxiv.org/abs/2610.10623",
-      "description": "arXiv:2610.10623v1 Announce Type: new \nAbstract: Looped Language Models (LoopLMs) offer a parameter efficient approach to scaling reasoning by reusing shared parameters across recurrent computation steps. Despite their promise, effective post-training of LoopLMs remains challenging. Existing approac...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "vision",
-        "framework",
-        "experiment",
-        "model",
-        "context",
-        "arxiv",
-        "release",
-        "reasoning"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "Exact SO(3)-Equivariant Isotropic Kernels for Rotation-Robust Neural Dynamics",
-      "url": "https://arxiv.org/abs/2610.10626",
-      "description": "arXiv:2610.10626v1 Announce Type: new \nAbstract: Neural surrogates for vector-valued partial differential equations can fit training data yet change their predictions when the same physical state is expressed in a rotated coordinate frame. We study this failure on three-dimensional Navier--Stokes dy...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "study",
-        "vector",
-        "model",
-        "arxiv",
-        "example"
-      ],
-      "score": 0.8
     },
     {
       "title": "hve-core - A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of GitHub Copilot",
@@ -525,10 +158,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
+        "context",
         "tool",
-        "API",
         "model",
-        "context"
+        "API"
       ],
       "score": 0.8
     },
@@ -540,69 +173,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "chain-of-thought",
         "reasoning",
-        "model",
-        "chain-of-thought"
+        "model"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Lossy Compressive Text Autoencoders",
-      "url": "https://arxiv.org/abs/2610.10738",
-      "description": "arXiv:2610.10738v1 Announce Type: new \nAbstract: Our work explores learning a compressed latent representation of text, at the intersection of data compression and representation learning. We propose an autoencoder architecture that performs residual downscaling and upscaling of hidden representatio...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "context_management",
-      "keywords": [
-        "model",
-        "LLM",
-        "compression",
-        "arxiv"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Sample-Efficiency of Kolmogorov-Arnold Networks",
-      "url": "https://arxiv.org/abs/2610.10627",
-      "description": "arXiv:2610.10627v1 Announce Type: new \nAbstract: Deep reinforcement learning has achieved substantial performance gains over classical control approaches. Yet, a central challenge to learning in real-world applications is acquiring costly samples. Kolmogorov-Arnold Networks are a recently proposed a...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "study",
-        "experiment",
-        "arxiv"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Phase-HDC: Replacing Optimizer History with Gradient Thresholds in Discrete Phase Learning",
-      "url": "https://arxiv.org/abs/2610.10630",
-      "description": "arXiv:2610.10630v1 Announce Type: new \nAbstract: Training a compact model often needs far more memory than storing it, because the optimizer keeps its own records of past gradients. For a hyperdimensional classifier whose learned parameters are low-bit angles, which we call a \\emph{phase memory}, th...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "image",
-        "memory",
-        "model",
-        "arxiv",
-        "RAG"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "description": "...",
-      "published_date": "2026-10-07T12:45:31",
-      "source": "Hugging Face Blog",
-      "category": "industry_news",
-      "keywords": [
-        "model",
-        "fine-tuning"
-      ],
-      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -626,8 +201,8 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "tool",
-        "context"
+        "context",
+        "tool"
       ],
       "score": 0.6
     },
@@ -639,8 +214,8 @@
       "source": "GitHub",
       "category": "industry_news",
       "keywords": [
-        "model",
-        "context"
+        "context",
+        "model"
       ],
       "score": 0.6
     },
@@ -652,54 +227,11 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "paper",
         "prompt engineering",
+        "paper",
         "prompt"
       ],
       "score": 0.6
-    },
-    {
-      "title": "Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch",
-      "url": "https://arxiv.org/abs/2610.10592",
-      "description": "arXiv:2610.10592v1 Announce Type: new \nAbstract: Historical Polish is well documented as a language but annotated in machine-readable form only to about a million words for the period this paper covers; the rest sits behind optical character recognition of variable quality. We present Wieszcz-XIX, a...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "paper",
-        "release",
-        "arxiv"
-      ],
-      "score": 0.4
-    },
-    {
-      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-      "url": "https://arxiv.org/abs/2610.10611",
-      "description": "arXiv:2610.10611v1 Announce Type: new \nAbstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with h...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "analysis",
-        "framework",
-        "arxiv"
-      ],
-      "score": 0.4
-    },
-    {
-      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
-      "url": "https://arxiv.org/abs/2610.10805",
-      "description": "arXiv:2610.10805v1 Announce Type: new \nAbstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely developed under the ...",
-      "published_date": "2026-10-09T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "paper",
-        "arxiv"
-      ],
-      "score": 0.4
     },
     {
       "title": "semantica - Graph-Native Infrastructure for Context and Accountable AI Systems",
@@ -746,19 +278,6 @@
       "category": "industry_news",
       "keywords": [
         "model"
-      ],
-      "score": 0.2
-    },
-    {
-      "title": "Multimodal open d1 decision models for the edge",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "description": "...",
-      "published_date": "2026-10-07T16:54:33",
-      "source": "Hugging Face Blog",
-      "category": "multimodal_context",
-      "keywords": [
-        "model",
-        "multimodal"
       ],
       "score": 0.2
     }
