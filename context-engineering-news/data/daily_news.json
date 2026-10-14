@@ -1,275 +1,7 @@
 {
-  "generated_at": "2026-10-13T20:11:50.554237",
-  "total_items": 39,
+  "generated_at": "2026-10-14T20:11:12.182712",
+  "total_items": 19,
   "items": [
-    {
-      "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
-      "url": "https://arxiv.org/abs/2610.12545",
-      "description": "arXiv:2610.12545v1 Announce Type: new \nAbstract: Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revised post hoc, unlike iterative human reasoning. Diffusion LLMs partially mitigate this limitation but...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "chain_of_thought",
-      "keywords": [
-        "model",
-        "reasoning",
-        "LLM",
-        "arxiv",
-        "context"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
-      "url": "https://arxiv.org/abs/2610.12569",
-      "description": "arXiv:2610.12569v1 Announce Type: new \nAbstract: Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be self-scaling: its tasks and oracles are created at evaluatio...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "industry_news",
-      "keywords": [
-        "release",
-        "model",
-        "GPT",
-        "context",
-        "arxiv",
-        "vision"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
-      "url": "https://arxiv.org/abs/2610.12570",
-      "description": "arXiv:2610.12570v1 Announce Type: new \nAbstract: Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent diffusion-based drafters make this paradigm particularly a...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "chain_of_thought",
-      "keywords": [
-        "attention",
-        "large language model",
-        "model",
-        "reasoning",
-        "RAG",
-        "arxiv",
-        "context"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-      "url": "https://arxiv.org/abs/2610.12582",
-      "description": "arXiv:2610.12582v1 Announce Type: new \nAbstract: A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well short of a non-recurrent model ...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "context_management",
-      "keywords": [
-        "attention",
-        "model",
-        "memory",
-        "RAG",
-        "analysis",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Self-Preservation in Language Models",
-      "url": "https://arxiv.org/abs/2610.12602",
-      "description": "arXiv:2610.12602v1 Announce Type: new \nAbstract: Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent work shows that language model...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "example",
-        "instruction",
-        "study",
-        "model",
-        "RAG",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
-      "url": "https://arxiv.org/abs/2610.12617",
-      "description": "arXiv:2610.12617v1 Announce Type: new \nAbstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical complexity pose challenges for retrieval-augmented question...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "arxiv",
-        "embedding",
-        "model",
-        "augmented",
-        "API",
-        "RAG",
-        "LLM",
-        "retrieval"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "perturber: A Stateless Service for Semantics-Preserving Text Perturbations",
-      "url": "https://arxiv.org/abs/2610.12667",
-      "description": "arXiv:2610.12667v1 Announce Type: new \nAbstract: Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying this systematically requires applying perturbations one a...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "library",
-        "large language model",
-        "study",
-        "model",
-        "demonstration",
-        "LLM",
-        "arxiv",
-        "tool"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks",
-      "url": "https://arxiv.org/abs/2610.12669",
-      "description": "arXiv:2610.12669v1 Announce Type: new \nAbstract: Large language models are becoming central to GeoAI systems, yet their evaluation rarely considers the elicitation of geospatial data requirements. This omission is critical as retrieval oriented geo-analytic tasks cannot be supported reliably without...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "large language model",
-        "arxiv",
-        "model",
-        "GPT",
-        "experiment",
-        "reasoning",
-        "prompting",
-        "LLM",
-        "retrieval",
-        "prompt"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
-      "url": "https://arxiv.org/abs/2610.12493",
-      "description": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade point...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "example",
-        "alignment",
-        "model",
-        "paper",
-        "research",
-        "arxiv",
-        "tool"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
-      "url": "https://arxiv.org/abs/2610.12536",
-      "description": "arXiv:2610.12536v1 Announce Type: new \nAbstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performanc...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "LLM",
-        "large language model",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
-      "url": "https://arxiv.org/abs/2610.12593",
-      "description": "arXiv:2610.12593v1 Announce Type: new \nAbstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning ...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "large language model",
-        "model",
-        "experiment",
-        "RAG",
-        "arxiv",
-        "vision"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
-      "url": "https://arxiv.org/abs/2610.12596",
-      "description": "arXiv:2610.12596v1 Announce Type: new \nAbstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and ...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "chain_of_thought",
-      "keywords": [
-        "large language model",
-        "model",
-        "reasoning",
-        "RAG",
-        "LLM",
-        "arxiv",
-        "tool"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
-      "url": "https://arxiv.org/abs/2610.12655",
-      "description": "arXiv:2610.12655v1 Announce Type: new \nAbstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "study",
-        "alignment",
-        "LLM",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2610.12762",
-      "description": "arXiv:2610.12762v1 Announce Type: new \nAbstract: Hardware datasheets contain engineering specifications essential for component selection, system integration, and hardware compatibility verification. However, manual inspection is tedious and error-prone because datasheets are lengthy and heterogeneo...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "instruction",
-        "large language model",
-        "framework",
-        "arxiv",
-        "model",
-        "context window",
-        "reasoning",
-        "RAG",
-        "LLM",
-        "retrieval",
-        "context"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
-      "url": "https://arxiv.org/abs/2610.12781",
-      "description": "arXiv:2610.12781v1 Announce Type: new \nAbstract: Aligning two independently pretrained unimodal encoders typically demands millions of paired examples. In this paper, we study the regime where only $N \\sim 100$--$500$ pairs are available, while unpaired data on either side is abundant. Our method ex...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "example",
-        "study",
-        "alignment",
-        "paper",
-        "arxiv",
-        "image"
-      ],
-      "score": 1.0
-    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -278,10 +10,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "prompt engineering",
         "context window",
         "context",
-        "prompt",
-        "prompt engineering"
+        "prompt"
       ],
       "score": 1.0
     },
@@ -293,11 +25,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "framework",
-        "CoT",
+        "chain-of-thought",
         "reasoning",
         "audio",
-        "chain-of-thought"
+        "CoT",
+        "framework"
       ],
       "score": 1.0
     },
@@ -310,8 +42,8 @@
       "category": "chain_of_thought",
       "keywords": [
         "reasoning",
-        "vector",
-        "RAG"
+        "RAG",
+        "vector"
       ],
       "score": 1.0
     },
@@ -323,9 +55,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "framework",
         "chain-of-thought",
-        "context"
+        "context",
+        "framework"
       ],
       "score": 1.0
     },
@@ -338,8 +70,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "augmented",
-        "retrieval",
-        "RAG"
+        "RAG",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -351,14 +83,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "vector",
-        "knowledge base",
-        "framework",
-        "model",
-        "reasoning",
         "RAG",
+        "vector",
         "LLM",
-        "retrieval"
+        "retrieval",
+        "model",
+        "knowledge base",
+        "reasoning",
+        "framework"
       ],
       "score": 1.0
     },
@@ -370,8 +102,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
-        "fine-tuning"
+        "fine-tuning",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -384,8 +116,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "augmented",
-        "retrieval",
-        "RAG"
+        "RAG",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -398,45 +130,12 @@
       "category": "rag_retrieval",
       "keywords": [
         "augmented",
-        "product",
-        "API",
         "RAG",
-        "retrieval"
+        "product",
+        "retrieval",
+        "API"
       ],
       "score": 1.0
-    },
-    {
-      "title": "CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation",
-      "url": "https://arxiv.org/abs/2610.12580",
-      "description": "arXiv:2610.12580v1 Announce Type: new \nAbstract: Event ontology is the foundational framework for defining events in a dataset. Event type induction generally involves domain experts who define guidelines for creating event types and their names based on the dataset's domain and scope. However, this...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "arxiv",
-        "experiment",
-        "embedding"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
-      "url": "https://arxiv.org/abs/2610.12659",
-      "description": "arXiv:2610.12659v1 Announce Type: new \nAbstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of effec...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "GPT",
-        "API",
-        "experiment",
-        "reasoning",
-        "prompting",
-        "arxiv",
-        "prompt"
-      ],
-      "score": 0.8
     },
     {
       "title": "hve-core - A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of GitHub Copilot",
@@ -459,10 +158,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "model",
-        "tool",
         "API",
-        "context"
+        "model",
+        "context",
+        "tool"
       ],
       "score": 0.8
     },
@@ -474,43 +173,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "reasoning",
         "chain-of-thought",
-        "model"
+        "model",
+        "reasoning"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
-      "url": "https://arxiv.org/abs/2610.12601",
-      "description": "arXiv:2610.12601v1 Announce Type: new \nAbstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and produces human-readable artifacts. On factual tasks, however, it carries a failure mode that scalar-reward reinforceme...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "example",
-        "release",
-        "model",
-        "research",
-        "analysis",
-        "arxiv",
-        "prompt"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
-      "url": "https://arxiv.org/abs/2610.12542",
-      "description": "arXiv:2610.12542v1 Announce Type: new \nAbstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under ...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "analysis",
-        "arxiv",
-        "study"
-      ],
-      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -521,8 +188,8 @@
       "category": "prompt_engineering",
       "keywords": [
         "library",
-        "prompt",
-        "prompt engineering"
+        "prompt engineering",
+        "prompt"
       ],
       "score": 0.6
     },
@@ -534,8 +201,8 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "tool",
-        "context"
+        "context",
+        "tool"
       ],
       "score": 0.6
     },
@@ -560,26 +227,11 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "prompt engineering",
         "paper",
-        "prompt",
-        "prompt engineering"
+        "prompt"
       ],
       "score": 0.6
-    },
-    {
-      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
-      "url": "https://arxiv.org/abs/2610.12598",
-      "description": "arXiv:2610.12598v1 Announce Type: new \nAbstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We invest...",
-      "published_date": "2026-10-13T04:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "model",
-        "arxiv",
-        "experiment",
-        "vision"
-      ],
-      "score": 0.4
     },
     {
       "title": "semantica - Graph-Native Infrastructure for Context and Accountable AI Systems",
