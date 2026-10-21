@@ -6,56 +6,67 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute</title>
-      <link>https://arxiv.org/abs/2610.10845</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.10845</guid>
-      <description>arXiv:2610.10845v1 Announce Type: new 
-Abstract: A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer, the public package galahad-kv, that saves the KV stat...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; product, memory, large language model, context window, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 09 Oct 2026 04:00:00 </pubDate>
+      <title>Do We Need the Largest LLMs for Every Clinical Decision?</title>
+      <link>https://arxiv.org/abs/2610.26937</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.26937</guid>
+      <description>arXiv:2610.26937v1 Announce Type: new 
+Abstract: Large clinical language models often require multi-GPU infrastructure, limiting local deployment. We introduce CERTA, a decision-level statistical certificate that determines when a quantized model may substitute for its native BF16 reference and esca...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, RAG, memory, analysis, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>product</category>
+      <category>arxiv</category>
+      <category>RAG</category>
       <category>memory</category>
+    </item>
+    <item>
+      <title>High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference</title>
+      <link>https://arxiv.org/abs/2610.26866</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.26866</guid>
+      <description>arXiv:2610.26866v1 Announce Type: new 
+Abstract: Mechanistic studies of large language models localize function in parameters, attention heads or neurons, but those parts do not specify how one inference unfolds. We treat the ordered layer-state trajectory as the empirical process and test whether l...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, arxiv, large language model, attention, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>transformer</category>
+      <category>arxiv</category>
       <category>large language model</category>
     </item>
     <item>
-      <title>Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning</title>
-      <link>https://arxiv.org/abs/2610.10857</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.10857</guid>
-      <description>arXiv:2610.10857v1 Announce Type: new 
-Abstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horizons. Existing policy architectures rely on recurrent or attention-based mechanisms to capture long-...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, model, context, arxiv, RAG | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 09 Oct 2026 04:00:00 </pubDate>
+      <title>Transformers Learn Two Competing Sorting Algorithms, and Only One Length-Generalizes</title>
+      <link>https://arxiv.org/abs/2610.26974</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.26974</guid>
+      <description>arXiv:2610.26974v1 Announce Type: new 
+Abstract: We show that two-layer transformers trained to near-zero loss on a sorting task converge to one of two mechanistically distinct solution classes depending on their initialization. One solution class consists of solutions that do not use the second att...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, arxiv, context, attention, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>memory</category>
-      <category>model</category>
+      <category>transformer</category>
+      <category>arxiv</category>
       <category>context</category>
     </item>
     <item>
-      <title>Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression</title>
-      <link>https://arxiv.org/abs/2610.10552</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.10552</guid>
-      <description>arXiv:2610.10552v1 Announce Type: new 
-Abstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a common but flawed practice: when the arms being compared have very different trainable-parameter counts, a shared rate can simultaneously depress the larger ar...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; vision, arxiv, memory, model, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 09 Oct 2026 04:00:00 </pubDate>
+      <title>LAMB: Latent Multi-Hypothesis Beliefs for Long-Horizon Large Language Agents</title>
+      <link>https://arxiv.org/abs/2610.26955</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.26955</guid>
+      <description>arXiv:2610.26955v1 Announce Type: new 
+Abstract: Long-horizon language agents require compact memories that retain interaction evidence while preserving competing hypotheses about unobserved states. Although effective, many belief-state methods encode memory in discrete natural language, where repea...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, memory, context, framework, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
-      <category>vision</category>
       <category>arxiv</category>
       <category>memory</category>
+      <category>context</category>
     </item>
     <item>
-      <title>Lossy Compressive Text Autoencoders</title>
-      <link>https://arxiv.org/abs/2610.10738</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.10738</guid>
-      <description>arXiv:2610.10738v1 Announce Type: new 
-Abstract: Our work explores learning a compressed latent representation of text, at the intersection of data compression and representation learning. We propose an autoencoder architecture that performs residual downscaling and upscaling of hidden representatio...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, LLM, compression, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 09 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
+      <title>ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model</title>
+      <link>https://huggingface.co/blog/ibm-research/altk-evolve-bc</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/ibm-research/altk-evolve-bc</guid>
+      <description>...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; Hugging Face Blog | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 20%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 20 Oct 2026 15:19:48 </pubDate>
+      <author>noreply@contextengineering.news (Hugging Face Blog)</author>
       <category>Context Management</category>
+      <category>memory</category>
       <category>model</category>
-      <category>LLM</category>
-      <category>compression</category>
     </item>
   </channel>
 </rss>
