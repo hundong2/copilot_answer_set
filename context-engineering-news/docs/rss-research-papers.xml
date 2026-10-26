@@ -6,210 +6,147 @@
     <description>Latest Research Papers news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>FusionEval: Benchmarking Model Fusion for Large Language Models</title>
-      <link>https://arxiv.org/abs/2610.30162</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30162</guid>
-      <description>arXiv:2610.30162v1 Announce Type: new 
-Abstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; instruction, tool, reasoning, large language model, experiment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
+      <title>Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation</title>
+      <link>https://arxiv.org/abs/2610.31678</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31678</guid>
+      <description>arXiv:2610.31678v1 Announce Type: new 
+Abstract: Many LLM studies compare how models respond to different follow-up prompts. For example, one prompt may neutrally ask a model to reconsider, while another insists that an invented film really exists. The difference is used to measure the effect of con...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; research, arxiv, example, study, prompt | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
-      <category>instruction</category>
-      <category>tool</category>
-      <category>reasoning</category>
-    </item>
-    <item>
-      <title>Measuring Research Progress and Linguistic Inclusion in Low-Resource Languages</title>
-      <link>https://arxiv.org/abs/2610.30296</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30296</guid>
-      <description>arXiv:2610.30296v1 Announce Type: new 
-Abstract: Large Language Models (LLMs) have accelerated research on low-resource and multilingual NLP, but their effectiveness in creating an equitable landscape remains unmapped. We analyze 1,158 peer-reviewed open-access papers published between 2020 and 2025...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; analysis, framework, large language model, arxiv, RAG | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>analysis</category>
-      <category>framework</category>
-      <category>large language model</category>
-    </item>
-    <item>
-      <title>Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings</title>
-      <link>https://arxiv.org/abs/2610.30374</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30374</guid>
-      <description>arXiv:2610.30374v1 Announce Type: new 
-Abstract: The massively multilingual translation systems that now include Sicilian learned it from noisy, non-standardised web text. To obtain better translation quality, we redevelop the small neural machine translation (NMT) system that Wdowiak customized for...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; alignment, transformer, fine-tuning, arxiv, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>alignment</category>
-      <category>transformer</category>
-      <category>fine-tuning</category>
-    </item>
-    <item>
-      <title>MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments</title>
-      <link>https://arxiv.org/abs/2610.30379</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30379</guid>
-      <description>arXiv:2610.30379v1 Announce Type: new 
-Abstract: LLM agents are flexible in language interaction, but using them as long-horizon planners is costly and prone to hallucinated or invalid actions. This paper targets a different role for LLMs: constrained bridges between language and symbolic planning. ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, experiment, fine-tuning, arxiv, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>framework</category>
-      <category>experiment</category>
-      <category>fine-tuning</category>
-    </item>
-    <item>
-      <title>Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing</title>
-      <link>https://arxiv.org/abs/2610.28815</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.28815</guid>
-      <description>arXiv:2610.28815v1 Announce Type: new 
-Abstract: Agentic harness evolution optimizes an agent&amp;#x27;s instructions, tools, and control flow by using its task execution experiences as evolving evidence. While more evolution tasks should intuitively improve performance, our preliminary study reveals a parad...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; instruction, tool, analysis, framework, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>instruction</category>
-      <category>tool</category>
-      <category>analysis</category>
-    </item>
-    <item>
-      <title>To Manipulate or Not: Opinion Dynamics in LLM Interactions</title>
-      <link>https://arxiv.org/abs/2610.28875</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.28875</guid>
-      <description>arXiv:2610.28875v1 Announce Type: new 
-Abstract: Large language models increasingly take part in extended conversations where they can both shape and be shaped by another party&amp;#x27;s views, yet most persuasion research measures only one side of that exchange. We introduce a controlled LLM-LLM debate fra...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; instruction, large language model, framework, arxiv, RAG | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>instruction</category>
-      <category>large language model</category>
-      <category>framework</category>
-    </item>
-    <item>
-      <title>Fig: Automated Multiagent Behavior Elicitor</title>
-      <link>https://arxiv.org/abs/2610.28891</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.28891</guid>
-      <description>arXiv:2610.28891v1 Announce Type: new 
-Abstract: Many social evaluations for multiagent systems study behaviors as they emerge from environments instead of systematically intervening in the environment to elicit such behaviors. We introduce Fig (Finding Interactions in Games), an agentic system that...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; instruction, context, arxiv, RAG, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>instruction</category>
-      <category>context</category>
-      <category>arxiv</category>
-    </item>
-    <item>
-      <title>When Reconstruction Is Not Enough: Doubly Robust Counterfactual and Interventional Mediation Analysis with Learned Multimodal Representations</title>
-      <link>https://arxiv.org/abs/2610.30220</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30220</guid>
-      <description>arXiv:2610.30220v1 Announce Type: new 
-Abstract: Learned representations of high-dimensional multimodal health records are increasingly used to adjust for confounding, yet they are usually trained to reconstruct the data rather than preserve the information that causal identification requires. We st...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; analysis, arxiv, RAG, study, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>analysis</category>
-      <category>arxiv</category>
-      <category>RAG</category>
-    </item>
-    <item>
-      <title>Benchmarking Model Compression Techniques Across Heterogeneous Edge Platforms: A Predictive Maintenance Use Case for Rotating Machinery</title>
-      <link>https://arxiv.org/abs/2610.30228</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30228</guid>
-      <description>arXiv:2610.30228v1 Announce Type: new 
-Abstract: To enable Industry 5.0, where autonomous systems are widely adopted and integrated with people to promote sustainable development in industries, it is imperative to adapt complex deep learning models to operate efficiently on resource-constrained hard...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; analysis, arxiv, RAG, model, paper | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>analysis</category>
-      <category>arxiv</category>
-      <category>RAG</category>
-    </item>
-    <item>
-      <title>baseVultra: Compact Nonlinear Recurrence with Reallocated Capacity</title>
-      <link>https://arxiv.org/abs/2610.30154</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30154</guid>
-      <description>arXiv:2610.30154v1 Announce Type: new 
-Abstract: Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether recurrent computation can be reallocated away from gate transforms and toward candidate generation. ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, vector, study, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>arxiv</category>
-      <category>vector</category>
-      <category>study</category>
-    </item>
-    <item>
-      <title>Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?</title>
-      <link>https://arxiv.org/abs/2610.28763</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.28763</guid>
-      <description>arXiv:2610.28763v1 Announce Type: new 
-Abstract: Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agen...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; analysis, experiment, arxiv, API, research | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>analysis</category>
-      <category>experiment</category>
-      <category>arxiv</category>
-    </item>
-    <item>
-      <title>Prediction Is Not Calibration: Item Parameter Recovery and Representation Coupling in Knowledge Tracing</title>
-      <link>https://arxiv.org/abs/2610.30211</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30211</guid>
-      <description>arXiv:2610.30211v1 Announce Type: new 
-Abstract: Knowledge tracing (KT) models can estimate item parameters through an item response decoder trained solely for next-response prediction, yet predictive accuracy does not guarantee parameter recovery. We study 2PL, GPCM, and NRM decoders paired with LS...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, model, arxiv, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>transformer</category>
-      <category>model</category>
-      <category>arxiv</category>
-    </item>
-    <item>
-      <title>GANet: A Lightweight Group Attention Network for Plant Disease Identification on Embedded Systems</title>
-      <link>https://arxiv.org/abs/2610.30225</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30225</guid>
-      <description>arXiv:2610.30225v1 Announce Type: new 
-Abstract: Global warming and climate change are major catalysts for plant diseases, significantly affecting food production worldwide. Addressing this issue requires continuous monitoring and early detection of plant diseases. While recent advancements in deep ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, attention, model, paper, product | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>arxiv</category>
-      <category>attention</category>
-      <category>model</category>
-    </item>
-    <item>
-      <title>LitPivot: Developing research ideas through dynamic contextualization within the literature landscape</title>
-      <link>https://huggingface.co/blog/allenai/litpivot</link>
-      <guid isPermaLink="false">https://huggingface.co/blog/allenai/litpivot</guid>
-      <description>...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; Hugging Face Blog | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; context, research | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 16:15:50 </pubDate>
-      <author>noreply@contextengineering.news (Hugging Face Blog)</author>
-      <category>Research Papers</category>
-      <category>context</category>
       <category>research</category>
+      <category>arxiv</category>
+      <category>example</category>
     </item>
     <item>
-      <title>Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable</title>
-      <link>https://arxiv.org/abs/2610.30349</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.30349</guid>
-      <description>arXiv:2610.30349v1 Announce Type: new 
-Abstract: LLMs are increasingly consulted for moral judgment. We aim to improve performance on such tasks by rewarding good arguments, on the premise that arguing well increases the likelihood of judging well. We train a reinforcement learning policy initialize...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, arxiv, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
+      <title>Distributional Alignment of LLMs and Its Generalization Properties</title>
+      <link>https://arxiv.org/abs/2610.31687</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31687</guid>
+      <description>arXiv:2610.31687v1 Announce Type: new 
+Abstract: Large language models are increasingly used to simulate and probe human behavior, e.g., for surveys. For these applications, a key property is that outputs satisfy distributional alignment: to match its output distribution with some reference (in this...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, large language model, study, model, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Research Papers</category>
-      <category>model</category>
       <category>arxiv</category>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds</title>
-      <link>https://arxiv.org/abs/2610.28698</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.28698</guid>
-      <description>arXiv:2610.28698v1 Announce Type: new 
-Abstract: Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics,...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; model, arxiv, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Research Papers</category>
-      <category>model</category>
-      <category>arxiv</category>
+      <category>large language model</category>
       <category>study</category>
+    </item>
+    <item>
+      <title>Phronix: The Capability-Centric Learning Paradigm for Agents</title>
+      <link>https://arxiv.org/abs/2610.31789</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31789</guid>
+      <description>arXiv:2610.31789v1 Announce Type: new 
+Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness depends heavily on the surrounding harness, which typ...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; research, arxiv, memory, large language model, analysis | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>research</category>
+      <category>arxiv</category>
+      <category>memory</category>
+    </item>
+    <item>
+      <title>Don&amp;#x27;t Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons</title>
+      <link>https://arxiv.org/abs/2610.31846</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31846</guid>
+      <description>arXiv:2610.31846v1 Announce Type: new 
+Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement. Yet today&amp;#x27;s agents recover from a mistake only temporarily: in-context reflections are easily forgotten across sessions and compete for limited con...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; research, arxiv, context, tool, fine-tuning | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>research</category>
+      <category>arxiv</category>
+      <category>context</category>
+    </item>
+    <item>
+      <title>Beyond On-Policy vs. Off-Policy: At What Level Should LLM Agent Distillation Follow the Student?</title>
+      <link>https://arxiv.org/abs/2610.31918</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31918</guid>
+      <description>arXiv:2610.31918v1 Announce Type: new 
+Abstract: Distilling interactive LLM agents requires choosing between teacher-generated demonstrations and student-generated experience, corresponding broadly to off-policy and on-policy distillation. While both have proven effective, we argue that this distinc...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, arxiv, context, study, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>framework</category>
+      <category>arxiv</category>
+      <category>context</category>
+    </item>
+    <item>
+      <title>Rethinking Structured Generation: Can Graph-Based Reasoning Resolve Ambiguity?</title>
+      <link>https://arxiv.org/abs/2610.31681</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31681</guid>
+      <description>arXiv:2610.31681v1 Announce Type: new 
+Abstract: Structured generation is typically formulated as a deterministic mapping from input to a single structured output. This assumption is fundamentally misaligned with natural language, which often admits multiple structurally distinct yet semantically va...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, arxiv, experiment, model, alignment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>framework</category>
+      <category>arxiv</category>
+      <category>experiment</category>
+    </item>
+    <item>
+      <title>Multi modal perceived conversation success prediction for spontaneous autistic and non-autistic dyadic interactions</title>
+      <link>https://arxiv.org/abs/2610.31682</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31682</guid>
+      <description>arXiv:2610.31682v1 Announce Type: new 
+Abstract: Conversation success is important for communication, social bonds, and well-being and is often reduced in autistic-neurotypical conversations. Previous studies have predicted perceived conversation success using acoustic and lexical features in pediat...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, multimodal, arxiv, study, RAG | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>framework</category>
+      <category>multimodal</category>
+      <category>arxiv</category>
+    </item>
+    <item>
+      <title>LAMB: A Modern Contextual Language Model for Latin</title>
+      <link>https://arxiv.org/abs/2610.31723</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31723</guid>
+      <description>arXiv:2610.31723v1 Announce Type: new 
+Abstract: This article introduces Latin Modern BERT (LAMB), an encoder for the Latin language based on the ModernBERT architecture, pretrained in two phases on more than 74B Latin tokens using a novel morphologically informed masking regimen. We also present tw...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, context, ICL, model, experiment | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>arxiv</category>
+      <category>context</category>
+      <category>ICL</category>
+    </item>
+    <item>
+      <title>Patronizing and Condescending Language Detection in English and Mandarin</title>
+      <link>https://arxiv.org/abs/2610.31808</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31808</guid>
+      <description>arXiv:2610.31808v1 Announce Type: new 
+Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for h...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; paper, embedding, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>paper</category>
+      <category>embedding</category>
+      <category>arxiv</category>
+    </item>
+    <item>
+      <title>PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean</title>
+      <link>https://arxiv.org/abs/2610.31810</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31810</guid>
+      <description>arXiv:2610.31810v1 Announce Type: new 
+Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; research, paper, tool, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>research</category>
+      <category>paper</category>
+      <category>tool</category>
+    </item>
+    <item>
+      <title>From Target Selection to Condition Reuse: Auditing Residual Interventions in Tool-Use Models</title>
+      <link>https://arxiv.org/abs/2610.31686</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.31686</guid>
+      <description>arXiv:2610.31686v1 Announce Type: new 
+Abstract: Activation interventions can make a language model produce a target answer, but can the model use the intended condition in other computations? We study this question in Qwen3.5-27B on tool-use tasks where time or permissions determine eligibility and...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, tool, model, study | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 40%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Research Papers</category>
+      <category>arxiv</category>
+      <category>tool</category>
+      <category>model</category>
     </item>
   </channel>
 </rss>
