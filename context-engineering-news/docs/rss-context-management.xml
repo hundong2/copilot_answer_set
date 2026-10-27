@@ -6,67 +6,43 @@
     <description>Latest Context Management news in Context Engineering</description>
     <language>en-us</language>
     <item>
-      <title>Do We Need the Largest LLMs for Every Clinical Decision?</title>
-      <link>https://arxiv.org/abs/2610.26937</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.26937</guid>
-      <description>arXiv:2610.26937v1 Announce Type: new 
-Abstract: Large clinical language models often require multi-GPU infrastructure, limiting local deployment. We introduce CERTA, a decision-level statistical certificate that determines when a quantized model may substitute for its native BF16 reference and esca...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, RAG, memory, analysis, context | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 21 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>arxiv</category>
-      <category>RAG</category>
-      <category>memory</category>
-    </item>
-    <item>
-      <title>High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference</title>
-      <link>https://arxiv.org/abs/2610.26866</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.26866</guid>
-      <description>arXiv:2610.26866v1 Announce Type: new 
-Abstract: Mechanistic studies of large language models localize function in parameters, attention heads or neurons, but those parts do not specify how one inference unfolds. We treat the ordered layer-state trajectory as the empirical process and test whether l...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, arxiv, large language model, attention, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 21 Oct 2026 04:00:00 </pubDate>
+      <title>Linear-Time Context Compression with State-Space Encoding</title>
+      <link>https://arxiv.org/abs/2610.33006</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.33006</guid>
+      <description>arXiv:2610.33006v1 Announce Type: new 
+Abstract: Transformer-based large language models (LLMs) impose substantial computation and memory costs as context sizes increase, motivating methods that compress a context into a shorter representation before inference. Existing soft-prompt compression metho...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, compression, model, memory, arxiv | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 27 Oct 2026 04:00:00 </pubDate>
       <author>noreply@contextengineering.news (arXiv)</author>
       <category>Context Management</category>
       <category>transformer</category>
-      <category>arxiv</category>
-      <category>large language model</category>
-    </item>
-    <item>
-      <title>Transformers Learn Two Competing Sorting Algorithms, and Only One Length-Generalizes</title>
-      <link>https://arxiv.org/abs/2610.26974</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.26974</guid>
-      <description>arXiv:2610.26974v1 Announce Type: new 
-Abstract: We show that two-layer transformers trained to near-zero loss on a sorting task converge to one of two mechanistically distinct solution classes depending on their initialization. One solution class consists of solutions that do not use the second att...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; transformer, arxiv, context, attention, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 21 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>transformer</category>
-      <category>arxiv</category>
-      <category>context</category>
-    </item>
-    <item>
-      <title>LAMB: Latent Multi-Hypothesis Beliefs for Long-Horizon Large Language Agents</title>
-      <link>https://arxiv.org/abs/2610.26955</link>
-      <guid isPermaLink="false">https://arxiv.org/abs/2610.26955</guid>
-      <description>arXiv:2610.26955v1 Announce Type: new 
-Abstract: Long-horizon language agents require compact memories that retain interaction evidence while preserving competing hypotheses about unobserved states. Although effective, many belief-state methods encode memory in discrete natural language, where repea...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; arxiv, memory, context, framework, compression | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 80%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Wed, 21 Oct 2026 04:00:00 </pubDate>
-      <author>noreply@contextengineering.news (arXiv)</author>
-      <category>Context Management</category>
-      <category>arxiv</category>
-      <category>memory</category>
-      <category>context</category>
-    </item>
-    <item>
-      <title>ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model</title>
-      <link>https://huggingface.co/blog/ibm-research/altk-evolve-bc</link>
-      <guid isPermaLink="false">https://huggingface.co/blog/ibm-research/altk-evolve-bc</guid>
-      <description>...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; Hugging Face Blog | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; memory, model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 20%&amp;lt;/small&amp;gt;</description>
-      <pubDate>Tue, 20 Oct 2026 15:19:48 </pubDate>
-      <author>noreply@contextengineering.news (Hugging Face Blog)</author>
-      <category>Context Management</category>
-      <category>memory</category>
+      <category>compression</category>
       <category>model</category>
+    </item>
+    <item>
+      <title>SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory</title>
+      <link>https://arxiv.org/abs/2610.33015</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.33015</guid>
+      <description>arXiv:2610.33015v1 Announce Type: new 
+Abstract: Long-term memory enables large language model (LLM) agents to maintain personalized and temporally coherent interactions, but repeated LLM inference for memory admission, extraction, and organization introduces substantial cost and latency. We present...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; framework, model, memory, arxiv, large language model | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 100%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 27 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>framework</category>
+      <category>model</category>
+      <category>memory</category>
+    </item>
+    <item>
+      <title>AOS-Bench: Can LLM Agents Manage Dynamic Workloads?</title>
+      <link>https://arxiv.org/abs/2610.33178</link>
+      <guid isPermaLink="false">https://arxiv.org/abs/2610.33178</guid>
+      <description>arXiv:2610.33178v1 Announce Type: new 
+Abstract: Coding agents are moving from handling one request at a time to serving as persistent assistants to which users hand a stream of work: a build, a data-processing job and a bug fix may all be pending on the same machine at once. Such an agent must deci...&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;small&amp;gt;&amp;lt;strong&amp;gt;Source:&amp;lt;/strong&amp;gt; arXiv | &amp;lt;strong&amp;gt;Keywords:&amp;lt;/strong&amp;gt; vision, model, memory, arxiv, LLM | &amp;lt;strong&amp;gt;Relevance:&amp;lt;/strong&amp;gt; 60%&amp;lt;/small&amp;gt;</description>
+      <pubDate>Tue, 27 Oct 2026 04:00:00 </pubDate>
+      <author>noreply@contextengineering.news (arXiv)</author>
+      <category>Context Management</category>
+      <category>vision</category>
+      <category>model</category>
+      <category>memory</category>
     </item>
   </channel>
 </rss>
