@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-10-30T20:06:42.529212",
-  "total_items": 21,
+  "generated_at": "2026-10-31T20:05:56.521360",
+  "total_items": 30,
   "items": [
+    {
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "description": "arXiv:2610.37739v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFronti...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "research",
+        "study",
+        "model",
+        "large language model",
+        "retrieval",
+        "arxiv",
+        "LLM",
+        "context"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "url": "https://arxiv.org/abs/2610.37786",
+      "description": "arXiv:2610.37786v1 Announce Type: new \nAbstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites. Capture-a...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "RAG",
+        "fine-tuning",
+        "framework",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2610.37809",
+      "description": "arXiv:2610.37809v1 Announce Type: new \nAbstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reliable judge. Yet a checker can be wrong as well: it can miss errors, and...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "LLM",
+        "prompt",
+        "arxiv",
+        "context"
+      ],
+      "score": 1.0
+    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -10,9 +60,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
-        "context",
         "context window",
+        "context",
+        "prompt engineering",
         "prompt"
       ],
       "score": 1.0
@@ -26,10 +76,10 @@
       "category": "chain_of_thought",
       "keywords": [
         "framework",
-        "chain-of-thought",
         "CoT",
+        "audio",
         "reasoning",
-        "audio"
+        "chain-of-thought"
       ],
       "score": 1.0
     },
@@ -41,8 +91,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "reasoning",
         "RAG",
+        "reasoning",
         "vector"
       ],
       "score": 1.0
@@ -55,9 +105,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "framework",
         "chain-of-thought",
-        "context",
-        "framework"
+        "context"
       ],
       "score": 1.0
     },
@@ -69,9 +119,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "augmented",
         "RAG",
-        "retrieval"
+        "retrieval",
+        "augmented"
       ],
       "score": 1.0
     },
@@ -83,14 +133,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "model",
-        "retrieval",
+        "RAG",
         "framework",
-        "knowledge base",
-        "vector",
         "reasoning",
-        "LLM",
-        "RAG"
+        "model",
+        "knowledge base",
+        "retrieval",
+        "vector",
+        "LLM"
       ],
       "score": 1.0
     },
@@ -102,8 +152,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "fine-tuning",
-        "RAG"
+        "RAG",
+        "fine-tuning"
       ],
       "score": 1.0
     },
@@ -115,9 +165,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "augmented",
         "RAG",
-        "retrieval"
+        "retrieval",
+        "augmented"
       ],
       "score": 1.0
     },
@@ -129,11 +179,11 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "RAG",
+        "augmented",
         "API",
         "retrieval",
-        "product",
-        "augmented",
-        "RAG"
+        "product"
       ],
       "score": 1.0
     },
@@ -145,14 +195,62 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
         "framework",
+        "prompt engineering",
         "paper",
-        "context",
         "prompt",
-        "LLM"
+        "LLM",
+        "context"
       ],
       "score": 1.0
+    },
+    {
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "url": "https://arxiv.org/abs/2610.37731",
+      "description": "arXiv:2610.37731v1 Announce Type: new \nAbstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We constr...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "model",
+        "experiment",
+        "arxiv",
+        "context"
+      ],
+      "score": 0.8
+    },
+    {
+      "title": "Evaluating and improving AI agents for sequencing protocol understanding",
+      "url": "https://arxiv.org/abs/2610.37851",
+      "description": "arXiv:2610.37851v1 Announce Type: new \nAbstract: Existing scientific-agent benchmarks rarely evaluate whether agents can reconstruct the exact molecular structures and generation workflows specified by sequencing protocols, a capability critical for analyzing customized sequencing assays. We introdu...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "RAG",
+        "reasoning",
+        "model",
+        "library",
+        "example",
+        "experiment",
+        "arxiv"
+      ],
+      "score": 0.8
+    },
+    {
+      "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
+      "url": "https://arxiv.org/abs/2610.37859",
+      "description": "arXiv:2610.37859v1 Announce Type: new \nAbstract: Language-model agents differ fundamentally from prior intelligent systems in their ability to learn from natural language in context. This capability enables agents to iteratively refine their answers in response to feedback, a prevalent mode of opera...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "model",
+        "study",
+        "arxiv",
+        "context"
+      ],
+      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -162,10 +260,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "model",
-        "context",
+        "API",
         "tool",
-        "API"
+        "model",
+        "context"
       ],
       "score": 0.8
     },
@@ -177,11 +275,28 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "reasoning",
         "chain-of-thought",
-        "model",
-        "reasoning"
+        "model"
       ],
       "score": 0.8
+    },
+    {
+      "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+      "url": "https://arxiv.org/abs/2610.37830",
+      "description": "arXiv:2610.37830v1 Announce Type: new \nAbstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters most for smart contracts, the programs behind Web3 applications that move money on a blockchain an...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "analysis",
+        "model",
+        "release",
+        "tool",
+        "arxiv"
+      ],
+      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -191,8 +306,8 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
         "library",
+        "prompt engineering",
         "prompt"
       ],
       "score": 0.6
@@ -205,8 +320,8 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "context",
-        "tool"
+        "tool",
+        "context"
       ],
       "score": 0.6
     },
@@ -218,11 +333,41 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
         "paper",
+        "prompt engineering",
         "prompt"
       ],
       "score": 0.6
+    },
+    {
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "url": "https://arxiv.org/abs/2610.37720",
+      "description": "arXiv:2610.37720v1 Announce Type: new \nAbstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert cop...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "memory",
+        "model",
+        "experiment",
+        "arxiv"
+      ],
+      "score": 0.4
+    },
+    {
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "url": "https://arxiv.org/abs/2610.37732",
+      "description": "arXiv:2610.37732v1 Announce Type: new \nAbstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take several steps, such as ...",
+      "published_date": "2026-10-31T04:00:00",
+      "source": "arXiv",
+      "category": "industry_news",
+      "keywords": [
+        "API",
+        "model",
+        "arxiv",
+        "prompt"
+      ],
+      "score": 0.4
     },
     {
       "title": "semantica - Graph-Native Infrastructure for Context and Accountable AI Systems",
@@ -292,8 +437,8 @@
       "source": "Hugging Face Blog",
       "category": "tools_frameworks",
       "keywords": [
-        "model",
-        "platform"
+        "platform",
+        "model"
       ],
       "score": 0.2
     }
