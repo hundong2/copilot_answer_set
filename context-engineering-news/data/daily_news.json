@@ -1,7 +1,197 @@
 {
-  "generated_at": "2026-11-01T20:06:13.454730",
-  "total_items": 18,
+  "generated_at": "2026-11-02T20:06:06.952982",
+  "total_items": 36,
   "items": [
+    {
+      "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+      "url": "https://arxiv.org/abs/2610.40726",
+      "description": "arXiv:2610.40726v1 Announce Type: new \nAbstract: Asynchronous reinforcement learning (RL) is becoming a mainstream paradigm for post-training large language models (LLMs), as it improves training efficiency by updating the model as rollouts arrive. Recent work argues that group-wise sampling in GRPO...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "reasoning",
+        "product",
+        "model",
+        "large language model",
+        "experiment",
+        "paper",
+        "arxiv",
+        "LLM"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
+      "url": "https://arxiv.org/abs/2610.40893",
+      "description": "arXiv:2610.40893v1 Announce Type: new \nAbstract: Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost none fix their hypotheses befor...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "release",
+        "company",
+        "RAG",
+        "template",
+        "prompt",
+        "analysis",
+        "model",
+        "large language model",
+        "paper",
+        "arxiv",
+        "LLM"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+      "url": "https://arxiv.org/abs/2610.40926",
+      "description": "arXiv:2610.40926v1 Announce Type: new \nAbstract: Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the only reward. Such a collapse o...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "release",
+        "RAG",
+        "prompt",
+        "model",
+        "large language model",
+        "arxiv",
+        "embedding",
+        "LLM"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Adaptive Personalization Under Preference Epistemic Uncertainty",
+      "url": "https://arxiv.org/abs/2610.40930",
+      "description": "arXiv:2610.40930v1 Announce Type: new \nAbstract: Human preferences change over time: an established preference may remain valid over time, become uncertain as context shifts, or be explicitly revised. Effective personalization requires conversational AI to adapt its response strategy to evolving pre...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "prompt_engineering",
+      "keywords": [
+        "context",
+        "prompt",
+        "study",
+        "retrieval",
+        "prompting",
+        "model",
+        "memory",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Better Retrievers, Worse Labels: How Incomplete Relevance Judgments Distort Abstention Evaluation in Conversational RAG",
+      "url": "https://arxiv.org/abs/2610.40966",
+      "description": "arXiv:2610.40966v1 Announce Type: new \nAbstract: Conversational RAG benchmarks such as MTRAG and RETECO evaluate retrieval and generation end to end: each system answers from its own retrieval, so abstention must be scored against whether each retrieved context is sufficient. A convenient shortcut r...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "release",
+        "RAG",
+        "context",
+        "retrieval",
+        "model",
+        "arxiv",
+        "LLM"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
+      "url": "https://arxiv.org/abs/2610.40974",
+      "description": "arXiv:2610.40974v1 Announce Type: new \nAbstract: Large language models have been shown to memorise and reproduce verbatim sequences from their training data, raising concerns about privacy leakage, intellectual property exposure, and the limits of generalisation. Recent theoretical work suggests tha...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "context_management",
+      "keywords": [
+        "product",
+        "attention",
+        "model",
+        "large language model",
+        "GPT",
+        "arxiv",
+        "memory"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Language Models Show Conformity Bias in RAG: When the Majority Endorses a Poisoned Claim",
+      "url": "https://arxiv.org/abs/2610.41012",
+      "description": "arXiv:2610.41012v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) can expose language models to misleading evidence in retrieved documents. We investigate whether increasing the number of mutually agreeing poisoned documents affects a model's ability to detect misinformation. We ...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "augmented",
+        "RAG",
+        "context",
+        "retrieval",
+        "model",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Automatic Construction of Strong Simple Baselines",
+      "url": "https://arxiv.org/abs/2610.40700",
+      "description": "arXiv:2610.40700v1 Announce Type: new \nAbstract: To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. As deep learning has become increasingly common in the physical and life sciences, there have been numerous cases in which apparent p...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "API",
+        "research",
+        "ICL",
+        "context",
+        "study",
+        "model",
+        "large language model",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Certified Behavioral Retention for Continual Adaptation with Held-Out Anchors",
+      "url": "https://arxiv.org/abs/2610.40740",
+      "description": "arXiv:2610.40740v1 Announce Type: new \nAbstract: Continual adaptation requires deciding not only how to update a model, but whether to commit an update without exceeding a declared budget for changes to protected behavior. We introduce Certified Anchor-Based Adaptation (CABA), a candidate-agnostic p...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "compression",
+        "framework",
+        "RAG",
+        "study",
+        "analysis",
+        "model",
+        "experiment",
+        "arxiv"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "FARO: Function-Space Adaptive Return-to-Risk Optimization via Cross-Block Equal-Risk-Contribution Budget Allocation",
+      "url": "https://arxiv.org/abs/2610.40858",
+      "description": "arXiv:2610.40858v1 Announce Type: new \nAbstract: Training a large language model is compute-bound, and current recipes divide the work between optimizers by hand: orthogonalized momentum for attention and MLP matrices, Adam-style updates for the rest. This division rests on human priors about which ...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "context_management",
+      "keywords": [
+        "framework",
+        "RAG",
+        "attention",
+        "model",
+        "large language model",
+        "GPT",
+        "arxiv",
+        "memory",
+        "vision"
+      ],
+      "score": 1.0
+    },
     {
       "title": "Context-Engineering - \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
       "url": "https://github.com/jasontang-ai/Context-Engineering",
@@ -10,10 +200,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "context window",
-        "prompt",
         "context",
-        "prompt engineering"
+        "prompt",
+        "prompt engineering",
+        "context window"
       ],
       "score": 1.0
     },
@@ -25,11 +215,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "chain-of-thought",
         "reasoning",
         "framework",
-        "chain-of-thought",
-        "audio",
-        "CoT"
+        "CoT",
+        "audio"
       ],
       "score": 1.0
     },
@@ -41,8 +231,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "RAG",
         "reasoning",
+        "RAG",
         "vector"
       ],
       "score": 1.0
@@ -55,9 +245,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "context",
         "framework",
-        "chain-of-thought",
-        "context"
+        "chain-of-thought"
       ],
       "score": 1.0
     },
@@ -69,9 +259,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
+        "augmented",
         "retrieval",
-        "augmented"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -83,14 +273,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "vector",
-        "LLM",
-        "model",
-        "retrieval",
         "reasoning",
-        "RAG",
         "framework",
-        "knowledge base"
+        "knowledge base",
+        "RAG",
+        "vector",
+        "retrieval",
+        "model",
+        "LLM"
       ],
       "score": 1.0
     },
@@ -102,8 +292,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
-        "fine-tuning"
+        "fine-tuning",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -115,9 +305,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
+        "augmented",
         "retrieval",
-        "augmented"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -129,11 +319,11 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "retrieval",
-        "RAG",
         "augmented",
-        "product",
-        "API"
+        "API",
+        "RAG",
+        "retrieval",
+        "product"
       ],
       "score": 1.0
     },
@@ -145,14 +335,45 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "LLM",
-        "prompt engineering",
         "framework",
-        "paper",
         "context",
-        "prompt"
+        "prompt",
+        "prompt engineering",
+        "paper",
+        "LLM"
       ],
       "score": 1.0
+    },
+    {
+      "title": "AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn",
+      "url": "https://arxiv.org/abs/2610.40757",
+      "description": "arXiv:2610.40757v1 Announce Type: new \nAbstract: Humans and animals have a unique capacity to generalize and learn in novel circumstances, including \"0-shot\" inference (ZI) and continual learning (CL) -- two powerful cognitive abilities. Despite this importance, efforts to model ZI and CL are seriou...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "zero-shot",
+        "arxiv",
+        "analysis",
+        "model"
+      ],
+      "score": 0.8
+    },
+    {
+      "title": "TensorSSM: Memorizing Spatial Position in Dynamic State Space for Tensor Core Generation",
+      "url": "https://arxiv.org/abs/2610.40871",
+      "description": "arXiv:2610.40871v1 Announce Type: new \nAbstract: High-dimensional tensors are ubiquitous in real-world applications but lead to massive storage overhead. Functional tensor decomposition addresses this by employing neural networks to map element coordinates to tensor cores, significantly reducing the...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "compression",
+        "RAG",
+        "model",
+        "experiment",
+        "arxiv"
+      ],
+      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -162,10 +383,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "model",
-        "API",
+        "context",
         "tool",
-        "context"
+        "API",
+        "model"
       ],
       "score": 0.8
     },
@@ -177,11 +398,55 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "model",
         "chain-of-thought",
-        "reasoning"
+        "reasoning",
+        "model"
       ],
       "score": 0.8
+    },
+    {
+      "title": "Unsupervised Feature Selection Using Local Intrinsic Dimensionality -- Extended Version",
+      "url": "https://arxiv.org/abs/2610.40736",
+      "description": "arXiv:2610.40736v1 Announce Type: new \nAbstract: High dimensionality degrades both the efficiency and the effectiveness of learning algorithms, and in many applications no class labels are available to guide dimensionality reduction. This paper proposes LIDFS, an unsupervised feature selection metho...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "paper",
+        "arxiv",
+        "analysis"
+      ],
+      "score": 0.6
+    },
+    {
+      "title": "Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation",
+      "url": "https://arxiv.org/abs/2610.40857",
+      "description": "arXiv:2610.40857v1 Announce Type: new \nAbstract: Scientific foundation models (SciFMs) have achieved remarkable performance on a wide range of PDEs, including the ability to efficiently adapt to unseen data distributions with additional finetuning. As with all neural architectures, finetuning such m...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "API",
+        "study",
+        "model",
+        "experiment",
+        "arxiv"
+      ],
+      "score": 0.6
+    },
+    {
+      "title": "Near-Optimal First-Order Regret for Bandits with Feedback Graphs",
+      "url": "https://arxiv.org/abs/2610.40861",
+      "description": "arXiv:2610.40861v1 Announce Type: new \nAbstract: We study first-order regret guarantees for adversarial bandits with a fixed, known directed feedback graph. For strongly observable graphs, [ACBDK15] establishes a minimax regret of $\\widetilde{\\Theta}(\\sqrt{\\alpha T})$, where $\\alpha$ denotes the ind...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "paper",
+        "arxiv"
+      ],
+      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -192,8 +457,8 @@
       "category": "prompt_engineering",
       "keywords": [
         "prompt",
-        "library",
-        "prompt engineering"
+        "prompt engineering",
+        "library"
       ],
       "score": 0.6
     },
@@ -205,8 +470,8 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "tool",
-        "context"
+        "context",
+        "tool"
       ],
       "score": 0.6
     },
@@ -218,11 +483,57 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "paper",
         "prompt",
+        "paper",
         "prompt engineering"
       ],
       "score": 0.6
+    },
+    {
+      "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+      "url": "https://arxiv.org/abs/2610.40747",
+      "description": "arXiv:2610.40747v1 Announce Type: new \nAbstract: Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "multimodal_context",
+      "keywords": [
+        "reasoning",
+        "multimodal",
+        "arxiv",
+        "vision"
+      ],
+      "score": 0.4
+    },
+    {
+      "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+      "url": "https://arxiv.org/abs/2610.40847",
+      "description": "arXiv:2610.40847v1 Announce Type: new \nAbstract: Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-mode...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "memory",
+        "arxiv",
+        "analysis",
+        "model"
+      ],
+      "score": 0.4
+    },
+    {
+      "title": "Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali",
+      "url": "https://arxiv.org/abs/2610.40996",
+      "description": "arXiv:2610.40996v1 Announce Type: new \nAbstract: When a language model invents a Qur'anic verse or hadith, it gives false authority to text that readers may treat as sacred. Existing Islamic hallucination benchmarks are largely Arabic and often closed-ended, while Bengali resources mainly study gene...",
+      "published_date": "2026-11-02T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "study",
+        "prompt",
+        "model",
+        "product",
+        "arxiv"
+      ],
+      "score": 0.4
     },
     {
       "title": "semantica - Graph-Native Infrastructure for Context and Accountable AI Systems",
