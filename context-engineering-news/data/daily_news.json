@@ -1,77 +1,134 @@
 {
-  "generated_at": "2026-11-03T20:07:12.549560",
-  "total_items": 31,
+  "generated_at": "2026-11-04T20:06:47.241613",
+  "total_items": 30,
   "items": [
     {
-      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
-      "url": "https://arxiv.org/abs/2610.40890",
-      "description": "arXiv:2610.40890v1 Announce Type: new \nAbstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating...",
-      "published_date": "2026-11-02T05:00:00",
+      "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+      "url": "https://arxiv.org/abs/2611.00172",
+      "description": "arXiv:2611.00172v1 Announce Type: new \nAbstract: Embedding models underpin virtually every modern AI system, from search engines to recommendation systems. Despite shared mathematical foundations, research on embedding models remains fragmented by modality: the communities develop largely in isolati...",
+      "published_date": "2026-11-04T05:00:00",
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "GPT",
-        "product",
-        "prompt",
-        "model",
-        "analysis",
+        "transformer",
+        "alignment",
+        "RAG",
         "arxiv",
-        "study",
-        "LLM",
-        "large language model",
+        "paper",
+        "framework",
         "research",
-        "instruction"
+        "model",
+        "embedding"
       ],
       "score": 1.0
     },
     {
-      "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
-      "url": "https://arxiv.org/abs/2610.40906",
-      "description": "arXiv:2610.40906v1 Announce Type: new \nAbstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so th...",
-      "published_date": "2026-11-02T05:00:00",
+      "title": "MEMENTO: Learning Context Management for Long Context Processing Agents",
+      "url": "https://arxiv.org/abs/2611.00244",
+      "description": "arXiv:2611.00244v1 Announce Type: new \nAbstract: LLM agents that operate over long inputs must perform context management: deciding what to retain in a fixed-size context window. A common approach is compaction, where the model replaces its history with a self-generated note. Yet off-the-shelf agent...",
+      "published_date": "2026-11-04T05:00:00",
       "source": "arXiv",
-      "category": "in_context_learning",
+      "category": "context_management",
       "keywords": [
+        "fine-tuning",
+        "context window",
+        "LLM",
         "arxiv",
         "context",
-        "in-context",
+        "GPT",
         "model"
       ],
       "score": 1.0
     },
     {
-      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
-      "url": "https://arxiv.org/abs/2610.40927",
-      "description": "arXiv:2610.40927v1 Announce Type: new \nAbstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deplo...",
-      "published_date": "2026-11-02T05:00:00",
+      "title": "Cross-Lingual Persona Effects in LLM Negotiation",
+      "url": "https://arxiv.org/abs/2611.00300",
+      "description": "arXiv:2611.00300v1 Announce Type: new \nAbstract: Tell an LLM negotiator to be \"headstrong\" and it should hold firm on price, but does that instruction retain the same behavior in every language? To test this, we use identical buyer and seller instances of Gemini 3.6 Flash to negotiate the same 12 Cr...",
+      "published_date": "2026-11-04T05:00:00",
       "source": "arXiv",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
+        "instruction",
         "RAG",
-        "model",
+        "LLM",
         "arxiv",
-        "large language model"
+        "prompt",
+        "analysis"
       ],
       "score": 1.0
     },
     {
-      "title": "The First Few Tokens Matter: Understanding Chain-of-Thought Controllability",
-      "url": "https://arxiv.org/abs/2610.40939",
-      "description": "arXiv:2610.40939v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) monitoring is a promising way to oversee increasingly capable agents. It succeeds in part because current models appear limited in their ability to control what they verbalize in their reasoning traces. We investigate the source...",
-      "published_date": "2026-11-02T05:00:00",
+      "title": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+      "url": "https://arxiv.org/abs/2611.00359",
+      "description": "arXiv:2611.00359v1 Announce Type: new \nAbstract: AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether numbers, dates, person and organizat...",
+      "published_date": "2026-11-04T05:00:00",
       "source": "arXiv",
-      "category": "chain_of_thought",
+      "category": "prompt_engineering",
       "keywords": [
-        "in-context",
-        "reasoning",
-        "RAG",
-        "context",
-        "CoT",
-        "model",
-        "chain-of-thought",
+        "tool",
+        "release",
         "arxiv",
-        "example"
+        "GPT",
+        "prompt",
+        "model",
+        "embedding",
+        "zero-shot"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries",
+      "url": "https://arxiv.org/abs/2611.00420",
+      "description": "arXiv:2611.00420v1 Announce Type: new \nAbstract: Attribution graphs, an emerging tool in mechanistic interpretability, use transcoders to decompose language model computations into sparse interpretable features connected by causal edges. However, turning a graph into a safety-relevant insight requir...",
+      "published_date": "2026-11-04T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "tool",
+        "LLM",
+        "release",
+        "arxiv",
+        "context",
+        "prompt",
+        "analysis",
+        "model"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "Fidelity Collapses with Table Size, Not Turn Count: Delivery Architecture in a Deployed Tool-Using Agent",
+      "url": "https://arxiv.org/abs/2611.00442",
+      "description": "arXiv:2611.00442v1 Announce Type: new \nAbstract: When a multi-turn agent delivers a tool's structured records into the model's context and re-emits them each turn, every turn can corrupt data the tool computed correctly. We measure this in a production award-travel agent: two architectures over iden...",
+      "published_date": "2026-11-04T05:00:00",
+      "source": "arXiv",
+      "category": "industry_news",
+      "keywords": [
+        "tool",
+        "model",
+        "arxiv",
+        "context",
+        "GPT",
+        "prompt",
+        "product"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory",
+      "url": "https://arxiv.org/abs/2611.00450",
+      "description": "arXiv:2611.00450v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) helps large language models (LLMs) answer factual questions beyond their training data, but it adds storage and inference costs. Distilling previously retrieved information into parametric memories enables reuse wi...",
+      "published_date": "2026-11-04T05:00:00",
+      "source": "arXiv",
+      "category": "rag_retrieval",
+      "keywords": [
+        "retrieval",
+        "RAG",
+        "LLM",
+        "large language model",
+        "arxiv",
+        "augmented",
+        "model",
+        "memory"
       ],
       "score": 1.0
     },
@@ -83,10 +140,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "context window",
         "prompt",
         "prompt engineering",
-        "context",
-        "context window"
+        "context"
       ],
       "score": 1.0
     },
@@ -98,11 +155,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "framework",
-        "audio",
         "reasoning",
+        "framework",
         "CoT",
-        "chain-of-thought"
+        "chain-of-thought",
+        "audio"
       ],
       "score": 1.0
     },
@@ -115,8 +172,8 @@
       "category": "chain_of_thought",
       "keywords": [
         "vector",
-        "RAG",
-        "reasoning"
+        "reasoning",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -129,8 +186,8 @@
       "category": "chain_of_thought",
       "keywords": [
         "chain-of-thought",
-        "context",
-        "framework"
+        "framework",
+        "context"
       ],
       "score": 1.0
     },
@@ -142,9 +199,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "augmented",
         "retrieval",
-        "RAG",
-        "augmented"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -156,14 +213,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "knowledge base",
+        "reasoning",
+        "retrieval",
+        "RAG",
+        "LLM",
         "vector",
         "framework",
-        "reasoning",
-        "RAG",
         "model",
-        "LLM",
-        "retrieval"
+        "knowledge base"
       ],
       "score": 1.0
     },
@@ -175,8 +232,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
-        "fine-tuning"
+        "fine-tuning",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -188,9 +245,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "augmented",
         "retrieval",
-        "RAG",
-        "augmented"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -202,11 +259,11 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "product",
         "API",
+        "retrieval",
         "RAG",
         "augmented",
-        "retrieval"
+        "product"
       ],
       "score": 1.0
     },
@@ -218,80 +275,14 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "framework",
-        "prompt",
-        "context",
         "LLM",
         "paper",
+        "context",
+        "prompt",
+        "framework",
         "prompt engineering"
       ],
       "score": 1.0
-    },
-    {
-      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
-      "url": "https://arxiv.org/abs/2610.40758",
-      "description": "arXiv:2610.40758v1 Announce Type: new \nAbstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every ...",
-      "published_date": "2026-11-02T05:00:00",
-      "source": "arXiv",
-      "category": "industry_news",
-      "keywords": [
-        "GPT",
-        "model",
-        "arxiv",
-        "example",
-        "release"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
-      "url": "https://arxiv.org/abs/2610.40831",
-      "description": "arXiv:2610.40831v1 Announce Type: new \nAbstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and rese...",
-      "published_date": "2026-11-02T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "analysis",
-        "arxiv",
-        "RAG",
-        "model"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
-      "url": "https://arxiv.org/abs/2610.40883",
-      "description": "arXiv:2610.40883v1 Announce Type: new \nAbstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-...",
-      "published_date": "2026-11-02T05:00:00",
-      "source": "arXiv",
-      "category": "multimodal_context",
-      "keywords": [
-        "multimodal",
-        "audio",
-        "prompt",
-        "model",
-        "arxiv",
-        "large language model",
-        "release"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "Towards Portable Specification of the Agent Harness",
-      "url": "https://arxiv.org/abs/2610.40917",
-      "description": "arXiv:2610.40917v1 Announce Type: new \nAbstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To address this gap, we decompose the harness i...",
-      "published_date": "2026-11-02T05:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "tool",
-        "framework",
-        "model",
-        "arxiv",
-        "large language model",
-        "release"
-      ],
-      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -303,8 +294,8 @@
       "keywords": [
         "API",
         "tool",
-        "context",
-        "model"
+        "model",
+        "context"
       ],
       "score": 0.8
     },
@@ -321,6 +312,21 @@
         "reasoning"
       ],
       "score": 0.8
+    },
+    {
+      "title": "GAVAGAI: Referential Alignment for Infant-Scale Vision-Language Models via Balanced Optimal Transport",
+      "url": "https://arxiv.org/abs/2611.00319",
+      "description": "arXiv:2611.00319v1 Announce Type: new \nAbstract: A child learns which words name which things from roughly 100 million words of input. Vision-language models trained at a comparable scale bind words to referents far less reliably, and we argue that part of the gap is structural: the usual next-token...",
+      "published_date": "2026-11-04T05:00:00",
+      "source": "arXiv",
+      "category": "multimodal_context",
+      "keywords": [
+        "arxiv",
+        "alignment",
+        "vision",
+        "model"
+      ],
+      "score": 0.6
     },
     {
       "title": "CWE-bench v2: More coverage, quality, and transparency",
@@ -343,20 +349,6 @@
       "category": "industry_news",
       "keywords": [
         "transformer",
-        "model"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
-      "url": "https://arxiv.org/abs/2610.40798",
-      "description": "arXiv:2610.40798v1 Announce Type: new \nAbstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten froze...",
-      "published_date": "2026-11-02T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "arxiv",
-        "fine-tuning",
         "model"
       ],
       "score": 0.6
@@ -396,8 +388,8 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "paper",
         "prompt",
+        "paper",
         "prompt engineering"
       ],
       "score": 0.6
