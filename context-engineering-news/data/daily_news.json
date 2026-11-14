@@ -1,18 +1,90 @@
 {
-  "generated_at": "2026-11-13T20:07:04.039055",
-  "total_items": 23,
+  "generated_at": "2026-11-14T20:06:15.641054",
+  "total_items": 28,
   "items": [
     {
-      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "url": "https://huggingface.co/blog/token-pooling",
-      "description": "...",
-      "published_date": "2026-11-11T00:00:00",
-      "source": "Hugging Face Blog",
-      "category": "rag_retrieval",
+      "title": "Together Compiler: Continual Compilation for AI Inference",
+      "url": "https://arxiv.org/abs/2611.14681",
+      "description": "arXiv:2611.14681v1 Announce Type: new \nAbstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing...",
+      "published_date": "2026-11-14T05:00:00",
+      "source": "arXiv",
+      "category": "industry_news",
       "keywords": [
-        "embedding",
+        "release",
+        "arxiv",
+        "context",
         "model",
-        "vector"
+        "product",
+        "platform",
+        "API"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+      "url": "https://arxiv.org/abs/2611.14736",
+      "description": "arXiv:2611.14736v1 Announce Type: new \nAbstract: Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic information to resolve these directions, but incorrect proposals can exclude the true causal graph and invalida...",
+      "published_date": "2026-11-14T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "LLM",
+        "framework",
+        "arxiv",
+        "study",
+        "experiment"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+      "url": "https://arxiv.org/abs/2611.14765",
+      "description": "arXiv:2611.14765v1 Announce Type: new \nAbstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corpora...",
+      "published_date": "2026-11-14T05:00:00",
+      "source": "arXiv",
+      "category": "chain_of_thought",
+      "keywords": [
+        "LLM",
+        "arxiv",
+        "context",
+        "model",
+        "reasoning",
+        "platform"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning",
+      "url": "https://arxiv.org/abs/2611.14794",
+      "description": "arXiv:2611.14794v1 Announce Type: new \nAbstract: Proof-step verification rewrites a solver's answer into typed steps and uses LLM judges to certify or decline. We evaluate this pipeline on open-weight models across GPQA, AIME-2025, and a MATH-500 subset. Certification raises answer-key-match precisi...",
+      "published_date": "2026-11-14T05:00:00",
+      "source": "arXiv",
+      "category": "chain_of_thought",
+      "keywords": [
+        "LLM",
+        "RAG",
+        "arxiv",
+        "model",
+        "reasoning"
+      ],
+      "score": 1.0
+    },
+    {
+      "title": "GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering",
+      "url": "https://arxiv.org/abs/2611.14804",
+      "description": "arXiv:2611.14804v1 Announce Type: new \nAbstract: Costly simulations and experiments limit the data available for engineering design. This paper proposes GenPFN, a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted Network (TabPFN) classifier with fixed weights. The co...",
+      "published_date": "2026-11-14T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "RAG",
+        "arxiv",
+        "context",
+        "model",
+        "in-context",
+        "paper",
+        "study",
+        "experiment"
       ],
       "score": 1.0
     },
@@ -24,11 +96,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "reasoning",
         "LLM",
         "retrieval",
+        "framework",
         "context",
-        "framework"
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -40,10 +112,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
-        "context",
         "prompt engineering",
-        "context window"
+        "context window",
+        "context",
+        "prompt"
       ],
       "score": 1.0
     },
@@ -55,11 +127,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "reasoning",
         "audio",
+        "framework",
         "CoT",
         "chain-of-thought",
-        "framework"
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -71,9 +143,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "vector",
         "RAG",
-        "reasoning",
-        "vector"
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -85,8 +157,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "context",
         "framework",
+        "context",
         "chain-of-thought"
       ],
       "score": 1.0
@@ -99,9 +171,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
         "augmented",
-        "retrieval"
+        "retrieval",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -113,14 +185,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "reasoning",
         "LLM",
         "retrieval",
+        "RAG",
+        "framework",
+        "vector",
         "knowledge base",
         "model",
-        "vector",
-        "RAG",
-        "framework"
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -145,9 +217,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
         "augmented",
-        "retrieval"
+        "retrieval",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -159,10 +231,10 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "product",
-        "augmented",
         "retrieval",
         "RAG",
+        "augmented",
+        "product",
         "API"
       ],
       "score": 1.0
@@ -176,13 +248,30 @@
       "category": "prompt_engineering",
       "keywords": [
         "LLM",
-        "prompt",
-        "context",
-        "paper",
         "prompt engineering",
-        "framework"
+        "framework",
+        "context",
+        "prompt",
+        "paper"
       ],
       "score": 1.0
+    },
+    {
+      "title": "Rational Use of Time for Social Coordination in Humans and AI",
+      "url": "https://arxiv.org/abs/2611.14766",
+      "description": "arXiv:2611.14766v1 Announce Type: new \nAbstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans use temporal cues for dynamic, fine-graine...",
+      "published_date": "2026-11-14T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "LLM",
+        "arxiv",
+        "prompt",
+        "model",
+        "reasoning",
+        "study"
+      ],
+      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -192,10 +281,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "tool",
         "model",
-        "context",
-        "API"
+        "tool",
+        "API",
+        "context"
       ],
       "score": 0.8
     },
@@ -212,6 +301,25 @@
         "chain-of-thought"
       ],
       "score": 0.8
+    },
+    {
+      "title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+      "url": "https://arxiv.org/abs/2611.14769",
+      "description": "arXiv:2611.14769v1 Announce Type: new \nAbstract: Arena-style rankings of language models are a widely used evaluation framework in online leaderboards, research papers, and model evaluation in production. These rankings aim to realistically assess model performance using pairwise comparisons of anon...",
+      "published_date": "2026-11-14T05:00:00",
+      "source": "arXiv",
+      "category": "research_papers",
+      "keywords": [
+        "framework",
+        "arxiv",
+        "research",
+        "prompt",
+        "model",
+        "prompting",
+        "product",
+        "paper"
+      ],
+      "score": 0.6
     },
     {
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
@@ -234,9 +342,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
+        "prompt engineering",
         "library",
-        "prompt engineering"
+        "prompt"
       ],
       "score": 0.6
     },
@@ -261,9 +369,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
+        "prompt engineering",
         "paper",
-        "prompt",
-        "prompt engineering"
+        "prompt"
       ],
       "score": 0.6
     },
@@ -314,18 +422,6 @@
         "context"
       ],
       "score": 0.4
-    },
-    {
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "url": "https://huggingface.co/blog/qvac/botpsy",
-      "description": "...",
-      "published_date": "2026-11-11T05:01:16",
-      "source": "Hugging Face Blog",
-      "category": "industry_news",
-      "keywords": [
-        "model"
-      ],
-      "score": 0.2
     }
   ]
 }
