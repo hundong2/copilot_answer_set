@@ -1,93 +1,7 @@
 {
-  "generated_at": "2026-11-14T20:06:15.641054",
-  "total_items": 28,
+  "generated_at": "2026-11-15T20:06:39.452069",
+  "total_items": 19,
   "items": [
-    {
-      "title": "Together Compiler: Continual Compilation for AI Inference",
-      "url": "https://arxiv.org/abs/2611.14681",
-      "description": "arXiv:2611.14681v1 Announce Type: new \nAbstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing...",
-      "published_date": "2026-11-14T05:00:00",
-      "source": "arXiv",
-      "category": "industry_news",
-      "keywords": [
-        "release",
-        "arxiv",
-        "context",
-        "model",
-        "product",
-        "platform",
-        "API"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
-      "url": "https://arxiv.org/abs/2611.14736",
-      "description": "arXiv:2611.14736v1 Announce Type: new \nAbstract: Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic information to resolve these directions, but incorrect proposals can exclude the true causal graph and invalida...",
-      "published_date": "2026-11-14T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "LLM",
-        "framework",
-        "arxiv",
-        "study",
-        "experiment"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
-      "url": "https://arxiv.org/abs/2611.14765",
-      "description": "arXiv:2611.14765v1 Announce Type: new \nAbstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corpora...",
-      "published_date": "2026-11-14T05:00:00",
-      "source": "arXiv",
-      "category": "chain_of_thought",
-      "keywords": [
-        "LLM",
-        "arxiv",
-        "context",
-        "model",
-        "reasoning",
-        "platform"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning",
-      "url": "https://arxiv.org/abs/2611.14794",
-      "description": "arXiv:2611.14794v1 Announce Type: new \nAbstract: Proof-step verification rewrites a solver's answer into typed steps and uses LLM judges to certify or decline. We evaluate this pipeline on open-weight models across GPQA, AIME-2025, and a MATH-500 subset. Certification raises answer-key-match precisi...",
-      "published_date": "2026-11-14T05:00:00",
-      "source": "arXiv",
-      "category": "chain_of_thought",
-      "keywords": [
-        "LLM",
-        "RAG",
-        "arxiv",
-        "model",
-        "reasoning"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering",
-      "url": "https://arxiv.org/abs/2611.14804",
-      "description": "arXiv:2611.14804v1 Announce Type: new \nAbstract: Costly simulations and experiments limit the data available for engineering design. This paper proposes GenPFN, a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted Network (TabPFN) classifier with fixed weights. The co...",
-      "published_date": "2026-11-14T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "RAG",
-        "arxiv",
-        "context",
-        "model",
-        "in-context",
-        "paper",
-        "study",
-        "experiment"
-      ],
-      "score": 1.0
-    },
     {
       "title": "auto-ontology - Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "url": "https://github.com/NVIDIA/auto-ontology",
@@ -96,11 +10,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "LLM",
         "retrieval",
         "framework",
         "context",
-        "reasoning"
+        "reasoning",
+        "LLM"
       ],
       "score": 1.0
     },
@@ -112,10 +26,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
+        "prompt",
         "context window",
         "context",
-        "prompt"
+        "prompt engineering"
       ],
       "score": 1.0
     },
@@ -127,11 +41,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "audio",
-        "framework",
         "CoT",
         "chain-of-thought",
-        "reasoning"
+        "framework",
+        "reasoning",
+        "audio"
       ],
       "score": 1.0
     },
@@ -150,20 +64,6 @@
       "score": 1.0
     },
     {
-      "title": "Cline-Recursive-Chain-of-Thought-System-CRCT- - A framework designed to manage context, dependencies, and tasks in large-scale Cline projects within VS Code",
-      "url": "https://github.com/RPG-fan/Cline-Recursive-Chain-of-Thought-System-CRCT-",
-      "description": "A framework designed to manage context, dependencies, and tasks in large-scale Cline projects within VS Code",
-      "published_date": "2025-02-18T15:45:30+00:00",
-      "source": "GitHub",
-      "category": "chain_of_thought",
-      "keywords": [
-        "framework",
-        "context",
-        "chain-of-thought"
-      ],
-      "score": 1.0
-    },
-    {
       "title": "LightRAG - [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
       "url": "https://github.com/HKUDS/LightRAG",
       "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
@@ -171,9 +71,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "augmented",
         "retrieval",
-        "RAG"
+        "RAG",
+        "augmented"
       ],
       "score": 1.0
     },
@@ -185,14 +85,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "LLM",
-        "retrieval",
-        "RAG",
-        "framework",
-        "vector",
         "knowledge base",
+        "vector",
+        "retrieval",
+        "framework",
+        "RAG",
+        "reasoning",
         "model",
-        "reasoning"
+        "LLM"
       ],
       "score": 1.0
     },
@@ -217,9 +117,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "augmented",
         "retrieval",
-        "RAG"
+        "RAG",
+        "augmented"
       ],
       "score": 1.0
     },
@@ -233,8 +133,8 @@
       "keywords": [
         "retrieval",
         "RAG",
-        "augmented",
         "product",
+        "augmented",
         "API"
       ],
       "score": 1.0
@@ -247,31 +147,14 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "LLM",
         "prompt engineering",
+        "prompt",
         "framework",
         "context",
-        "prompt",
-        "paper"
+        "paper",
+        "LLM"
       ],
       "score": 1.0
-    },
-    {
-      "title": "Rational Use of Time for Social Coordination in Humans and AI",
-      "url": "https://arxiv.org/abs/2611.14766",
-      "description": "arXiv:2611.14766v1 Announce Type: new \nAbstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans use temporal cues for dynamic, fine-graine...",
-      "published_date": "2026-11-14T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "LLM",
-        "arxiv",
-        "prompt",
-        "model",
-        "reasoning",
-        "study"
-      ],
-      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -281,10 +164,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "model",
         "tool",
         "API",
-        "context"
+        "context",
+        "model"
       ],
       "score": 0.8
     },
@@ -296,43 +179,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "reasoning",
         "model",
-        "chain-of-thought"
+        "chain-of-thought",
+        "reasoning"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
-      "url": "https://arxiv.org/abs/2611.14769",
-      "description": "arXiv:2611.14769v1 Announce Type: new \nAbstract: Arena-style rankings of language models are a widely used evaluation framework in online leaderboards, research papers, and model evaluation in production. These rankings aim to realistically assess model performance using pairwise comparisons of anon...",
-      "published_date": "2026-11-14T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "arxiv",
-        "research",
-        "prompt",
-        "model",
-        "prompting",
-        "product",
-        "paper"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "url": "https://huggingface.co/blog/3d-lora-finetuning",
-      "description": "...",
-      "published_date": "2026-11-12T00:00:00",
-      "source": "Hugging Face Blog",
-      "category": "industry_news",
-      "keywords": [
-        "model",
-        "fine-tuning"
-      ],
-      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -342,9 +193,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
+        "prompt",
         "library",
-        "prompt"
+        "prompt engineering"
       ],
       "score": 0.6
     },
@@ -369,23 +220,11 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
+        "prompt",
         "paper",
-        "prompt"
+        "prompt engineering"
       ],
       "score": 0.6
-    },
-    {
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "description": "...",
-      "published_date": "2026-11-12T19:07:35",
-      "source": "Hugging Face Blog",
-      "category": "prompt_engineering",
-      "keywords": [
-        "LLM"
-      ],
-      "score": 0.4
     },
     {
       "title": "semantica - Graph-Native Infrastructure for Context and Accountable AI Systems",
@@ -408,6 +247,20 @@
       "category": "prompt_engineering",
       "keywords": [
         "LLM"
+      ],
+      "score": 0.4
+    },
+    {
+      "title": "Video-of-Thought - Video Chain of Thought, Codes for ICML 2024 paper: \"Video-of-Thought: Step-by-Step Video Reasoning from Perception to Cognition\"",
+      "url": "https://github.com/scofield7419/Video-of-Thought",
+      "description": "Video Chain of Thought, Codes for ICML 2024 paper: \"Video-of-Thought: Step-by-Step Video Reasoning from Perception to Cognition\"",
+      "published_date": "2024-05-06T03:40:03+00:00",
+      "source": "GitHub",
+      "category": "chain_of_thought",
+      "keywords": [
+        "paper",
+        "step-by-step",
+        "reasoning"
       ],
       "score": 0.4
     },
