@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T20:06:36.453561",
-  "total_items": 45,
+  "generated_at": "2026-11-24T20:06:52.958700",
+  "total_items": 27,
   "items": [
     {
       "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
@@ -10,11 +10,11 @@
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "framework",
         "instruction",
-        "study",
+        "framework",
         "context",
-        "arxiv"
+        "arxiv",
+        "study"
       ],
       "score": 1.0
     },
@@ -26,15 +26,15 @@
       "source": "arXiv",
       "category": "in_context_learning",
       "keywords": [
-        "in-context",
-        "example",
-        "context",
-        "retrieval",
         "RAG",
-        "fine-tuning",
+        "model",
+        "in-context",
+        "context",
         "LLM",
-        "arxiv",
-        "model"
+        "retrieval",
+        "fine-tuning",
+        "example",
+        "arxiv"
       ],
       "score": 1.0
     },
@@ -46,13 +46,13 @@
       "source": "arXiv",
       "category": "tools_frameworks",
       "keywords": [
-        "framework",
-        "API",
-        "context",
         "large language model",
+        "model",
+        "API",
+        "framework",
+        "context",
         "LLM",
-        "arxiv",
-        "model"
+        "arxiv"
       ],
       "score": 1.0
     },
@@ -66,9 +66,9 @@
       "keywords": [
         "vision",
         "RAG",
+        "model",
         "fine-tuning",
-        "arxiv",
-        "model"
+        "arxiv"
       ],
       "score": 1.0
     },
@@ -81,11 +81,11 @@
       "category": "research_papers",
       "keywords": [
         "instruction",
-        "study",
         "large language model",
+        "model",
         "LLM",
         "arxiv",
-        "model"
+        "study"
       ],
       "score": 1.0
     },
@@ -97,235 +97,12 @@
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
+        "experiment",
         "vision",
         "large language model",
-        "GPT",
-        "experiment",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
-      "url": "https://arxiv.org/abs/2611.26717",
-      "description": "arXiv:2611.26717v1 Announce Type: new \nAbstract: Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leaves the relationships between them ungrounded. We study an alternative pa...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "study",
-        "embedding",
-        "large language model",
-        "LLM",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
-      "url": "https://arxiv.org/abs/2611.26722",
-      "description": "arXiv:2611.26722v1 Announce Type: new \nAbstract: To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI models. Supervised fine-tuning (SFT) optimises for producing the correct c...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "industry_news",
-      "keywords": [
-        "API",
-        "release",
-        "tool",
-        "fine-tuning",
-        "demonstration",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
-      "url": "https://arxiv.org/abs/2611.26782",
-      "description": "arXiv:2611.26782v1 Announce Type: new \nAbstract: Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: de...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "study",
-        "large language model",
-        "tool",
-        "LLM",
         "model",
-        "arxiv",
-        "analysis"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF",
-      "url": "https://arxiv.org/abs/2611.26794",
-      "description": "arXiv:2611.26794v1 Announce Type: new \nAbstract: Readouts of the tumor immune microenvironment (TIME), such as CD8+ T-cell density, intra-epithelial infiltration and the Ki67 index, combine tissue architecture from H&amp;E with cell phenotypes from multiplex immunofluorescence (mIF). Multimodal larg...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "multimodal_context",
-      "keywords": [
-        "vision",
-        "image",
-        "reasoning",
-        "multimodal",
-        "RAG",
-        "large language model",
-        "fine-tuning",
-        "LLM",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs",
-      "url": "https://arxiv.org/abs/2611.26870",
-      "description": "arXiv:2611.26870v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in socially consequential settings, where they must distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Most fairness benchmarks eval...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "prompt",
-        "reasoning",
-        "instruction",
-        "RAG",
-        "large language model",
         "GPT",
-        "LLM",
-        "template",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
-      "url": "https://arxiv.org/abs/2611.26906",
-      "description": "arXiv:2611.26906v1 Announce Type: new \nAbstract: Large language model (LLM) theorem solvers differ in both proving capability and inference cost. Applying an expensive solver to every subgoal wastes computation when cheaper models are sufficient, while always starting from the cheapest solver wastes...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "large language model",
-        "LLM",
-        "experiment",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
-      "url": "https://arxiv.org/abs/2611.26910",
-      "description": "arXiv:2611.26910v1 Announce Type: new \nAbstract: LLM agents are expected to improve themselves from their own experience across episodes, with fixed weights. Self-improvement in an embodied world cannot be read from one measure. Existing benchmarks measure task progress, world-knowledge question ans...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "context_management",
-      "keywords": [
-        "GPT",
-        "LLM",
-        "memory",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Parasite Features: Causal Abstraction Through Spurious Pathways",
-      "url": "https://arxiv.org/abs/2611.26711",
-      "description": "arXiv:2611.26711v1 Announce Type: new \nAbstract: Causal Abstraction defines a notion of \\emph{equivalence} between a neural network and an algorithm, thus serving as a powerful framework for mechanistic interpretability. In this paper, however, we show the existence of a class of \\emph{spurious feat...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "paper",
-        "RAG",
-        "alignment",
-        "experiment",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Depth-Linked Residual Tokens for Multimodal Retrieval and Generation",
-      "url": "https://arxiv.org/abs/2611.26752",
-      "description": "arXiv:2611.26752v1 Announce Type: new \nAbstract: Iterative architectures such as looped language models improve parameter efficiency and reasoning capacity of transformers, yet their sequential backbone iterations introduce substantial computational latency. Conversely, parallelizable learnable spec...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "multimodal_context",
-      "keywords": [
-        "framework",
-        "vision",
-        "reasoning",
-        "transformer",
-        "multimodal",
-        "retrieval",
-        "fine-tuning",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "LEAN: Library-Based Adaptation for Asynchronous, Federated Fine-Tuning",
-      "url": "https://arxiv.org/abs/2611.26805",
-      "description": "arXiv:2611.26805v1 Announce Type: new \nAbstract: Federated fine-tuning of foundation models with low-rank adapters (LoRA) is typically reconciled by averaging locally trained adapters. In cross-device settings, where participants hold heterogeneous data and join or leave asynchronously, averaging is...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "library",
-        "image",
-        "RAG",
-        "fine-tuning",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "NitroGen: Observations on the Action Dynamics, Visual Instruction Following, and Spatial Exploration",
-      "url": "https://arxiv.org/abs/2611.26807",
-      "description": "arXiv:2611.26807v1 Announce Type: new \nAbstract: NitroGen is an open vision-action foundation model for game control. It is trained by behavior cloning on online gameplay videos. In this paper, we study the frozen controller in Hollow Knight and Trackmania as examples along three dimensions: action ...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "vision",
-        "paper",
-        "instruction",
-        "study",
-        "example",
-        "context",
-        "arxiv",
-        "model"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Graph-XGB: A Hybrid GNN Framework for Outdoor-to-Indoor 5G Signal Reconstruction via Aerial-Only UAV RF Sensing",
-      "url": "https://arxiv.org/abs/2611.26828",
-      "description": "arXiv:2611.26828v1 Announce Type: new \nAbstract: Delivering robust In-Building Coverage (IBC) is critically impeded by severe Outdoor-to-Indoor (O2I) attenuation, a constraint that intensifies as deployments move from 5G mid-band towards mmWave and prospective 6G sub-THz carriers, where losses of 60...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "vision",
-        "paper",
-        "reasoning",
-        "embedding",
-        "RAG",
-        "ICL",
-        "platform",
-        "model",
-        "arxiv",
-        "analysis"
+        "arxiv"
       ],
       "score": 1.0
     },
@@ -338,10 +115,10 @@
       "category": "chain_of_thought",
       "keywords": [
         "framework",
-        "reasoning",
         "context",
+        "LLM",
         "retrieval",
-        "LLM"
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -353,10 +130,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
         "prompt engineering",
         "context window",
-        "context"
+        "context",
+        "prompt"
       ],
       "score": 1.0
     },
@@ -368,9 +145,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "framework",
-        "CoT",
         "audio",
+        "CoT",
+        "framework",
         "reasoning",
         "chain-of-thought"
       ],
@@ -384,8 +161,8 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "RAG",
         "reasoning",
+        "RAG",
         "vector"
       ],
       "score": 1.0
@@ -399,8 +176,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "RAG",
-        "retrieval",
-        "augmented"
+        "augmented",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -412,14 +189,14 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "RAG",
+        "model",
         "framework",
         "vector",
-        "reasoning",
-        "retrieval",
-        "RAG",
         "LLM",
-        "knowledge base",
-        "model"
+        "retrieval",
+        "reasoning",
+        "knowledge base"
       ],
       "score": 1.0
     },
@@ -445,8 +222,8 @@
       "category": "rag_retrieval",
       "keywords": [
         "RAG",
-        "retrieval",
-        "augmented"
+        "augmented",
+        "retrieval"
       ],
       "score": 1.0
     },
@@ -458,11 +235,11 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "augmented",
+        "RAG",
         "API",
         "product",
         "retrieval",
-        "RAG"
+        "augmented"
       ],
       "score": 1.0
     },
@@ -474,12 +251,12 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "framework",
         "prompt",
+        "prompt engineering",
         "paper",
+        "framework",
         "context",
-        "LLM",
-        "prompt engineering"
+        "LLM"
       ],
       "score": 1.0
     },
@@ -491,48 +268,13 @@
       "source": "arXiv",
       "category": "research_papers",
       "keywords": [
-        "augmented",
-        "release",
+        "arxiv",
+        "model",
         "tool",
+        "release",
         "fine-tuning",
         "experiment",
-        "arxiv",
-        "model"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-      "url": "https://arxiv.org/abs/2611.26663",
-      "description": "arXiv:2611.26663v1 Announce Type: new \nAbstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "RAG",
-        "product",
-        "arxiv",
-        "experiment"
-      ],
-      "score": 0.8
-    },
-    {
-      "title": "Realistic Robustness Evaluation of Tabular Data Driven Models",
-      "url": "https://arxiv.org/abs/2611.26818",
-      "description": "arXiv:2611.26818v1 Announce Type: new \nAbstract: The increasing adoption of Machine Learning (ML) models in high-stakes applications has raised critical concerns regarding their robustness against adversarial attacks. While extensive research has focused on adversarial example generation in image an...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "framework",
-        "image",
-        "study",
-        "example",
-        "research",
-        "tool",
-        "model",
-        "arxiv",
-        "analysis"
+        "augmented"
       ],
       "score": 0.8
     },
@@ -544,10 +286,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "API",
-        "context",
+        "tool",
         "model",
-        "tool"
+        "context",
+        "API"
       ],
       "score": 0.8
     },
@@ -559,9 +301,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
+        "reasoning",
         "chain-of-thought",
-        "model",
-        "reasoning"
+        "model"
       ],
       "score": 0.8
     },
@@ -573,72 +315,10 @@
       "source": "arXiv",
       "category": "chain_of_thought",
       "keywords": [
+        "reasoning",
         "arxiv",
         "model",
-        "fine-tuning",
-        "reasoning"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
-      "url": "https://arxiv.org/abs/2611.26797",
-      "description": "arXiv:2611.26797v1 Announce Type: new \nAbstract: Generative models now write working code, produce realistic images, and hold long conversations, yet the mechanisms behind their intelligence still evade our understanding. This thesis explores that puzzle through Associative Memory (AM), in which pat...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "in_context_learning",
-      "keywords": [
-        "framework",
-        "image",
-        "example",
-        "retrieval",
-        "memory",
-        "arxiv",
-        "model"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
-      "url": "https://arxiv.org/abs/2611.26903",
-      "description": "arXiv:2611.26903v1 Announce Type: new \nAbstract: Partial-edit deepfake localization aims to identify manipulated regions within otherwise authentic speech. Recent systems report strong overall results, but aggregate scores do not reveal whether this performance holds across different editing conditi...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "experiment",
-        "arxiv",
-        "analysis"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Cross-Attack Robust Aggregation for Federated Learning",
-      "url": "https://arxiv.org/abs/2611.26731",
-      "description": "arXiv:2611.26731v1 Announce Type: new \nAbstract: Federated learning (FL) lets resource-constrained IoT and edge devices train a shared model without exchanging raw data, but compromised or faulty devices can poison the global model. Existing robust aggregators each fail in some regime: naive averagi...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "RAG",
-        "arxiv",
-        "model"
-      ],
-      "score": 0.6
-    },
-    {
-      "title": "Don't Discard Your Rollouts: Reusing Teacher RL Traces for Student Distillation",
-      "url": "https://arxiv.org/abs/2611.26803",
-      "description": "arXiv:2611.26803v1 Announce Type: new \nAbstract: RL post-training methods such as PPO and GRPO are computationally expensive, with substantial resources devoted to sampling rollouts, which contain multiple completions per prompt along with their respective rewards. Canonical distillation, however, d...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "prompt_engineering",
-      "keywords": [
-        "prompt",
-        "reasoning",
-        "RAG",
-        "arxiv",
-        "model"
+        "fine-tuning"
       ],
       "score": 0.6
     },
@@ -650,9 +330,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
+        "prompt engineering",
         "library",
-        "prompt engineering"
+        "prompt"
       ],
       "score": 0.6
     },
@@ -664,8 +344,8 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "context",
-        "tool"
+        "tool",
+        "context"
       ],
       "score": 0.6
     },
@@ -677,9 +357,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
         "prompt engineering",
-        "paper"
+        "paper",
+        "prompt"
       ],
       "score": 0.6
     },
@@ -691,13 +371,13 @@
       "source": "arXiv",
       "category": "multimodal_context",
       "keywords": [
-        "audio",
-        "prompt",
-        "vision",
-        "reasoning",
-        "tool",
         "arxiv",
-        "model"
+        "vision",
+        "model",
+        "prompt",
+        "audio",
+        "tool",
+        "reasoning"
       ],
       "score": 0.4
     },
@@ -721,9 +401,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "step-by-step",
+        "reasoning",
         "paper",
-        "reasoning"
+        "step-by-step"
       ],
       "score": 0.4
     },
