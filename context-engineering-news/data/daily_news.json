@@ -1,111 +1,7 @@
 {
-  "generated_at": "2026-11-24T20:06:52.958700",
-  "total_items": 27,
+  "generated_at": "2026-11-25T20:06:58.300154",
+  "total_items": 18,
   "items": [
-    {
-      "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
-      "url": "https://arxiv.org/abs/2611.26747",
-      "description": "arXiv:2611.26747v1 Announce Type: new \nAbstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive attributes, retain unnecessary information, or disclo...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "instruction",
-        "framework",
-        "context",
-        "arxiv",
-        "study"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL",
-      "url": "https://arxiv.org/abs/2611.26775",
-      "description": "arXiv:2611.26775v1 Announce Type: new \nAbstract: Text-to-SQL systems increasingly rely on context banks: curated collections of example queries, metric definitions, and domain knowledge that tell a model how an organization writes its queries. In the enterprise, a bank grows over years as many analy...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "in_context_learning",
-      "keywords": [
-        "RAG",
-        "model",
-        "in-context",
-        "context",
-        "LLM",
-        "retrieval",
-        "fine-tuning",
-        "example",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution",
-      "url": "https://arxiv.org/abs/2611.26806",
-      "description": "arXiv:2611.26806v1 Announce Type: new \nAbstract: Medical agents built on large language models (LLMs) have advanced rapidly, yet most stay fixed once deployed and do not keep using their experience to improve later attempts. As a result, the same kind of error can recur across patients. To address t...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "tools_frameworks",
-      "keywords": [
-        "large language model",
-        "model",
-        "API",
-        "framework",
-        "context",
-        "LLM",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Neural Geometry as a Learning Signal",
-      "url": "https://arxiv.org/abs/2611.26832",
-      "description": "arXiv:2611.26832v1 Announce Type: new \nAbstract: We investigate whether the geometric structure of neural representations can provide a sufficient learning signal for improving model behavior without any supervision on model outputs. First, we fine-tune Llama-3.1-8B to answer questions such as \"What...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "rag_retrieval",
-      "keywords": [
-        "vision",
-        "RAG",
-        "model",
-        "fine-tuning",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Rethinking Full-Weight LoRA with Domain and Task Adapter Scaling for Question Answering over Portuguese Well Drilling Reports",
-      "url": "https://arxiv.org/abs/2611.26833",
-      "description": "arXiv:2611.26833v1 Announce Type: new \nAbstract: Adapting large language models (LLMs) to specialized domains remains challenging, particularly for technical documents such as Portuguese well drilling reports, where annotated data are scarce and domain adaptation may compromise instruction-following...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "instruction",
-        "large language model",
-        "model",
-        "LLM",
-        "arxiv",
-        "study"
-      ],
-      "score": 1.0
-    },
-    {
-      "title": "Non-Expanding Gated Continued Fraction Architecture for Feedforward Layers in Language Models",
-      "url": "https://arxiv.org/abs/2611.26835",
-      "description": "arXiv:2611.26835v1 Announce Type: new \nAbstract: Recent work has shown that continued fraction inspired neural architectures (CoFrGeNets) can be highly parameter efficient yet performant for language modeling. In this work, we revisit continued fraction-based channel mixing with the goal of improvin...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "experiment",
-        "vision",
-        "large language model",
-        "model",
-        "GPT",
-        "arxiv"
-      ],
-      "score": 1.0
-    },
     {
       "title": "auto-ontology - Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "url": "https://github.com/NVIDIA/auto-ontology",
@@ -114,11 +10,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "framework",
-        "context",
-        "LLM",
         "retrieval",
-        "reasoning"
+        "LLM",
+        "framework",
+        "reasoning",
+        "context"
       ],
       "score": 1.0
     },
@@ -130,10 +26,10 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
-        "context window",
         "context",
-        "prompt"
+        "context window",
+        "prompt",
+        "prompt engineering"
       ],
       "score": 1.0
     },
@@ -147,9 +43,9 @@
       "keywords": [
         "audio",
         "CoT",
+        "chain-of-thought",
         "framework",
-        "reasoning",
-        "chain-of-thought"
+        "reasoning"
       ],
       "score": 1.0
     },
@@ -175,9 +71,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
+        "retrieval",
         "augmented",
-        "retrieval"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -189,12 +85,12 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
+        "retrieval",
         "model",
-        "framework",
+        "RAG",
         "vector",
         "LLM",
-        "retrieval",
+        "framework",
         "reasoning",
         "knowledge base"
       ],
@@ -208,8 +104,8 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
-        "fine-tuning"
+        "fine-tuning",
+        "RAG"
       ],
       "score": 1.0
     },
@@ -221,9 +117,9 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
-        "RAG",
+        "retrieval",
         "augmented",
-        "retrieval"
+        "RAG"
       ],
       "score": 1.0
     },
@@ -235,10 +131,10 @@
       "source": "GitHub",
       "category": "rag_retrieval",
       "keywords": [
+        "retrieval",
+        "product",
         "RAG",
         "API",
-        "product",
-        "retrieval",
         "augmented"
       ],
       "score": 1.0
@@ -251,32 +147,14 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt",
-        "prompt engineering",
         "paper",
+        "prompt engineering",
+        "prompt",
+        "LLM",
         "framework",
-        "context",
-        "LLM"
+        "context"
       ],
       "score": 1.0
-    },
-    {
-      "title": "Search From the Start: Search-Native Pretraining for Language Models",
-      "url": "https://arxiv.org/abs/2611.26809",
-      "description": "arXiv:2611.26809v1 Announce Type: new \nAbstract: Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on predicting static text, with search capabilities typically introduced during post-training. We propose Se...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "research_papers",
-      "keywords": [
-        "arxiv",
-        "model",
-        "tool",
-        "release",
-        "fine-tuning",
-        "experiment",
-        "augmented"
-      ],
-      "score": 0.8
     },
     {
       "title": "fastapi_mcp - Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
@@ -286,10 +164,10 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "tool",
-        "model",
         "context",
-        "API"
+        "API",
+        "model",
+        "tool"
       ],
       "score": 0.8
     },
@@ -301,26 +179,11 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "reasoning",
         "chain-of-thought",
-        "model"
+        "model",
+        "reasoning"
       ],
       "score": 0.8
-    },
-    {
-      "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
-      "url": "https://arxiv.org/abs/2611.26756",
-      "description": "arXiv:2611.26756v1 Announce Type: new \nAbstract: We show that reinforcement learning (RL) in reasoning tasks can succeed even when the supervised fine-tuning (SFT) data is severely corrupted. In a mathematical reasoning dataset (GSM8K), we systematically corrupt training trajectories across 361 conf...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "chain_of_thought",
-      "keywords": [
-        "reasoning",
-        "arxiv",
-        "model",
-        "fine-tuning"
-      ],
-      "score": 0.6
     },
     {
       "title": "yao-open-prompts - Practical bilingual AI prompt library for prompt engineering, work, learning, content, marketing, and everyday use.",
@@ -330,9 +193,9 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
+        "prompt",
         "library",
-        "prompt"
+        "prompt engineering"
       ],
       "score": 0.6
     },
@@ -344,8 +207,8 @@
       "source": "GitHub",
       "category": "tools_frameworks",
       "keywords": [
-        "tool",
-        "context"
+        "context",
+        "tool"
       ],
       "score": 0.6
     },
@@ -357,29 +220,11 @@
       "source": "GitHub",
       "category": "prompt_engineering",
       "keywords": [
-        "prompt engineering",
+        "prompt",
         "paper",
-        "prompt"
+        "prompt engineering"
       ],
       "score": 0.6
-    },
-    {
-      "title": "What Helps Language-Model Agents Review Violent Video? A Controlled Comparison with a Human Evidence Reference",
-      "url": "https://arxiv.org/abs/2611.26776",
-      "description": "arXiv:2611.26776v1 Announce Type: new \nAbstract: Systems that flag violent video for a human operator can now be built from language models without training, by combining perception models and letting a language model decide. We ask how the observations of the perception models should reach the deci...",
-      "published_date": "2026-11-23T05:00:00",
-      "source": "arXiv",
-      "category": "multimodal_context",
-      "keywords": [
-        "arxiv",
-        "vision",
-        "model",
-        "prompt",
-        "audio",
-        "tool",
-        "reasoning"
-      ],
-      "score": 0.4
     },
     {
       "title": "optillm - Optimizing inference proxy for LLMs",
@@ -401,9 +246,9 @@
       "source": "GitHub",
       "category": "chain_of_thought",
       "keywords": [
-        "reasoning",
+        "step-by-step",
         "paper",
-        "step-by-step"
+        "reasoning"
       ],
       "score": 0.4
     },
